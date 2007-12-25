@@ -1,6 +1,11 @@
 cheese (0.3.0-1) UNRELEASED; urgency=low
 
-  * New upstream release
+  * New upstream release. (Closes: #435678)
+  * Based on the ubuntu packaging
+  * Remove hildon support. The patch doesn't apply anymore and it's irrelevant
+    for debian anyway
+  * Split control into a control.in, to generate control using the normal
+    pkg-gnome procedures
 
  -- Sjoerd Simons <sjoerd@debian.org>  Tue, 25 Dec 2007 12:21:15 +0100
 
