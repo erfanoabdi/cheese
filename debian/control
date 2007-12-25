@@ -1,0 +1,31 @@
+Source: cheese
+Section: gnome
+Priority: optional
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+Standards-Version: 3.7.2
+Homepage: http://live.gnome.org/Cheese/
+Build-Depends: cdbs (>= 0.4.41),
+ debhelper (>= 5),
+ gnome-pkg-tools (>= 0.10),
+ libgtk2.0-dev (>= 2.10),
+ libglade2-dev (>= 2.3.6),
+ libgstreamer0.10-dev,
+ libgstreamer-plugins-base0.10-dev,
+ libgnomevfs2-dev,
+ libgnomeui-dev,
+ libebook1.2-dev,
+ libhildon-1-dev [lpia],
+ libxxf86vm-dev
+
+Package: cheese
+Architecture: any
+Depends: ${shlibs:Depends},
+ ${misc:Depends},
+ gstreamer0.10-plugins-base,
+ gstreamer0.10-plugins-good
+Description: A tool to take pictures and videos from your webcam
+ Cheese is a cheesy program to take pictures and videos from your web
+ cam. It also provides some graphical effects in order to please the
+ users play instinct. 
+ .
+ http://live.gnome.org/Cheese/
