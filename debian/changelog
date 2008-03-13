@@ -6,8 +6,10 @@ cheese (0.2.22-1) UNRELEASED; urgency=low
     for debian anyway
   * Split control into a control.in, to generate control using the normal
     pkg-gnome procedures
+  * debian/control: Update vcs urls
+  * debian/control: Update build-depends
 
- -- Sjoerd Simons <sjoerd@debian.org>  Thu, 13 Mar 2008 09:40:01 +0100
+ -- Sjoerd Simons <sjoerd@debian.org>  Thu, 13 Mar 2008 09:58:45 +0100
 
 cheese (0.2.4-0ubuntu2) hardy; urgency=low
 
