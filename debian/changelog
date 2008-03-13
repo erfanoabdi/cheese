@@ -14,8 +14,12 @@ cheese (2.22.0-1) UNRELEASED; urgency=low
   * debian/patches/10_fallback_on_failure.patch:
     + Added. Fallback to videotestsrc if getting information from the video
       device fails
+  * debian/patches/20_dont_start_pipeline_in_init.patch:
+    + Added. Don't create the gstreamer pipeline in the Webcam object
+      initialisation as this is quite bad style. As a nice side-effect this
+      fixes cheese not using the webcam device set in gconf.
 
- -- Sjoerd Simons <sjoerd@debian.org>  Thu, 13 Mar 2008 10:40:02 +0100
+ -- Sjoerd Simons <sjoerd@debian.org>  Thu, 13 Mar 2008 10:43:15 +0100
 
 cheese (0.2.4-0ubuntu2) hardy; urgency=low
 
