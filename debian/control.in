@@ -20,7 +20,7 @@ Build-Depends: cdbs (>= 0.4.41),
  libgstreamer-plugins-base0.10-dev (>= 0.10.15),
  libgnomevfs2-dev,
  libgnomeui-dev (>= 2.14),
- libpangociro-dev (>= 1.18.0),
+ libpango1.0-dev (>= 1.18.0),
  librsvg2-dev (>= 2.18.0),
  libxxf86vm-dev
 
