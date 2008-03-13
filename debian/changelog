@@ -8,8 +8,11 @@ cheese (2.22.0-1) UNRELEASED; urgency=low
     pkg-gnome procedures
   * debian/control: Update vcs urls
   * debian/control: Update build-depends
+  * debian/patches/00_fix_crash_on_init.patch:
+    + Added. Fixed crash on intialisation because of running strcmp on NULL.
+      (From upstream svn)
 
- -- Sjoerd Simons <sjoerd@debian.org>  Thu, 13 Mar 2008 09:58:45 +0100
+ -- Sjoerd Simons <sjoerd@debian.org>  Thu, 13 Mar 2008 10:31:23 +0100
 
 cheese (0.2.4-0ubuntu2) hardy; urgency=low
 
