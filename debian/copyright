@@ -3,15 +3,23 @@ Tue, 10 Jul 2007 21:15:54 +0200.
 
 It was downloaded from http://live.gnome.org/Cheese/Releases
 
-Upstream Authors: 
+Upstream Authors:
 
     Daniel G. Siegel <dgsiegel@gmail.com>
-    Raphaël Slinckx <raphael@slinckx.net>
+    Jaap Haitsma <jaap@haitsma.org>
 
-Copyright: 
+Copyright:
 
-(C) 2000-2004 Daniel G. Siegel <dgsiegel@gmail.com>
-(C) 2000-2004 Raphaël Slinckx <raphael@slinckx.net>
+Copyright 2000 Eazel, Inc.
+Copyright 2000-2007 The Free Software Foundation
+Copyright 2002-2004 Marco Pesenti Gritti
+Copyright 2004, 2006 Christian Persch
+Copyright 2007-2008 Daniel G. Siegel <dgsiegel@gmail.com>
+Copyright 2007-2008 Jaap Haitsma <jaap@haitsma.org>
+Copyright 2007 Mathias Hasselmann <mathias.hasselmann@gmx.de>
+Copyright 2008 Patryk Zawadzki <patrys@pld-linux.org>
+Copyright 2008 Mirco "MacSlow" Müller
+
 
 License:
 
