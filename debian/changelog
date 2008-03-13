@@ -1,4 +1,4 @@
-cheese (0.3.0-1) UNRELEASED; urgency=low
+cheese (0.2.22-1) UNRELEASED; urgency=low
 
   * New upstream release. (Closes: #435678)
   * Based on the ubuntu packaging
@@ -7,7 +7,7 @@ cheese (0.3.0-1) UNRELEASED; urgency=low
   * Split control into a control.in, to generate control using the normal
     pkg-gnome procedures
 
- -- Sjoerd Simons <sjoerd@debian.org>  Tue, 25 Dec 2007 12:21:15 +0100
+ -- Sjoerd Simons <sjoerd@debian.org>  Thu, 13 Mar 2008 09:40:01 +0100
 
 cheese (0.2.4-0ubuntu2) hardy; urgency=low
 
