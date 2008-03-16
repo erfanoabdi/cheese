@@ -17,9 +17,12 @@ Copyright 2004, 2006 Christian Persch
 Copyright 2007-2008 Daniel G. Siegel <dgsiegel@gmail.com>
 Copyright 2007-2008 Jaap Haitsma <jaap@haitsma.org>
 Copyright 2007 Mathias Hasselmann <mathias.hasselmann@gmx.de>
+Copyright 2007 Gintautas Miliauskas <gintas@akl.lt>
 Copyright 2008 Patryk Zawadzki <patrys@pld-linux.org>
 Copyright 2008 Mirco "MacSlow" Müller
-
+Copyright 2008 Ihar Hrachyshka, 2008.
+Copyright 2008 The GNOME Project
+Copyright 2008 Василий Фаронов <qvvx@yandex.ru>
 
 License:
 
@@ -34,6 +37,18 @@ License:
 
 On Debian systems, the complete text of the GNU General
 Public License can be found in `/usr/share/common-licenses/GPL'
+
+The documentation in help/* is covered by the GFDL and contains no
+unmodifiable sections
+
+   Permission is granted to copy, distribute and/or modify this
+   document under the terms of the GNU Free Documentation
+   License (GFDL), Version 1.1 or any later version published
+   by the Free Software Foundation with no Invariant Sections,
+   no Front-Cover Texts, and no Back-Cover Texts
+
+On Debian systems, the complete text of the GFDL can be found in
+`/usr/share/common-licenses/GFDL'
 
 Some part of the build system are covered by the M.I.T license
 
