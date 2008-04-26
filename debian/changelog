@@ -1,4 +1,4 @@
-cheese (2.22.1-1) UNRELEASED; urgency=low
+cheese (2.22.1-1) unstable; urgency=low
 
   * New upstream release
   * debian/patches/00_fix_crash_on_init.patch
@@ -6,7 +6,7 @@ cheese (2.22.1-1) UNRELEASED; urgency=low
     debian/patches/20_dont_start_pipeline_in_init.patch:
     - Removed. All merged upstream
 
- -- Sjoerd Simons <sjoerd@debian.org>  Sat, 26 Apr 2008 09:55:06 +0200
+ -- Sjoerd Simons <sjoerd@debian.org>  Sat, 26 Apr 2008 10:09:53 +0200
 
 cheese (2.22.0-1) unstable; urgency=low
 
