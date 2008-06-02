@@ -1,3 +1,9 @@
+cheese (2.22.2-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+
+ -- Sebastian Dröge <slomo@debian.org>  Mon, 02 Jun 2008 11:01:14 +0200
+
 cheese (2.22.1-1) unstable; urgency=low
 
   * New upstream release
