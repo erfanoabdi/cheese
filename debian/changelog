@@ -1,3 +1,10 @@
+cheese (2.22.2-3) unstable; urgency=low
+
+  * Rebuild scrollkeeper DB in postinst on upgrades from older versions; see
+    #488399.
+
+ -- Loic Minier <lool@dooz.org>  Sat, 28 Jun 2008 22:16:00 +0200
+
 cheese (2.22.2-2) unstable; urgency=low
 
   * Run with --disable-scrollkeeper. Closes: #488399.
