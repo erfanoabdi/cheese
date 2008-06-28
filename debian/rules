@@ -9,3 +9,5 @@ include /usr/share/gnome-pkg-tools/1/rules/uploaders.mk
 ifeq ($(DEB_BUILD_ARCH),lpia)
 	DEB_CONFIGURE_EXTRA_FLAGS = --enable-hildon
 endif
+
+DEB_CONFIGURE_EXTRA_FLAGS += --disable-scrollkeeper

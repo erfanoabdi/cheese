@@ -1,3 +1,9 @@
+cheese (2.22.2-2) unstable; urgency=low
+
+  * Run with --disable-scrollkeeper. Closes: #488399.
+
+ -- Josselin Mouette <joss@debian.org>  Sat, 28 Jun 2008 18:49:30 +0200
+
 cheese (2.22.2-1) unstable; urgency=low
 
   * New upstream bugfix release.
