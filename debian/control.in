@@ -3,7 +3,7 @@ Section: gnome
 Priority: optional
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Uploaders: @GNOME_TEAM@
-Standards-Version: 3.7.2
+Standards-Version: 3.8.0
 Homepage: http://live.gnome.org/Cheese/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-gnome/desktop/unstable/cheese/
 Vcs-Svn: svn://svn.debian.org/svn/pkg-gnome/desktop/unstable/cheese/

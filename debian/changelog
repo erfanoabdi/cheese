@@ -1,6 +1,8 @@
 cheese (2.22.2-2) unstable; urgency=low
 
   * Run with --disable-scrollkeeper. Closes: #488399.
+  * Standards version is 3.8.0, no changes.
+  * 01_category.patch: properly categorize in the Graphics menu.
 
  -- Josselin Mouette <joss@debian.org>  Sat, 28 Jun 2008 18:49:30 +0200
 
