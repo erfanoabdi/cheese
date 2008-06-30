@@ -1,3 +1,9 @@
+cheese (2.22.3-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+
+ -- Sebastian Dröge <slomo@debian.org>  Mon, 30 Jun 2008 09:55:35 +0200
+
 cheese (2.22.2-3) unstable; urgency=low
 
   * Rebuild scrollkeeper DB in postinst on upgrades from older versions; see
