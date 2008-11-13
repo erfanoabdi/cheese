@@ -1,3 +1,14 @@
+cheese (2.24.1-1) experimental; urgency=low
+
+  * New upstream release.
+  * Update build dependencies accordingly.
+  * 01_category.patch: removed, obsolete.
+  * 02_libgnome_url.patch: removed, now we use gio.
+  * Recommend gvfs.
+  * Add LDFLAGS including --as-needed.
+
+ -- Josselin Mouette <joss@debian.org>  Thu, 13 Nov 2008 17:41:53 +0100
+
 cheese (2.22.3-3) unstable; urgency=low
 
   * Don't run scrollkeeper-rebuilddb upon first installation.
