@@ -1,0 +1,12 @@
+--- cheese-2.24.1.orig/po/de.po
++++ cheese-2.24.1/po/de.po
+@@ -22,7 +22,7 @@
+
+ #: ../data/cheese.desktop.in.in.h:1
+ msgid "Cheese Webcam Booth"
+-msgstr "Cheese-Website"
++msgstr "Cheese Webcam-Studio"
+
+ #: ../data/cheese.desktop.in.in.h:2 ../src/cheese-window.c:1012
+ msgid "Take photos and videos with your webcam, with fun graphical effects"
+

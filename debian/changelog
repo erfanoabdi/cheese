@@ -1,3 +1,10 @@
+cheese (2.24.1-2) UNRELEASED; urgency=low
+
+  * 01_de.po.patch: new patch from Gabriel Ruiz. Fixes German 
+    translation of the menu entry. Closes: #507375.
+
+ -- Josselin Mouette <joss@debian.org>  Fri, 05 Dec 2008 15:26:08 +0100
+
 cheese (2.24.1-1) experimental; urgency=low
 
   * New upstream release.
