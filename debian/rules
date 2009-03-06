@@ -11,3 +11,4 @@ ifeq ($(DEB_BUILD_ARCH),lpia)
 endif
 
 DEB_CONFIGURE_EXTRA_FLAGS += --disable-scrollkeeper
+LDFLAGS += -Wl,-z,defs -Wl,-O1 -Wl,--as-needed
