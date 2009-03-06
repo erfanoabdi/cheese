@@ -26,8 +26,7 @@ Build-Depends: cdbs (>= 0.4.41),
  libdbus-glib-1-dev (>= 0.7),
  libhal-dev (>= 0.5.9),
  libpango1.0-dev (>= 1.18.0),
- librsvg2-dev (>= 2.18.0),
- libxxf86vm-dev
+ librsvg2-dev (>= 2.18.0)
 
 Package: cheese
 Architecture: any
