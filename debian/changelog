@@ -1,3 +1,9 @@
+cheese (2.24.3-2) UNRELEASED; urgency=low
+
+  * Depend on gstreamer0.10-x. Closes: #493762.
+
+ -- Josselin Mouette <joss@debian.org>  Tue, 17 Mar 2009 14:01:10 +0100
+
 cheese (2.24.3-1) unstable; urgency=low
 
   * New upstream bugfix release.
