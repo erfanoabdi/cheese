@@ -1,6 +1,7 @@
 cheese (2.24.3-2) unstable; urgency=low
 
   * Depend on gstreamer0.10-x. Closes: #493762.
+  * Standards version is 3.8.1.
 
  -- Josselin Mouette <joss@debian.org>  Thu, 09 Apr 2009 20:38:23 +0200
 
