@@ -1,3 +1,9 @@
+cheese (2.26.2-2) UNRELEASED; urgency=low
+
+  * Bdep on rarian-compat instead of scrollkeeper.
+
+ -- Loïc Minier <lool@dooz.org>  Fri, 10 Jul 2009 14:51:11 +0200
+
 cheese (2.26.2-1) unstable; urgency=low
 
   * New upstream release.
