@@ -1,8 +1,27 @@
-cheese (2.26.2-2) UNRELEASED; urgency=low
+cheese (2.28.0.1-1) unstable; urgency=low
 
+  [ Andrea Veri ]
+  * New upstream release.
+  * debian/control:
+    - Bumped Standards-version to 3.8.3. No changes needed.
+    - libgtk2.0-dev bumped to >= 2.17.4 as per configure.ac
+      requirements.
+    - libgnome-desktop-dev bumped to >= 2.26.0 as per configure.ac
+      requirements.
+    - added a B-D on x11proto-core-dev needed from multimedia keys
+      to work properly.
+  * debian/copyright:
+    - added missing copyright holders.
+  * debian/patches:
+    - removed as long as it has no patches in it.
+  * debian/rules:
+    - simple-patchsys include removed, there are no patches to be
+      applied.
+
+  [ Loïc Minier ]
   * Bdep on rarian-compat instead of scrollkeeper.
 
- -- Loïc Minier <lool@dooz.org>  Fri, 10 Jul 2009 14:51:11 +0200
+ -- Andrea Veri <andrea.veri89@gmail.com>  Wed, 23 Sep 2009 20:25:41 +0200
 
 cheese (2.26.2-1) unstable; urgency=low
 
