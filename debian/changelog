@@ -1,6 +1,9 @@
 cheese (2.30.1-1) UNRELEASED; urgency=low
 
   * New upstream release.
+    - HAL dependency has been dropped. Use (g)udev for v4l capability probing
+      on Linux. Closes: #573774
+    - Split code into separate libraries.
 
  -- Michael Biebl <biebl@debian.org>  Tue, 04 May 2010 02:19:04 +0200
 
