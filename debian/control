@@ -13,34 +13,34 @@ Homepage: http://live.gnome.org/Cheese/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-gnome/desktop/unstable/cheese/
 Vcs-Svn: svn://svn.debian.org/svn/pkg-gnome/desktop/unstable/cheese/
 Build-Depends: cdbs (>= 0.4.41),
- debhelper (>= 5),
- gnome-pkg-tools (>= 0.10),
- intltool (>= 0.40.0),
- gnome-doc-utils,
- rarian-compat,
- libglib2.0-dev (>= 2.16.0),
- libgtk2.0-dev (>= 2.19.1),
- libgnome-desktop-dev (>= 2.26.0),
- libgconf2-dev (>= 2.16.0),
- libgstreamer0.10-dev (>= 0.10.23),
- libgstreamer-plugins-base0.10-dev (>= 0.10.23),
- libcairo2-dev (>= 1.4.0),
- libdbus-1-dev (>= 1.0),
- libdbus-glib-1-dev (>= 0.7),
- libpango1.0-dev (>= 1.18.0),
- librsvg2-dev (>= 2.18.0),
- x11proto-core-dev,
- libcanberra-gtk-dev,
- libxtst-dev,
- libgudev-1.0-dev | not+linux-gnu
+               debhelper (>= 5),
+               gnome-pkg-tools (>= 0.10),
+               intltool (>= 0.40.0),
+               gnome-doc-utils,
+               rarian-compat,
+               libglib2.0-dev (>= 2.16.0),
+               libgtk2.0-dev (>= 2.19.1),
+               libgnome-desktop-dev (>= 2.26.0),
+               libgconf2-dev (>= 2.16.0),
+               libgstreamer0.10-dev (>= 0.10.23),
+               libgstreamer-plugins-base0.10-dev (>= 0.10.23),
+               libcairo2-dev (>= 1.4.0),
+               libdbus-1-dev (>= 1.0),
+               libdbus-glib-1-dev (>= 0.7),
+               libpango1.0-dev (>= 1.18.0),
+               librsvg2-dev (>= 2.18.0),
+               x11proto-core-dev,
+               libcanberra-gtk-dev,
+               libxtst-dev,
+               libgudev-1.0-dev | not+linux-gnu
 
 Package: cheese
 Architecture: any
 Depends: ${shlibs:Depends},
- ${misc:Depends},
- gstreamer0.10-plugins-base,
- gstreamer0.10-plugins-good,
- gstreamer0.10-x
+         ${misc:Depends},
+         gstreamer0.10-plugins-base,
+         gstreamer0.10-plugins-good,
+         gstreamer0.10-x
 Recommends: gvfs
 Description: A tool to take pictures and videos from your webcam
  Cheese is a cheesy program to take pictures and videos from your web
