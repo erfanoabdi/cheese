@@ -13,6 +13,8 @@ cheese (2.30.1-1) UNRELEASED; urgency=low
     - Add Build-Depends on libxtst-dev.
     - Add Build-Depends on libgudev-1.0-dev on Linux.
     - Bump Standards-Version to 3.8.4. No further changes.
+  * Switch to source format 3.0 (quilt)
+    - Add debian/source/format.
 
  -- Michael Biebl <biebl@debian.org>  Tue, 04 May 2010 02:19:04 +0200
 
