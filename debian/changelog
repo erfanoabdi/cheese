@@ -17,6 +17,15 @@ cheese (2.30.1-1) UNRELEASED; urgency=low
     - Add debian/source/format.
   * debian/rules
     - Drop lpia specific configure flags, lpia is dead.
+  * Update package layout (based on work by Ubuntu)
+    - Move data files into new cheese-common package.
+    - Keep binary along with its desktop and dbus service file in the cheese
+      package.
+    - Add libcheese-gtk18 and libcheese-gtk-dev package for the new
+      libcheese-gtk library. Use a symbols file for improved shlibs
+      dependencies.
+    - Add Conflicts/Replaces to cheese-common to ensure proper upgrades from
+      previous versions.
 
  -- Michael Biebl <biebl@debian.org>  Tue, 04 May 2010 02:19:04 +0200
 
