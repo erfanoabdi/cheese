@@ -5,9 +5,5 @@ include /usr/share/cdbs/1/class/gnome.mk
 include /usr/share/gnome-pkg-tools/1/rules/uploaders.mk
 -include /usr/share/gnome-pkg-tools/1/rules/gnome-get-source.mk
 
-ifeq ($(DEB_BUILD_ARCH),lpia)
-	DEB_CONFIGURE_EXTRA_FLAGS = --enable-hildon
-endif
-
 DEB_CONFIGURE_EXTRA_FLAGS += --disable-scrollkeeper
 LDFLAGS += -Wl,-z,defs -Wl,-O1 -Wl,--as-needed
