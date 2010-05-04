@@ -4,6 +4,14 @@ cheese (2.30.1-1) UNRELEASED; urgency=low
     - HAL dependency has been dropped. Use (g)udev for v4l capability probing
       on Linux. Closes: #573774
     - Split code into separate libraries.
+  * debian/control.in
+    - Drop Build-Depends on libhal-dev.
+    - Drop Build-Depends on libebook1.2-dev.
+    - Bump Build-Depends on libgtk2.0-dev to (>= 2.19.1).
+    - Bump Build-Depends on libgstreamer*-dev to (>= 0.10.23).
+    - Add Build-Depends on libcanberra-gtk-dev.
+    - Add Build-Depends on libxtst-dev.
+    - Add Build-Depends on libgudev-1.0-dev on Linux.
 
  -- Michael Biebl <biebl@debian.org>  Tue, 04 May 2010 02:19:04 +0200
 
