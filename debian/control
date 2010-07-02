@@ -8,7 +8,7 @@ Section: gnome
 Priority: optional
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Uploaders: Josselin Mouette <joss@debian.org>, Michael Biebl <biebl@debian.org>, Sebastian Dröge <slomo@debian.org>
-Standards-Version: 3.8.4
+Standards-Version: 3.9.0
 Homepage: http://live.gnome.org/Cheese/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-gnome/desktop/unstable/cheese/
 Vcs-Svn: svn://svn.debian.org/svn/pkg-gnome/desktop/unstable/cheese/
@@ -32,7 +32,7 @@ Build-Depends: cdbs (>= 0.4.41),
                x11proto-core-dev,
                libcanberra-gtk-dev,
                libxtst-dev,
-               libgudev-1.0-dev | not+linux-gnu
+               libgudev-1.0-dev [linux-any]
 
 Package: cheese
 Architecture: any
