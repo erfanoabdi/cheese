@@ -34,8 +34,8 @@ Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          cheese-common (= ${source:Version}),
-         gstreamer0.10-plugins-base,
-         gstreamer0.10-plugins-good,
+         gstreamer0.10-plugins-base (>= 0.10.23),
+         gstreamer0.10-plugins-good (>= 0.10.23),
          gstreamer0.10-x
 Recommends: gvfs,
             gnome-icon-theme
