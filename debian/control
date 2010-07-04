@@ -42,7 +42,8 @@ Depends: ${shlibs:Depends},
          gstreamer0.10-plugins-base,
          gstreamer0.10-plugins-good,
          gstreamer0.10-x
-Recommends: gvfs
+Recommends: gvfs,
+            gnome-icon-theme
 Description: A tool to take pictures and videos from your webcam
  Cheese is a cheesy program to take pictures and videos from your web
  cam. It also provides some graphical effects in order to please the
