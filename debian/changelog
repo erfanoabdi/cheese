@@ -1,3 +1,100 @@
+cheese (2.30.1-2) unstable; urgency=low
+
+  [ Josselin Mouette ]
+  * Drop type-handling usage. Closes: #587861.
+  * Bump standards version accordingly.
+  * Recommend gnome-icon-theme. Closes: #587464.
+  * Bump dependencies on gstreamer plugins. Closes: #582838.
+
+  [ Emilio Pozuelo Monfort ]
+  * Upload to unstable.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Mon, 04 Oct 2010 22:04:17 +0200
+
+cheese (2.30.1-1) unstable; urgency=low
+
+  * New upstream release.
+    - HAL dependency has been dropped. Use (g)udev for v4l capability probing
+      on Linux. Closes: #573774
+    - Split code into separate libraries.
+  * debian/control.in
+    - Drop Build-Depends on libhal-dev.
+    - Drop Build-Depends on libebook1.2-dev.
+    - Bump Build-Depends on libgtk2.0-dev to (>= 2.19.1).
+    - Bump Build-Depends on libgstreamer*-dev to (>= 0.10.23).
+    - Add Build-Depends on libcanberra-gtk-dev.
+    - Add Build-Depends on libxtst-dev.
+    - Add Build-Depends on libgudev-1.0-dev on Linux.
+    - Bump Standards-Version to 3.8.4. No further changes.
+  * Switch to source format 3.0 (quilt)
+    - Add debian/source/format.
+  * debian/rules
+    - Drop lpia specific configure flags, lpia is dead.
+  * Update package layout (based on work by Ubuntu)
+    - Move data files into new cheese-common package.
+    - Keep binary along with its desktop and dbus service file in the cheese
+      package.
+    - Add libcheese-gtk18 and libcheese-gtk-dev package for the new
+      libcheese-gtk library. Use a symbols file for improved shlibs
+      dependencies.
+    - Add Conflicts/Replaces to cheese-common to ensure proper upgrades from
+      previous versions.
+
+ -- Michael Biebl <biebl@debian.org>  Tue, 04 May 2010 17:37:18 +0200
+
+cheese (2.28.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Andrea Veri <andrea.veri89@gmail.com>  Thu, 22 Oct 2009 12:15:51 +0200
+
+cheese (2.28.0.1-1) unstable; urgency=low
+
+  [ Andrea Veri ]
+  * New upstream release.
+  * debian/control:
+    - Bumped Standards-version to 3.8.3. No changes needed.
+    - libgtk2.0-dev bumped to >= 2.17.4 as per configure.ac
+      requirements.
+    - libgnome-desktop-dev bumped to >= 2.26.0 as per configure.ac
+      requirements.
+    - added a B-D on x11proto-core-dev needed from multimedia keys
+      to work properly.
+  * debian/copyright:
+    - added missing copyright holders.
+  * debian/patches:
+    - removed as long as it has no patches in it.
+  * debian/rules:
+    - simple-patchsys include removed, there are no patches to be
+      applied.
+
+  [ Loïc Minier ]
+  * Bdep on rarian-compat instead of scrollkeeper.
+
+ -- Andrea Veri <andrea.veri89@gmail.com>  Wed, 23 Sep 2009 20:25:41 +0200
+
+cheese (2.26.2-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update build-dependencies.
+  * 01_de.po.patch: removed, fixed upstream.
+
+ -- Josselin Mouette <joss@debian.org>  Wed, 17 Jun 2009 01:24:48 +0200
+
+cheese (2.24.3-2) unstable; urgency=low
+
+  * Depend on gstreamer0.10-x. Closes: #493762.
+  * Standards version is 3.8.1.
+
+ -- Josselin Mouette <joss@debian.org>  Thu, 09 Apr 2009 20:38:23 +0200
+
+cheese (2.24.3-1) unstable; urgency=low
+
+  * New upstream bugfix release.
+  * Upload to unstable.
+
+ -- Sebastian Dröge <slomo@debian.org>  Fri, 06 Mar 2009 19:26:07 +0100
+
 cheese (2.24.2-1) experimental; urgency=low
 
   [ Josselin Mouette ]
