@@ -1,4 +1,5 @@
-debian/tmp/usr/lib/pkgconfig
-debian/tmp/usr/lib/*.so
-debian/tmp/usr/include
+debian/tmp/usr/lib/pkgconfig/cheese-gtk.pc
+debian/tmp/usr/lib/libcheese-gtk.so
+debian/tmp/usr/include/cheese/cheese-widget.h
+debian/tmp/usr/include/cheese/cheese-avatar-chooser.h
 debian/tmp/usr/share/gtk-doc

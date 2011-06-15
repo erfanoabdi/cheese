@@ -1,3 +1,23 @@
+cheese (3.0.1-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+  * debian/control.in:
+    - Adjust build-dependencies
+    - Add gobject-introspection build-dependencies
+    - Bump debhelper build-dependency
+    - Bump cdbs build-dependency to be sure dh_girepository is called
+    - Bump libcheese-gtk soname
+    - Split libcheese out of libcheese-gtk package
+    - Add gir package
+    - Add cheese dependency against gnome-video-effects
+  * debian/cheese.postinst: Drop postinstall script, was needed for pre-lenny
+    package
+  * debian/*.symbols: Adjust symbols files
+  * debian/patches/0001-fix-pc-file.patch: Requires version of GTK+
+    and libcanberra-gtk
+
+ -- Laurent Bigonville <bigon@debian.org>  Wed, 15 Jun 2011 17:47:01 +0200
+
 cheese (2.30.1-3) unstable; urgency=low
 
   * debian/control.in:
