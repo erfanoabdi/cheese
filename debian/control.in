@@ -3,7 +3,7 @@ Section: gnome
 Priority: optional
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Uploaders: @GNOME_TEAM@
-Standards-Version: 3.9.0
+Standards-Version: 3.9.2
 Homepage: http://live.gnome.org/Cheese/
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-gnome/desktop/unstable/cheese/
 Vcs-Svn: svn://svn.debian.org/svn/pkg-gnome/desktop/unstable/cheese/
@@ -36,23 +36,27 @@ Depends: ${shlibs:Depends},
          cheese-common (= ${source:Version}),
          gstreamer0.10-plugins-base (>= 0.10.23),
          gstreamer0.10-plugins-good (>= 0.10.23),
-         gstreamer0.10-x
+         gstreamer0.10-x, gstreamer0.10-gconf
 Recommends: gvfs,
             gnome-icon-theme
-Description: A tool to take pictures and videos from your webcam
- Cheese is a cheesy program to take pictures and videos from your web
- cam. It also provides some graphical effects in order to please the
- user's play instinct.
+Description: tool to take pictures and videos from your webcam
+ A webcam application that supports image and video capture. Makes
+ it easy to take photos and videos of you, your friends, pets or whatever
+ you want. Allows you to apply fancy visual effects, fine-control image
+ settings and has features such as Multi-Burst mode, Countdown timer
+ for photos.
 
 Package: cheese-common
 Architecture: all
 Depends: ${misc:Depends}
 Replaces: cheese (<< 2.30.1-1)
-Conflicts: cheese (<< 2.30.1-1)
+Breaks: cheese (<< 2.30.1-1)
 Description: Common files for the Cheese tool to take pictures and videos
- Cheese is a cheesy program to take pictures and videos from your web
- cam. It also provides some graphical effects in order to please the
- user's play instinct.
+ A webcam application that supports image and video capture. Makes
+ it easy to take photos and videos of you, your friends, pets or whatever
+ you want. Allows you to apply fancy visual effects, fine-control image
+ settings and has features such as Multi-Burst mode, Countdown timer
+ for photos.
  .
  This package contains the common files and translations.
 
@@ -61,10 +65,12 @@ Architecture: any
 Section: libs
 Depends: ${shlibs:Depends},
          ${misc:Depends}
-Description: A tool to take pictures and videos from your webcam - widgets
- Cheese is a cheesy program to take pictures and videos from your web
- cam. It also provides some graphical effects in order to please the
- user's play instinct.
+Description: tool to take pictures and videos from your webcam - widgets
+ A webcam application that supports image and video capture. Makes
+ it easy to take photos and videos of you, your friends, pets or whatever
+ you want. Allows you to apply fancy visual effects, fine-control image
+ settings and has features such as Multi-Burst mode, Countdown timer
+ for photos.
  .
  This package contains the shared library.
 
@@ -77,9 +83,11 @@ Depends: libcheese-gtk18 (= ${binary:Version}),
          libcanberra-gtk-dev,
          ${misc:Depends},
          ${shlibs:Depends}
-Description: A tool to take pictures and videos from your webcam - widgets dev
- Cheese is a cheesy program to take pictures and videos from your web
- cam. It also provides some graphical effects in order to please the
- user's play instinct.
+Description: tool to take pictures and videos from your webcam - widgets dev
+ A webcam application that supports image and video capture. Makes
+ it easy to take photos and videos of you, your friends, pets or whatever
+ you want. Allows you to apply fancy visual effects, fine-control image
+ settings and has features such as Multi-Burst mode, Countdown timer
+ for photos.
  .
  This package contains the development headers and API documentation.
