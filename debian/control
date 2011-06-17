@@ -48,6 +48,7 @@ Depends: ${shlibs:Depends},
          cheese-common (= ${source:Version}),
          gstreamer0.10-plugins-base (>= 0.10.23),
          gstreamer0.10-plugins-good (>= 0.10.23),
+         gstreamer0.10-plugins-bad,
          gstreamer0.10-x,
          gnome-video-effects
 Recommends: gvfs,
