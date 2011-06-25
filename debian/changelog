@@ -1,3 +1,10 @@
+cheese (3.0.1-2) UNRELEASED; urgency=low
+
+  * debian/control:
+    - Change gir1.2-cheese-3.0 Section to libs
+
+ -- Laurent Bigonville <bigon@debian.org>  Sat, 25 Jun 2011 17:19:41 +0200
+
 cheese (3.0.1-1) experimental; urgency=low
 
   * New upstream release.
