@@ -47,7 +47,8 @@ Depends: ${shlibs:Depends},
          gstreamer0.10-x,
          gnome-video-effects
 Recommends: gvfs,
-            gnome-icon-theme
+            gnome-icon-theme,
+            hicolor-icon-theme
 Description: tool to take pictures and videos from your webcam
  A webcam application that supports image and video capture. Makes
  it easy to take photos and videos of you, your friends, pets or whatever
