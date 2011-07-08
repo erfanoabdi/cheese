@@ -1,13 +1,14 @@
 cheese (3.0.1-2) UNRELEASED; urgency=low
 
-  * debian/control:
+  * debian/control.in:
     - Change gir1.2-cheese-3.0 Section to libs
+    - Make library packages depend against cheese-common package
   * debian/patches/0002-fix-linking.patch: Add missing library to fix linking
   * debian/watch:
     - Switch to .bz2 tarballs.
     - Bump version to 3
 
- -- Laurent Bigonville <bigon@debian.org>  Fri, 08 Jul 2011 10:22:23 +0200
+ -- Laurent Bigonville <bigon@debian.org>  Fri, 08 Jul 2011 12:51:29 +0200
 
 cheese (3.0.1-1) experimental; urgency=low
 
