@@ -145,7 +145,7 @@ Description: tool to take pictures and videos from your webcam - base dev
 
 Package: gir1.2-cheese-3.0
 Architecture: any
-Section: libdevel
+Section: libs
 Depends: ${misc:Depends},
          ${gir:Depends}
 Description: tool to take pictures and videos from your webcam - gir bindings

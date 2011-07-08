@@ -1,2 +1,3 @@
 0001-fix-pc-file.patch
+0002-fix-linking.patch
 99_ltmain_as-needed.patch
