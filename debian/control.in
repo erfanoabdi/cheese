@@ -41,10 +41,6 @@ Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          cheese-common (= ${source:Version}),
-         gstreamer0.10-plugins-base (>= 0.10.23),
-         gstreamer0.10-plugins-good (>= 0.10.23),
-         gstreamer0.10-plugins-bad,
-         gstreamer0.10-x,
          gnome-video-effects
 Recommends: gvfs,
             gnome-icon-theme,
@@ -93,6 +89,7 @@ Depends: libcheese-gtk20 (= ${binary:Version}),
          libglib2.0-dev (>= 2.28.0),
          libgtk-3-dev (>= 2.99.4),
          libgstreamer0.10-dev (>= 0.10.32),
+         libgstreamer-plugins-base0.10-dev (>= 0.10.32),         
          libclutter-gtk-1.0-dev (>= 0.91.8),
          libcanberra-gtk3-dev (>= 0.26),
          ${misc:Depends}
@@ -110,7 +107,11 @@ Architecture: any
 Section: libs
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         cheese-common (= ${source:Version})
+         cheese-common (= ${source:Version}),
+         gstreamer0.10-plugins-base (>= 0.10.23),
+         gstreamer0.10-plugins-good (>= 0.10.23),
+         gstreamer0.10-plugins-bad,
+         gstreamer0.10-x
 Description: tool to take pictures and videos from your webcam - base library
  A webcam application that supports image and video capture. Makes
  it easy to take photos and videos of you, your friends, pets or whatever
