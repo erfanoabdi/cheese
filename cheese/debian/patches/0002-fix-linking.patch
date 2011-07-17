@@ -1,0 +1,100 @@
+From 3fd67a0a6221020beec1fb04048d8d36aba347c5 Mon Sep 17 00:00:00 2001
+From: Thomas Bechtold <thomasbechtold@jpberlin.de>
+Date: Sun, 15 May 2011 16:18:51 +0000
+Subject: add gio-2.0 and x11 to PKG_CHECK_MODULES
+
+---
+--- a/configure.ac
++++ b/configure.ac
+@@ -137,6 +137,8 @@
+ 
+ PKG_CHECK_MODULES(CHEESE, \ 
+   glib-2.0 >= $GLIB_REQUIRED \
++  gio-2.0 >= $GIO_REQUIRED \
++  x11 \
+   gobject-2.0 >= $GOBJECT_REQUIRED \
+   gdk-pixbuf-2.0 \
+   gstreamer-0.10 >= $GSTREAMER_REQUIRED \
+--- a/configure
++++ b/configure
+@@ -15145,6 +15145,8 @@
+     if test -n "$PKG_CONFIG" && \
+     { { $as_echo "$as_me:${as_lineno-$LINENO}: \$PKG_CONFIG --exists --print-errors \"\\
+   glib-2.0 >= \$GLIB_REQUIRED \\
++  gio-2.0 >= \$GIO_REQUIRED \\
++  x11 \\
+   gobject-2.0 >= \$GOBJECT_REQUIRED \\
+   gdk-pixbuf-2.0 \\
+   gstreamer-0.10 >= \$GSTREAMER_REQUIRED \\
+@@ -15158,6 +15160,8 @@
+   \""; } >&5
+   ($PKG_CONFIG --exists --print-errors "\
+   glib-2.0 >= $GLIB_REQUIRED \
++  gio-2.0 >= $GIO_REQUIRED \
++  x11 \
+   gobject-2.0 >= $GOBJECT_REQUIRED \
+   gdk-pixbuf-2.0 \
+   gstreamer-0.10 >= $GSTREAMER_REQUIRED \
+@@ -15174,6 +15178,8 @@
+   test $ac_status = 0; }; then
+   pkg_cv_CHEESE_CFLAGS=`$PKG_CONFIG --cflags "\
+   glib-2.0 >= $GLIB_REQUIRED \
++  gio-2.0 >= $GIO_REQUIRED \
++  x11 \
+   gobject-2.0 >= $GOBJECT_REQUIRED \
+   gdk-pixbuf-2.0 \
+   gstreamer-0.10 >= $GSTREAMER_REQUIRED \
+@@ -15197,6 +15203,8 @@
+     if test -n "$PKG_CONFIG" && \
+     { { $as_echo "$as_me:${as_lineno-$LINENO}: \$PKG_CONFIG --exists --print-errors \"\\
+   glib-2.0 >= \$GLIB_REQUIRED \\
++  gio-2.0 >= \$GIO_REQUIRED \\
++  x11 \\
+   gobject-2.0 >= \$GOBJECT_REQUIRED \\
+   gdk-pixbuf-2.0 \\
+   gstreamer-0.10 >= \$GSTREAMER_REQUIRED \\
+@@ -15210,6 +15218,8 @@
+   \""; } >&5
+   ($PKG_CONFIG --exists --print-errors "\
+   glib-2.0 >= $GLIB_REQUIRED \
++  gio-2.0 >= $GIO_REQUIRED \
++  x11 \
+   gobject-2.0 >= $GOBJECT_REQUIRED \
+   gdk-pixbuf-2.0 \
+   gstreamer-0.10 >= $GSTREAMER_REQUIRED \
+@@ -15226,6 +15236,8 @@
+   test $ac_status = 0; }; then
+   pkg_cv_CHEESE_LIBS=`$PKG_CONFIG --libs "\
+   glib-2.0 >= $GLIB_REQUIRED \
++  gio-2.0 >= $GIO_REQUIRED \
++  x11 \
+   gobject-2.0 >= $GOBJECT_REQUIRED \
+   gdk-pixbuf-2.0 \
+   gstreamer-0.10 >= $GSTREAMER_REQUIRED \
+@@ -15258,6 +15270,8 @@
+         if test $_pkg_short_errors_supported = yes; then
+ 	        CHEESE_PKG_ERRORS=`$PKG_CONFIG --short-errors --print-errors "\
+   glib-2.0 >= $GLIB_REQUIRED \
++  gio-2.0 >= $GIO_REQUIRED \
++  x11 \
+   gobject-2.0 >= $GOBJECT_REQUIRED \
+   gdk-pixbuf-2.0 \
+   gstreamer-0.10 >= $GSTREAMER_REQUIRED \
+@@ -15272,6 +15286,8 @@
+         else
+ 	        CHEESE_PKG_ERRORS=`$PKG_CONFIG --print-errors "\
+   glib-2.0 >= $GLIB_REQUIRED \
++  gio-2.0 >= $GIO_REQUIRED \
++  x11 \
+   gobject-2.0 >= $GOBJECT_REQUIRED \
+   gdk-pixbuf-2.0 \
+   gstreamer-0.10 >= $GSTREAMER_REQUIRED \
+@@ -15289,6 +15305,8 @@
+ 
+ 	as_fn_error $? "Package requirements (\
+   glib-2.0 >= $GLIB_REQUIRED \
++  gio-2.0 >= $GIO_REQUIRED \
++  x11 \
+   gobject-2.0 >= $GOBJECT_REQUIRED \
+   gdk-pixbuf-2.0 \
+   gstreamer-0.10 >= $GSTREAMER_REQUIRED \
