@@ -1,10 +1,10 @@
-cheese (3.0.2-1) UNRELEASED; urgency=low
+cheese (3.0.2-1) unstable; urgency=low
 
   * New upstream release.
   * debian/patches/0001-fix-pc-file.patch,
     debian/patches/0002-fix-linking.patch: Dropped, applied upstream
 
- -- Laurent Bigonville <bigon@debian.org>  Wed, 21 Sep 2011 10:21:08 +0200
+ -- Laurent Bigonville <bigon@debian.org>  Wed, 21 Sep 2011 10:31:24 +0200
 
 cheese (3.0.1-2) unstable; urgency=low
 
