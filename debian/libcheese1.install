@@ -1,1 +1,1 @@
-debian/tmp/usr/lib/libcheese.so.*
+usr/lib/*/libcheese.so.*

@@ -1,7 +1,7 @@
-debian/tmp/usr/lib/pkgconfig/cheese.pc
-debian/tmp/usr/lib/libcheese.so
-debian/tmp/usr/include/cheese/cheese-camera-device.h
-debian/tmp/usr/include/cheese/cheese-camera-device-monitor.h
-debian/tmp/usr/include/cheese/cheese-camera.h
-debian/tmp/usr/include/cheese/cheese-effect.h
-debian/tmp/usr/share/gir-1.0
+usr/lib/*/pkgconfig/cheese.pc
+usr/lib/*/libcheese.so
+usr/include/cheese/cheese-camera-device.h
+usr/include/cheese/cheese-camera-device-monitor.h
+usr/include/cheese/cheese-camera.h
+usr/include/cheese/cheese-effect.h
+usr/share/gir-1.0

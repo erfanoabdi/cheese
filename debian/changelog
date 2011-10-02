@@ -1,3 +1,17 @@
+cheese (3.2.0-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+    - debian/libcheese1.symbols: Add new symbols
+  * Follow multiarch policy
+  * debian/control.in: Update Vcs-Browser URL
+  * debian/*.install: Drop "debian/tmp" prefix
+  * debian/cheese-common.install: drop /u/s/h/omf since it doesn't exist
+    anymore
+  * debian/rules: Always bump shlibs version, we are using .symbols file
+    anyway
+
+ -- Laurent Bigonville <bigon@debian.org>  Sun, 02 Oct 2011 23:25:39 +0200
+
 cheese (3.0.2-1) unstable; urgency=low
 
   * New upstream release.

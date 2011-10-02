@@ -43,6 +43,8 @@ libcheese.so.1 libcheese1 #MINVER#
  cheese_effect_enable_preview@Base 3.0.1
  cheese_effect_get_type@Base 3.0.1
  cheese_effect_is_preview_connected@Base 3.0.1
+ cheese_effect_load_effects@Base 3.2.0
+ cheese_effect_load_from_file@Base 3.2.0
  cheese_effect_new@Base 3.0.1
  cheese_fileutil_get_new_media_filename@Base 3.0.1
  cheese_fileutil_get_path_before_224@Base 3.0.1
