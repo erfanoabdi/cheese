@@ -7,9 +7,9 @@ Source: cheese
 Section: gnome
 Priority: optional
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Uploaders: Emilio Pozuelo Monfort <pochu@debian.org>, Josselin Mouette <joss@debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>
+Uploaders: Emilio Pozuelo Monfort <pochu@debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>
 Standards-Version: 3.9.2
-Homepage: http://live.gnome.org/Cheese/
+Homepage: http://projects.gnome.org/cheese/
 Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/cheese/
 Vcs-Svn: svn://svn.debian.org/svn/pkg-gnome/desktop/unstable/cheese/
 Build-Depends: cdbs (>= 0.4.93~),
