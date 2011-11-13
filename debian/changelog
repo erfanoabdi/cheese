@@ -1,12 +1,16 @@
 cheese (3.2.1-1) UNRELEASED; urgency=low
 
+  [ Laurent Bigonville ]
   * New upstream release.
   * debian/watch:
     - Fix regex so latest directory is correctly detected
     - Switch to .xz tarballs
   * debian/control.in: Update Homepage field to new URL
 
- -- Laurent Bigonville <bigon@debian.org>  Fri, 21 Oct 2011 01:04:11 +0200
+  [ Michael Biebl ]
+  * Refresh debian/patches/99_ltmain_as-needed.patch.
+
+ -- Michael Biebl <biebl@debian.org>  Sun, 13 Nov 2011 14:34:06 +0100
 
 cheese (3.2.0-1) unstable; urgency=low
 
