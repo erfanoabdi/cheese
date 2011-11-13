@@ -1,4 +1,4 @@
-cheese (3.2.1-1) UNRELEASED; urgency=low
+cheese (3.2.1-1) unstable; urgency=low
 
   [ Laurent Bigonville ]
   * New upstream release.
@@ -10,7 +10,7 @@ cheese (3.2.1-1) UNRELEASED; urgency=low
   [ Michael Biebl ]
   * Refresh debian/patches/99_ltmain_as-needed.patch.
 
- -- Michael Biebl <biebl@debian.org>  Sun, 13 Nov 2011 14:34:06 +0100
+ -- Michael Biebl <biebl@debian.org>  Sun, 13 Nov 2011 14:34:22 +0100
 
 cheese (3.2.0-1) unstable; urgency=low
 
