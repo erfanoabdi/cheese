@@ -1,8 +1,10 @@
 cheese (3.2.2-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * debian/control.in:
+    - Bump Build-Depends on valac to valac-0.14 (>= 0.13.2).
 
- -- Michael Biebl <biebl@debian.org>  Tue, 15 Nov 2011 19:27:48 +0100
+ -- Michael Biebl <biebl@debian.org>  Tue, 15 Nov 2011 20:11:17 +0100
 
 cheese (3.2.1-1) unstable; urgency=low
 
