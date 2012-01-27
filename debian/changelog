@@ -1,11 +1,11 @@
-cheese (3.2.2-2) UNRELEASED; urgency=low
+cheese (3.2.2-2) unstable; urgency=low
 
   * Change section of gir1.2-cheese-3.0 to introspection.
   * Add Breaks/Replaces: libcheese-gtk-dev (<< 3.0.1-1) to libcheese-dev for
     the libcheese/libcheese-gtk package split in 3.0.1-1. Closes: #657410
   * Split the API documentation into a separate package libcheese-doc.
 
- -- Michael Biebl <biebl@debian.org>  Fri, 27 Jan 2012 21:55:14 +0100
+ -- Michael Biebl <biebl@debian.org>  Fri, 27 Jan 2012 22:19:26 +0100
 
 cheese (3.2.2-1) unstable; urgency=low
 
