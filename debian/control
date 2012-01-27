@@ -109,7 +109,7 @@ Description: tool to take pictures and videos from your webcam - widgets dev
  settings and has features such as Multi-Burst mode, Countdown timer
  for photos.
  .
- This package contains the GTK+ development headers and API documentation.
+ This package contains the GTK+ development headers.
 
 Package: libcheese1
 Architecture: any
