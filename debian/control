@@ -101,6 +101,7 @@ Depends: libcheese-gtk20 (= ${binary:Version}),
          libclutter-gtk-1.0-dev (>= 0.91.8),
          libcanberra-gtk3-dev (>= 0.26),
          ${misc:Depends}
+Suggests: libcheese-doc
 Description: tool to take pictures and videos from your webcam - widgets dev
  A webcam application that supports image and video capture. Makes
  it easy to take photos and videos of you, your friends, pets or whatever
@@ -142,6 +143,7 @@ Depends: libcheese1 (= ${binary:Version}),
          libgstreamer-plugins-base0.10-dev (>= 0.10.32),
          libgdk-pixbuf2.0-dev,
          ${misc:Depends}
+Suggests: libcheese-doc
 Replaces: libcheese-gtk-dev (<< 3.0.1-1)
 Breaks: libcheese-gtk-dev (<< 3.0.1-1)
 Description: tool to take pictures and videos from your webcam - base dev
@@ -151,8 +153,23 @@ Description: tool to take pictures and videos from your webcam - base dev
  settings and has features such as Multi-Burst mode, Countdown timer
  for photos.
  .
- This package contains the base development headers and API documentation.
+ This package contains the base development headers.
 
+Package: libcheese-doc
+Architecture: all
+Section: doc
+Depends: ${misc:Depends}
+Suggests: devhelp
+Replaces: libcheese-gtk-dev (<< 3.2.2-2)
+Breaks: libcheese-gtk-dev (<< 3.2.2-2)
+Description: tool to take pictures and videos from your webcam - documentation
+ A webcam application that supports image and video capture. Makes
+ it easy to take photos and videos of you, your friends, pets or whatever
+ you want. Allows you to apply fancy visual effects, fine-control image
+ settings and has features such as Multi-Burst mode, Countdown timer
+ for photos.
+ .
+ This package contains the API documentation.
 
 Package: gir1.2-cheese-3.0
 Architecture: any

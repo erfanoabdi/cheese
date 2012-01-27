@@ -2,4 +2,3 @@ usr/lib/*/pkgconfig/cheese-gtk.pc
 usr/lib/*/libcheese-gtk.so
 usr/include/cheese/cheese-widget.h
 usr/include/cheese/cheese-avatar-chooser.h
-usr/share/gtk-doc
