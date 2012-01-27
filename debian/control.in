@@ -137,6 +137,8 @@ Depends: libcheese1 (= ${binary:Version}),
          libgstreamer-plugins-base0.10-dev (>= 0.10.32),
          libgdk-pixbuf2.0-dev,
          ${misc:Depends}
+Replaces: libcheese-gtk-dev (<< 3.0.1-1)
+Breaks: libcheese-gtk-dev (<< 3.0.1-1)
 Description: tool to take pictures and videos from your webcam - base dev
  A webcam application that supports image and video capture. Makes
  it easy to take photos and videos of you, your friends, pets or whatever
