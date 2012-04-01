@@ -9,6 +9,7 @@ cheese (3.4.0-1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.3.
   * Install cheese.h and cheese-gtk.h.
   * Install help data from usr/share/help.
+  * Update ltmain.sh patch with new path to the script.
   * FIXME: dropped symbols in libcheese3.
 
  -- Jordi Mallach <jordi@debian.org>  Sun, 01 Apr 2012 13:31:01 +0200
