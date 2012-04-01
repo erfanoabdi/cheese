@@ -1,3 +1,18 @@
+cheese (3.4.0-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+  * Add explicit build dependency on pkg-config.
+  * Replace gnome-doc-utils with yelp-tools, for Mallard docs.
+  * Recommend nautilus-sendto.
+  * Rename lib files due to soname bumps.
+  * Update to debhelper v9.
+  * Bump Standards-Version to 3.9.3.
+  * Install cheese.h and cheese-gtk.h.
+  * Install help data from usr/share/help.
+  * FIXME: dropped symbols in libcheese3.
+
+ -- Jordi Mallach <jordi@debian.org>  Sun, 01 Apr 2012 13:31:01 +0200
+
 cheese (3.2.2-2) unstable; urgency=low
 
   * Change section of gir1.2-cheese-3.0 to introspection.

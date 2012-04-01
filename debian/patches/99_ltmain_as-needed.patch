@@ -1,7 +1,7 @@
-Index: cheese-3.2.1/ltmain.sh
+Index: cheese-3.2.1/build-aux/ltmain.sh
 ===================================================================
---- cheese-3.2.1.orig/ltmain.sh	2011-10-17 22:20:56.000000000 +0200
-+++ cheese-3.2.1/ltmain.sh	2011-11-13 14:07:28.230942270 +0100
+--- cheese-3.2.1/build-aux/ltmain.sh	2011-10-17 22:20:56.000000000 +0200
++++ cheese-3.2.1/build-aux/ltmain.sh	2011-11-13 14:07:28.230942270 +0100
 @@ -5787,6 +5787,11 @@
  	arg=$func_stripname_result
  	;;
