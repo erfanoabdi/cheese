@@ -1,15 +1,12 @@
 libcheese.so.3 libcheese3 #MINVER#
- _cheese_marshal_VOID__STRING_STRING_STRING_INT@Base 3.0.1
  cheese_camera_cat@Base 3.0.1
  cheese_camera_connect_effect_texture@Base 3.0.1
  cheese_camera_device_cat@Base 3.0.1
  cheese_camera_device_error_quark@Base 3.0.1
  cheese_camera_device_get_best_format@Base 3.0.1
  cheese_camera_device_get_caps_for_format@Base 3.0.1
- cheese_camera_device_get_device_file@Base 3.0.1
  cheese_camera_device_get_device_node@Base 3.4.0
  cheese_camera_device_get_format_list@Base 3.0.1
- cheese_camera_device_get_id@Base 3.0.1
  cheese_camera_device_get_name@Base 3.0.1
  cheese_camera_device_get_src@Base 3.0.1
  cheese_camera_device_get_type@Base 3.0.1
@@ -30,7 +27,6 @@ libcheese.so.3 libcheese3 #MINVER#
  cheese_camera_new@Base 3.0.1
  cheese_camera_play@Base 3.0.1
  cheese_camera_set_balance_property@Base 3.0.1
- cheese_camera_set_device_by_dev_file@Base 3.0.1
  cheese_camera_set_device_by_device_node@Base 3.4.0
  cheese_camera_set_effect@Base 3.0.1
  cheese_camera_set_video_format@Base 3.0.1
@@ -53,7 +49,6 @@ libcheese.so.3 libcheese3 #MINVER#
  cheese_effect_load_from_file@Base 3.2.0
  cheese_effect_new@Base 3.0.1
  cheese_fileutil_get_new_media_filename@Base 3.0.1
- cheese_fileutil_get_path_before_224@Base 3.0.1
  cheese_fileutil_get_photo_path@Base 3.0.1
  cheese_fileutil_get_type@Base 3.0.1
  cheese_fileutil_get_video_path@Base 3.0.1
