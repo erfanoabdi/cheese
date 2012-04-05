@@ -1,4 +1,4 @@
-cheese (3.4.0-1) UNRELEASED; urgency=low
+cheese (3.4.0-1) unstable; urgency=low
 
   * New upstream release.
   * Add explicit build dependency on pkg-config.
