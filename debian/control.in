@@ -9,6 +9,7 @@ Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/cheese/
 Vcs-Svn: svn://anonscm.debian.org/svn/pkg-gnome/desktop/unstable/cheese/
 Build-Depends: cdbs (>= 0.4.93~),
                debhelper (>= 9),
+               dh-autoreconf,
                gnome-pkg-tools (>= 0.10),
                intltool (>= 0.40.0),
                rarian-compat,
