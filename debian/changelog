@@ -7,8 +7,8 @@ cheese (3.4.0-2) unstable; urgency=low
   * Add Build-Depends on gnome-common for the GNOME autoconf macros.
   * Use dh-autoreconf --as-needed and disable 99_ltmain_as-needed.patch.
   * Install the cheese man page that is provided by upstream.
-  * Mark cheese_camera_device_monitor_set_up_device symbol as optional. This
-    symbol is internal and is not available on non-Linux systems.
+  * Mark cheese_camera_device_monitor_set_up_device symbol as (arch=linux-any).
+    This symbol is internal and not available on non-Linux systems.
 
  -- Michael Biebl <biebl@debian.org>  Fri, 06 Apr 2012 11:07:32 +0200
 
