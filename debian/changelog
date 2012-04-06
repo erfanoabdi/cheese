@@ -1,4 +1,4 @@
-cheese (3.4.0-2) UNRELEASED; urgency=low
+cheese (3.4.0-2) unstable; urgency=low
 
   * debian/patches/01-udev-configure-check.patch: Properly quote the
     $UDEV_REQUIRED variable so configure does not fail on systems without
@@ -10,7 +10,7 @@ cheese (3.4.0-2) UNRELEASED; urgency=low
   * Mark cheese_camera_device_monitor_set_up_device symbol as optional. This
     symbol is internal and is not available on non-Linux systems.
 
- -- Michael Biebl <biebl@debian.org>  Fri, 06 Apr 2012 11:04:05 +0200
+ -- Michael Biebl <biebl@debian.org>  Fri, 06 Apr 2012 11:07:32 +0200
 
 cheese (3.4.0-1) unstable; urgency=low
 
