@@ -1,0 +1,29 @@
+From b0c291304e9f1b9bd31a43af523727d8441af0b1 Mon Sep 17 00:00:00 2001
+From: Michael Biebl <biebl@debian.org>
+Date: Fri, 6 Apr 2012 10:31:45 +0200
+Subject: [PATCH] build: Properly quote $UDEV_REQUIRED variable
+
+Otherwise configure fails on systems which don't have libgudev
+installed.
+
+https://bugzilla.gnome.org/show_bug.cgi?id=673628
+---
+ configure.ac |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/configure.ac b/configure.ac
+index b669799..874ab3f 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -88,7 +88,7 @@ AS_CASE([$host_os],
+   [AC_MSG_RESULT([unsupported operating system])])
+ 
+ AC_MSG_CHECKING([for gudev-1.0])
+-AS_IF([test -n $UDEV_REQUIRED],
++AS_IF([test -n "$UDEV_REQUIRED"],
+   [PKG_CHECK_EXISTS([$UDEV_REQUIRED],
+     [AC_MSG_RESULT([found])
+      AC_DEFINE([HAVE_UDEV], [], [Enable gudev support])],
+-- 
+1.7.9.5
+
