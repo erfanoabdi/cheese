@@ -1,2 +1,2 @@
 01-udev-configure-check.patch
-99_ltmain_as-needed.patch
+#99_ltmain_as-needed.patch
