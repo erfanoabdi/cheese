@@ -1,8 +1,9 @@
 cheese (3.4.1-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Remove debian/patches/01-udev-configure-check.patch, merged upstream.
 
- -- Michael Biebl <biebl@debian.org>  Wed, 18 Apr 2012 20:59:38 +0200
+ -- Michael Biebl <biebl@debian.org>  Wed, 18 Apr 2012 21:00:18 +0200
 
 cheese (3.4.0-2) unstable; urgency=low
 
