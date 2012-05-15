@@ -1,8 +1,8 @@
-cheese (3.4.2-1) UNRELEASED; urgency=low
+cheese (3.4.2-1) unstable; urgency=low
 
   * New upstream translation release.
 
- -- Michael Biebl <biebl@debian.org>  Tue, 15 May 2012 15:27:58 +0200
+ -- Michael Biebl <biebl@debian.org>  Tue, 15 May 2012 15:29:17 +0200
 
 cheese (3.4.1-1) unstable; urgency=low
 
