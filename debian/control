@@ -146,6 +146,7 @@ Depends: libcheese3 (= ${binary:Version}),
          libclutter-1.0-dev (>= 1.6.1),
          libgstreamer0.10-dev (>= 0.10.32),
          libgstreamer-plugins-base0.10-dev (>= 0.10.32),
+         libclutter-gst-dev (>= 1.0.0),
          libgdk-pixbuf2.0-dev,
          ${misc:Depends}
 Suggests: libcheese-doc

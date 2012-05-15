@@ -1,6 +1,8 @@
 cheese (3.4.2-1) unstable; urgency=low
 
   * New upstream translation release.
+  * Add dependency on libclutter-gst-dev to libcheese-dev as required by
+    cheese.pc. Closes: #667857
 
  -- Michael Biebl <biebl@debian.org>  Tue, 15 May 2012 15:29:17 +0200
 
