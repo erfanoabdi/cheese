@@ -1,3 +1,9 @@
+cheese (3.4.2-2) UNRELEASED; urgency=low
+
+  * debian/control.in: Recommend yelp
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Wed, 23 May 2012 17:54:00 -0400
+
 cheese (3.4.2-1) unstable; urgency=low
 
   * New upstream translation release.
