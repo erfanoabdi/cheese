@@ -2,7 +2,7 @@ cheese (3.4.2-2) UNRELEASED; urgency=low
 
   * debian/control.in:
     - Recommend yelp
-    - Build-depend on valac-0.16 | valac (>= 0.14.0) (Closes: #675633)
+    - Build-depend on valac (>= 0.14.0) (Closes: #675633)
 
  -- Jeremy Bicha <jbicha@ubuntu.com>  Wed, 23 May 2012 17:54:00 -0400
 
