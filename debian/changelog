@@ -1,10 +1,11 @@
-cheese (3.4.2-2) UNRELEASED; urgency=low
+cheese (3.4.2-2) unstable; urgency=low
 
+  [ Jeremy Bicha ]
   * debian/control.in:
     - Recommend yelp
     - Build-depend on valac (>= 0.14.0) (Closes: #675633)
 
- -- Jeremy Bicha <jbicha@ubuntu.com>  Wed, 23 May 2012 17:54:00 -0400
+ -- Josselin Mouette <joss@debian.org>  Sat, 22 Sep 2012 13:11:42 +0200
 
 cheese (3.4.2-1) unstable; urgency=low
 
