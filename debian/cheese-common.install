@@ -1,6 +1,5 @@
-debian/tmp/usr/share/cheese
-debian/tmp/usr/share/glib-2.0/schemas
-debian/tmp/usr/share/gnome
-debian/tmp/usr/share/icons
-debian/tmp/usr/share/locale
-debian/tmp/usr/share/omf
+usr/share/cheese
+usr/share/glib-2.0/schemas
+usr/share/help
+usr/share/icons
+usr/share/locale

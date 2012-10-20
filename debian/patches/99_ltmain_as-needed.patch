@@ -1,8 +1,8 @@
-Index: libnotify-0.5.0/ltmain.sh
+Index: cheese-3.2.1/build-aux/ltmain.sh
 ===================================================================
---- libnotify-0.5.0.orig/ltmain.sh	2010-06-24 10:01:38.000000000 +0200
-+++ libnotify-0.5.0/ltmain.sh	2010-06-29 07:27:27.202952725 +0200
-@@ -4716,6 +4716,11 @@
+--- cheese-3.2.1/build-aux/ltmain.sh	2011-10-17 22:20:56.000000000 +0200
++++ cheese-3.2.1/build-aux/ltmain.sh	2011-11-13 14:07:28.230942270 +0100
+@@ -5787,6 +5787,11 @@
  	arg=$func_stripname_result
  	;;
  
@@ -14,7 +14,7 @@ Index: libnotify-0.5.0/ltmain.sh
        -Wl,*)
  	func_stripname '-Wl,' '' "$arg"
  	args=$func_stripname_result
-@@ -5067,6 +5072,15 @@
+@@ -6147,6 +6152,15 @@
  	lib=
  	found=no
  	case $deplib in
