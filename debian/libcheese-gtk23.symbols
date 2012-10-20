@@ -1,4 +1,4 @@
-libcheese-gtk.so.21 libcheese-gtk21 #MINVER#
+libcheese-gtk.so.23 libcheese-gtk23 #MINVER#
  cheese_avatar_chooser_get_picture@Base 3.0.1
  cheese_avatar_chooser_get_type@Base 3.0.1
  cheese_avatar_chooser_new@Base 3.0.1

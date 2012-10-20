@@ -7,7 +7,7 @@ Source: cheese
 Section: gnome
 Priority: optional
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Uploaders: Jordi Mallach <jordi@debian.org>, Josselin Mouette <joss@debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>
+Uploaders: Jordi Mallach <jordi@debian.org>, Josselin Mouette <joss@debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>
 Standards-Version: 3.9.3
 Homepage: http://projects.gnome.org/cheese/
 Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/cheese/
@@ -15,25 +15,26 @@ Vcs-Svn: svn://anonscm.debian.org/svn/pkg-gnome/desktop/unstable/cheese/
 Build-Depends: cdbs (>= 0.4.93~),
                debhelper (>= 9),
                dh-autoreconf,
+               docbook-xsl,
                gnome-common,
                gnome-pkg-tools (>= 0.10),
                gtk-doc-tools (>= 1.14),
-               intltool (>= 0.40.0),
+               intltool (>= 0.50.0),
                rarian-compat,
-               valac (>= 0.14.0),
-               libglib2.0-dev (>= 2.28.0),
+               valac (>= 0.18) | valac-0.18,
+               libglib2.0-dev (>= 2.34.0),
                libgdk-pixbuf2.0-dev,
-               libgtk-3-dev (>= 2.99.4),
-               libgnome-desktop-3-dev (>= 2.91.6),
-               libgstreamer0.10-dev (>= 0.10.32),
-               libgstreamer-plugins-base0.10-dev (>= 0.10.32),
+               libgtk-3-dev (>= 3.6),
+               libgnome-desktop-3-dev (>= 3.6),
+               libgstreamer1.0-dev (>= 0.11.0),
+               libgstreamer-plugins-base1.0-dev (>= 0.11.0),
+               libgstreamer-plugins-bad1.0-dev (>= 0.11.0),
                libcairo2-dev (>= 1.10.0),
                libpango1.0-dev (>= 1.28.0),
                librsvg2-dev (>= 2.32.0),
-               libclutter-1.0-dev (>= 1.6.1),
+               libclutter-1.0-dev (>= 1.10.0),
                libclutter-gtk-1.0-dev (>= 0.91.8),
-               libclutter-gst-dev (>= 1.0.0),
-               libmx-dev,
+               libclutter-gst-2.0-dev (>= 1.9.0),
                libgee-dev (>= 0.6.0),
                x11proto-core-dev,
                libcanberra-gtk3-dev (>= 0.26),
@@ -78,7 +79,7 @@ Description: Common files for the Cheese tool to take pictures and videos
  .
  This package contains the common files and translations.
 
-Package: libcheese-gtk21
+Package: libcheese-gtk23
 Architecture: any
 Section: libs
 Depends: ${shlibs:Depends},
@@ -98,12 +99,12 @@ Description: tool to take pictures and videos from your webcam - widgets
 Package: libcheese-gtk-dev
 Architecture: any
 Section: libdevel
-Depends: libcheese-gtk21 (= ${binary:Version}),
+Depends: libcheese-gtk23 (= ${binary:Version}),
          libcheese-dev (= ${binary:Version}),
          libglib2.0-dev (>= 2.28.0),
-         libgtk-3-dev (>= 2.99.4),
-         libgstreamer0.10-dev (>= 0.10.32),
-         libgstreamer-plugins-base0.10-dev (>= 0.10.32),
+         libgtk-3-dev (>= 3.4.4),
+         libgstreamer1.0-dev (>= 0.11.0),
+         libgstreamer-plugins-base1.0-dev (>= 0.11.0),
          libclutter-gtk-1.0-dev (>= 0.91.8),
          libcanberra-gtk3-dev (>= 0.26),
          ${misc:Depends}
@@ -117,16 +118,16 @@ Description: tool to take pictures and videos from your webcam - widgets dev
  .
  This package contains the GTK+ development headers.
 
-Package: libcheese3
+Package: libcheese7
 Architecture: any
 Section: libs
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          cheese-common (= ${source:Version}),
-         gstreamer0.10-plugins-base (>= 0.10.23),
-         gstreamer0.10-plugins-good (>= 0.10.23),
-         gstreamer0.10-plugins-bad,
-         gstreamer0.10-x
+         gstreamer1.0-plugins-base (>= 0.11.0),
+         gstreamer1.0-plugins-good (>= 0.11.0),
+         gstreamer1.0-plugins-bad,
+         gstreamer1.0-x
 Pre-Depends: ${misc:Pre-Depends}
 Multi-Arch: same
 Description: tool to take pictures and videos from your webcam - base library
@@ -141,13 +142,13 @@ Description: tool to take pictures and videos from your webcam - base library
 Package: libcheese-dev
 Architecture: any
 Section: libdevel
-Depends: libcheese3 (= ${binary:Version}),
+Depends: libcheese7 (= ${binary:Version}),
          gir1.2-cheese-3.0 (= ${binary:Version}),
          libglib2.0-dev (>= 2.28.0),
-         libclutter-1.0-dev (>= 1.6.1),
-         libgstreamer0.10-dev (>= 0.10.32),
-         libgstreamer-plugins-base0.10-dev (>= 0.10.32),
-         libclutter-gst-dev (>= 1.0.0),
+         libclutter-1.0-dev (>= 1.10.0),
+         libgstreamer1.0-dev (>= 0.11.0),
+         libgstreamer-plugins-base1.0-dev (>= 0.11.0),
+         libclutter-gst-2.0-dev (>= 1.9.0),
          libgdk-pixbuf2.0-dev,
          ${misc:Depends}
 Suggests: libcheese-doc
