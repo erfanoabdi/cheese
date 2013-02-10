@@ -45,7 +45,7 @@ Package: cheese
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         cheese-common (= ${source:Version}),
+         cheese-common (>= 3.4),
          gnome-video-effects
 Recommends: gvfs,
             gnome-icon-theme,
@@ -79,7 +79,7 @@ Architecture: any
 Section: libs
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         cheese-common (= ${source:Version})
+         cheese-common (>= 3.4)
 Pre-Depends: ${misc:Pre-Depends}
 Multi-Arch: same
 Description: tool to take pictures and videos from your webcam - widgets
@@ -118,7 +118,7 @@ Architecture: any
 Section: libs
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         cheese-common (= ${source:Version}),
+         cheese-common (>= 3.4),
          gstreamer1.0-plugins-base (>= 0.11.0),
          gstreamer1.0-plugins-good (>= 0.11.0),
          gstreamer1.0-plugins-bad,

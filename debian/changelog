@@ -1,3 +1,11 @@
+cheese (3.6.2-1) experimental; urgency=low
+
+  * New upstream release
+  * debian/control.in: Loosen dependency on cheese-common to 3.4 to allow
+    libcheese* from unstable & experimental to be installed at the same time
+
+ -- Sjoerd Simons <sjoerd@debian.org>  Sun, 10 Feb 2013 13:38:05 +0100
+
 cheese (3.6.1-1) experimental; urgency=low
 
   [ Simon McVittie ]
