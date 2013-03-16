@@ -1,3 +1,10 @@
+cheese (3.7.91-1) experimental; urgency=low
+
+  * New upstream release
+  * Bump clutter to help with the cogl transition
+
+ -- Sjoerd Simons <sjoerd@debian.org>  Sat, 16 Mar 2013 09:17:15 +0100
+
 cheese (3.6.2-1) experimental; urgency=low
 
   * New upstream release
