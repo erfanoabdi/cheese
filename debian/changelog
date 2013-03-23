@@ -1,8 +1,8 @@
-cheese (3.7.92-1) UNRELEASED; urgency=low
+cheese (3.7.92-1) experimental; urgency=low
 
   * New upstream release
 
- -- Sjoerd Simons <sjoerd@debian.org>  Sat, 23 Mar 2013 12:39:00 +0100
+ -- Sjoerd Simons <sjoerd@debian.org>  Sat, 23 Mar 2013 12:47:14 +0100
 
 cheese (3.7.91-1) experimental; urgency=low
 
