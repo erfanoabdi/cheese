@@ -1,8 +1,9 @@
-cheese (3.8.0-1) UNRELEASED; urgency=low
+cheese (3.8.0-1) experimental; urgency=low
 
+  [ Thomas Bechtold ]
   * New upstream release.
 
- -- Thomas Bechtold <thomasbechtold@jpberlin.de>  Tue, 26 Mar 2013 19:56:46 +0100
+ -- Laurent Bigonville <bigon@debian.org>  Mon, 01 Apr 2013 16:49:19 +0200
 
 cheese (3.7.92-1) experimental; urgency=low
 
