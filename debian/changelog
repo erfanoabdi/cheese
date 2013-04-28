@@ -1,3 +1,11 @@
+cheese (3.8.1-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+  * debian/control.in:
+    - Drop build-depends on libgee-dev
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Sat, 27 Apr 2013 10:54:00 -0400
+
 cheese (3.8.0-1) experimental; urgency=low
 
   [ Thomas Bechtold ]

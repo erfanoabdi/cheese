@@ -2,7 +2,6 @@
 # 
 # Modifications should be made to debian/control.in instead.
 # This file is regenerated automatically in the clean target.
-
 Source: cheese
 Section: gnome
 Priority: optional
@@ -35,7 +34,6 @@ Build-Depends: cdbs (>= 0.4.93~),
                libclutter-1.0-dev (>= 1.13.0),
                libclutter-gtk-1.0-dev (>= 1.4.0),
                libclutter-gst-2.0-dev (>= 1.9.0),
-               libgee-dev (>= 0.6.0),
                x11proto-core-dev,
                libcanberra-gtk3-dev (>= 0.26),
                gnome-video-effects-dev,
