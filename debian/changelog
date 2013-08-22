@@ -1,10 +1,14 @@
 cheese (3.8.2-1) UNRELEASED; urgency=low
 
+  [ Jeremy Bicha ]
   * New upstream release.
   * debian/control.in:
     - Drop build-depends on libgee-dev
     - Drop alternate build-depends on valac-0.18 since it's no longer
       in Debian
+
+  [ Michael Biebl ]
+  * Upload to unstable.
 
  -- Jeremy Bicha <jbicha@ubuntu.com>  Sat, 27 Apr 2013 10:54:00 -0400
 
