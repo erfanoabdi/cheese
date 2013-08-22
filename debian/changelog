@@ -1,3 +1,59 @@
+cheese (3.8.2-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+  * debian/control.in:
+    - Drop build-depends on libgee-dev
+    - Drop alternate build-depends on valac-0.18 since it's no longer
+      in Debian
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Sat, 27 Apr 2013 10:54:00 -0400
+
+cheese (3.8.0-1) experimental; urgency=low
+
+  [ Thomas Bechtold ]
+  * New upstream release.
+
+ -- Laurent Bigonville <bigon@debian.org>  Mon, 01 Apr 2013 16:49:19 +0200
+
+cheese (3.7.92-1) experimental; urgency=low
+
+  * New upstream release
+
+ -- Sjoerd Simons <sjoerd@debian.org>  Sat, 23 Mar 2013 12:47:14 +0100
+
+cheese (3.7.91-1) experimental; urgency=low
+
+  * New upstream release
+  * Bump clutter to help with the cogl transition
+
+ -- Sjoerd Simons <sjoerd@debian.org>  Sat, 16 Mar 2013 09:17:15 +0100
+
+cheese (3.6.2-1) experimental; urgency=low
+
+  * New upstream release
+  * debian/control.in: Loosen dependency on cheese-common to 3.4 to allow
+    libcheese* from unstable & experimental to be installed at the same time
+
+ -- Sjoerd Simons <sjoerd@debian.org>  Sun, 10 Feb 2013 13:38:05 +0100
+
+cheese (3.6.1-1) experimental; urgency=low
+
+  [ Simon McVittie ]
+  * Bump versioned build-dependencies on GLib, Gtk and gnome-desktop3
+    to force use of the versions in experimental
+  * New upstream release (LP: #1045549, LP: #1034615)
+    - uses GStreamer 1.0
+    - no longer uses libmx
+    - new SONAMEs for libraries
+    - packaging loosely based on Ubuntu's 3.6.0-0ubuntu1; thanks to Jeremy
+      Bicha, Robert Ancell, Rico Tzschichholz, Martin Pitt,
+      Andrew Starr-Bochicchio
+
+  [ Sjoerd Simons ]
+  * Upload to Debian (Closes: #690852)
+
+ -- Sjoerd Simons <sjoerd@debian.org>  Sat, 20 Oct 2012 16:38:21 +0200
+
 cheese (3.4.2-2) unstable; urgency=low
 
   [ Jeremy Bicha ]
