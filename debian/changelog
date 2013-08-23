@@ -1,4 +1,4 @@
-cheese (3.8.2-1) UNRELEASED; urgency=low
+cheese (3.8.3-1) UNRELEASED; urgency=low
 
   [ Jeremy Bicha ]
   * New upstream release.
@@ -12,6 +12,8 @@ cheese (3.8.2-1) UNRELEASED; urgency=low
   * Drop 99_ltmain_as-needed.patch since we are running autoreconf with the
     --as-needed argument.
   * Bump Standards-Version to 3.9.4. No further changes.
+  * Revert the changes in 3.6.1-1 which bumped the build-dependencies to force
+    the use of the versions in experimental.
 
  -- Jeremy Bicha <jbicha@ubuntu.com>  Sat, 27 Apr 2013 10:54:00 -0400
 
