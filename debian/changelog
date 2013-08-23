@@ -14,6 +14,8 @@ cheese (3.8.3-1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.9.4. No further changes.
   * Revert the changes in 3.6.1-1 which bumped the build-dependencies to force
     the use of the versions in experimental.
+  * Revert the changes in 3.6.2-1. We want a strict dependency on
+    cheese-common for the gsettings schema.
 
  -- Jeremy Bicha <jbicha@ubuntu.com>  Sat, 27 Apr 2013 10:54:00 -0400
 
