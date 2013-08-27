@@ -1,4 +1,4 @@
-cheese (3.8.3-1) UNRELEASED; urgency=low
+cheese (3.8.3-1) unstable; urgency=low
 
   [ Jeremy Bicha ]
   * New upstream release.
@@ -17,7 +17,7 @@ cheese (3.8.3-1) UNRELEASED; urgency=low
   * Revert the changes in 3.6.2-1. We want a strict dependency on
     cheese-common for the gsettings schema.
 
- -- Jeremy Bicha <jbicha@ubuntu.com>  Sat, 27 Apr 2013 10:54:00 -0400
+ -- Michael Biebl <biebl@debian.org>  Tue, 27 Aug 2013 11:07:57 +0200
 
 cheese (3.8.0-1) experimental; urgency=low
 
