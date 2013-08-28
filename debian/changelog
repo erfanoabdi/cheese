@@ -1,3 +1,16 @@
+cheese (3.8.3-2) UNRELEASED; urgency=low
+
+  * debian/patches/fix-help-license.patch:
+    - Backport clarification that the help files are licensed CC-BY-SA 3.0
+  * debian/patches/fix-um-crop-license.patch:
+    - Backport relicensing of this file as GPL-2+ instead of GPL-3+
+  * debian/copyright:
+    - Updated and converted to the 1.0 copyright format
+  * debian/control.in:
+    - Suggest gnome-video-effects-frei0r
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Wed, 28 Aug 2013 14:03:15 -0400
+
 cheese (3.8.3-1) unstable; urgency=low
 
   [ Jeremy Bicha ]
