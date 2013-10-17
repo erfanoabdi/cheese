@@ -1,5 +1,6 @@
-cheese (3.8.3-2) UNRELEASED; urgency=low
+cheese (3.10.1-1) unstable; urgency=low
 
+  [ Jeremy Bicha ]
   * debian/patches/fix-help-license.patch:
     - Backport clarification that the help files are licensed CC-BY-SA 3.0
   * debian/patches/fix-um-crop-license.patch:
@@ -9,7 +10,14 @@ cheese (3.8.3-2) UNRELEASED; urgency=low
   * debian/control.in:
     - Suggest gnome-video-effects-frei0r
 
- -- Jeremy Bicha <jbicha@ubuntu.com>  Wed, 28 Aug 2013 14:03:15 -0400
+  [ Andreas Henriksson ]
+  * New upstream release.
+  * Bump build-dependencies according to configure.ac:
+    - libglib2.0-dev to >= 2.32.0
+    - libclutter-1.0-dev to >= 1.13.2
+  * Drop debian/patches: now included in upstream release.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Thu, 17 Oct 2013 16:29:42 +0200
 
 cheese (3.8.3-1) unstable; urgency=low
 
