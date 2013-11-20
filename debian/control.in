@@ -119,6 +119,7 @@ Section: libs
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          cheese-common (= ${source:Version}),
+         gstreamer1.0-clutter,
          gstreamer1.0-plugins-base (>= 0.11.0),
          gstreamer1.0-plugins-good (>= 0.11.0),
          gstreamer1.0-plugins-bad,

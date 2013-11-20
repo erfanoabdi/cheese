@@ -1,3 +1,9 @@
+cheese (3.10.1-1sid1) unstable; urgency=low
+
+  * Depend on gstreamer1.0-clutter for cluttervideosink (Closes: #729253)
+
+ -- Andreas Henriksson <andreas@fatal.se>  Tue, 12 Nov 2013 20:43:25 +0100
+
 cheese (3.10.1-1) unstable; urgency=low
 
   [ Jeremy Bicha ]
