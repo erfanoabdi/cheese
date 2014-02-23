@@ -1,3 +1,21 @@
+cheese (3.11.90-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+  * Bump build-dependencies according to configure.ac changes:
+    - gtk+ 3.10.0, valac 0.22, glib 2.38.0
+  * Add build-dependency on appdata-tools
+    - needed because of m4 macro usage.
+  * Update homepage url.
+  * No longer install usr/share/cheese in cheese-common
+    - resource files are now embedded in binary using gresource
+  * Add three new symbols to debian/libcheese-gtk23.symbols
+  * Dropped one unused linux-only symbol from debian/libcheese7.symbols
+  * Install usr/share/appdata/cheese.appdata.xml in cheese
+  * Install cheese-avatar-widget.h and cheese-resource.h in libcheese-dev
+  * Bump Standards-Version to 3.9.5
+
+ -- Andreas Henriksson <andreas@fatal.se>  Sun, 23 Feb 2014 23:15:24 +0100
+
 cheese (3.10.1-3) experimental; urgency=low
 
   * Also build against G3.10 gnome-desktop
