@@ -1,8 +1,40 @@
-cheese (3.10.1-1sid1) unstable; urgency=low
+cheese (3.12.0-1) unstable; urgency=medium
 
-  * Depend on gstreamer1.0-clutter for cluttervideosink (Closes: #729253)
+  * New upstream release.
+  * Revert changes done in 3.10.1-3
+    - i.e. lower gnome-desktop build-dependency again.
 
- -- Andreas Henriksson <andreas@fatal.se>  Tue, 12 Nov 2013 20:43:25 +0100
+ -- Andreas Henriksson <andreas@fatal.se>  Wed, 02 Apr 2014 21:39:33 +0200
+
+cheese (3.11.91-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump build-dependencies according to configure.ac changes:
+    - gtk+ 3.10.0, valac 0.22, glib 2.38.0
+  * Add build-dependency on appdata-tools
+    - needed because of m4 macro usage.
+  * Update homepage url.
+  * No longer install usr/share/cheese in cheese-common
+    - resource files are now embedded in binary using gresource
+  * Add three new symbols to debian/libcheese-gtk23.symbols
+  * Dropped one unused linux-only symbol from debian/libcheese7.symbols
+  * Install usr/share/appdata/cheese.appdata.xml in cheese
+  * Install cheese-avatar-widget.h and cheese-resource.h in libcheese-dev
+  * Bump Standards-Version to 3.9.5
+
+ -- Andreas Henriksson <andreas@fatal.se>  Mon, 03 Mar 2014 22:07:51 +0100
+
+cheese (3.10.1-3) experimental; urgency=low
+
+  * Also build against G3.10 gnome-desktop
+
+ -- Sjoerd Simons <sjoerd@debian.org>  Wed, 06 Nov 2013 21:24:08 +0100
+
+cheese (3.10.1-2) experimental; urgency=low
+
+  * Build against new clutter
+
+ -- Sjoerd Simons <sjoerd@debian.org>  Sun, 03 Nov 2013 23:32:29 +0100
 
 cheese (3.10.1-1) unstable; urgency=low
 

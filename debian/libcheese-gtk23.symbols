@@ -2,6 +2,9 @@ libcheese-gtk.so.23 libcheese-gtk23 #MINVER#
  cheese_avatar_chooser_get_picture@Base 3.0.1
  cheese_avatar_chooser_get_type@Base 3.0.1
  cheese_avatar_chooser_new@Base 3.0.1
+ cheese_avatar_widget_get_picture@Base 3.11.90
+ cheese_avatar_widget_get_type@Base 3.11.90
+ cheese_avatar_widget_new@Base 3.11.90
  cheese_flash_fire@Base 3.0.1
  cheese_flash_get_type@Base 3.0.1
  cheese_flash_new@Base 3.0.1
