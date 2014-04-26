@@ -1,3 +1,11 @@
+cheese (3.12.1-1) experimental; urgency=medium
+
+  * New upstream translation release.
+  * Rebuild against new gnome-desktop.
+  * Bump gnome-desktop build-dependency accordingly.
+
+ -- Josselin Mouette <joss@debian.org>  Sat, 26 Apr 2014 10:29:08 +0200
+
 cheese (3.12.0-1) unstable; urgency=medium
 
   * New upstream release.
