@@ -1,4 +1,4 @@
-cheese (3.12.1-2) UNRELEASED; urgency=medium
+cheese (3.12.2-1) UNRELEASED; urgency=medium
 
   [ Josselin Mouette ]
   * Bump glib build-dependency to 2.39.90.
@@ -6,6 +6,7 @@ cheese (3.12.1-2) UNRELEASED; urgency=medium
   [ Andreas Henriksson ]
   * libcheese-gtk23: depend on gstreamer1.0-clutter (Closes: #729253)
     - uses cluttervideosink
+  * New upstream release.
 
  -- Andreas Henriksson <andreas@fatal.se>  Fri, 16 May 2014 18:55:15 +0200
 
