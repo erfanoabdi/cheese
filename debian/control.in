@@ -80,6 +80,7 @@ Architecture: any
 Section: libs
 Depends: ${shlibs:Depends},
          ${misc:Depends},
+         gstreamer1.0-clutter,
          cheese-common (= ${source:Version})
 Pre-Depends: ${misc:Pre-Depends}
 Multi-Arch: same
