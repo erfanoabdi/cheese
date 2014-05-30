@@ -7,7 +7,7 @@ Source: cheese
 Section: gnome
 Priority: optional
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Uploaders: Andreas Henriksson <andreas@fatal.se>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>
+Uploaders: Andreas Henriksson <andreas@fatal.se>, Josselin Mouette <joss@debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>
 Standards-Version: 3.9.5
 Homepage: https://wiki.gnome.org/Apps/Cheese
 Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/cheese/
@@ -21,7 +21,7 @@ Build-Depends: cdbs (>= 0.4.93~),
                gtk-doc-tools (>= 1.14),
                intltool (>= 0.50.0),
                rarian-compat,
-               valac (>= 0.22),
+               valac (>= 0.23.3),
                libglib2.0-dev (>= 2.39.90),
                libgdk-pixbuf2.0-dev,
                libgtk-3-dev (>= 3.10.0),
