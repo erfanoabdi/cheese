@@ -1,16 +1,16 @@
-cheese (3.12.2-1) UNRELEASED; urgency=medium
-
-  [ Laurent Bigonville ]
-  * debian/control.in: Bump libglib2.0-dev build-dependency to >= 2.39.90
+cheese (3.12.2-1) unstable; urgency=medium
 
   [ Josselin Mouette ]
-  * Relax gnome-desktop dependencies again.
+  * Bump glib build-dependency to 2.39.90.
 
-  [ Jean Schurger ]
-  * New upstream version.
-  * debian/control.in: Bump valac build-dependency to >= 0.23.3
+  [ Andreas Henriksson ]
+  * libcheese-gtk23: depend on gstreamer1.0-clutter (Closes: #729253)
+    - uses cluttervideosink
+  * New upstream release.
+  * Bump valac build-dependency to >= 0.23.3
+  * Upload to unstable.
 
- -- Jean Schurger <jean@schurger.org>  Fri, 30 May 2014 12:52:53 -0400
+ -- Andreas Henriksson <andreas@fatal.se>  Tue, 15 Jul 2014 12:59:01 +0200
 
 cheese (3.12.1-1) experimental; urgency=medium
 
@@ -19,7 +19,6 @@ cheese (3.12.1-1) experimental; urgency=medium
   * Bump gnome-desktop build-dependency accordingly.
 
  -- Josselin Mouette <joss@debian.org>  Sat, 26 Apr 2014 10:29:08 +0200
-
 
 cheese (3.12.0-1) unstable; urgency=medium
 
