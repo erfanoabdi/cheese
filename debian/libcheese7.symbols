@@ -1,4 +1,6 @@
 libcheese.so.7 libcheese7 #MINVER#
+ __gcov_rewrite@Base 3.13.90.1
+ __gcov_var@Base 3.13.90.1
  cheese_camera_cat@Base 3.0.1
  cheese_camera_connect_effect_texture@Base 3.0.1
  cheese_camera_device_cat@Base 3.0.1
