@@ -1,6 +1,4 @@
 libcheese.so.7 libcheese7 #MINVER#
- __gcov_rewrite@Base 3.13.90.1
- __gcov_var@Base 3.13.90.1
  cheese_camera_cat@Base 3.0.1
  cheese_camera_connect_effect_texture@Base 3.0.1
  cheese_camera_device_cat@Base 3.0.1
@@ -17,7 +15,6 @@ libcheese.so.7 libcheese7 #MINVER#
  cheese_camera_device_monitor_error_quark@Base 3.0.1
  cheese_camera_device_monitor_get_type@Base 3.0.1
  cheese_camera_device_monitor_new@Base 3.0.1
-#MISSING: 3.11.90-1# (arch=linux-any)cheese_camera_device_monitor_set_up_device@Base 3.4.0
  cheese_camera_device_new@Base 3.0.1
  cheese_camera_error_quark@Base 3.0.1
  cheese_camera_get_balance_property_range@Base 3.0.1
