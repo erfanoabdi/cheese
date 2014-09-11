@@ -1,9 +1,9 @@
-cheese (3.13.90.1-1) UNRELEASED; urgency=medium
+cheese (3.13.90.1-1) experimental; urgency=medium
 
   * New upstream release
   * debian/control.in: b-d on vala (>= 0.25.4)
 
- -- Sjoerd Simons <sjoerd@debian.org>  Sun, 07 Sep 2014 16:03:29 +0200
+ -- Sjoerd Simons <sjoerd@debian.org>  Thu, 11 Sep 2014 21:45:32 +0200
 
 cheese (3.12.2-1) unstable; urgency=medium
 
