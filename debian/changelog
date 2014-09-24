@@ -5,6 +5,7 @@ cheese (3.14.0-1) unstable; urgency=medium
     - we don't have appstream-glib in Debian yet...
   * Add debian/patches/using-fmod-link-libm.patch
     - libcheese-gtk now uses fmod and needs to link with libm
+  * debian/cheese.install: Ship gnome-camera-service and dbus services files
   * Upload to unstable.
 
  -- Andreas Henriksson <andreas@fatal.se>  Wed, 24 Sep 2014 16:50:11 +0200
