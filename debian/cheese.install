@@ -1,4 +1,6 @@
 usr/bin
 usr/share/applications
 usr/share/man
-usr/share/appdata/cheese.appdata.xml
+usr/share/appdata/*.appdata.xml
+usr/share/dbus-1/services/*.service
+usr/lib/cheese/gnome-camera-service
