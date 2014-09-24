@@ -16,13 +16,12 @@ to find the fmod function.
  
 --- a/configure.ac
 +++ b/configure.ac
-@@ -24,6 +24,10 @@
+@@ -24,6 +24,9 @@
  LT_PREREQ([2.2])
  LT_INIT([disable-static])
  
 +# Find an appropriate libm, for fmod()
 +LT_LIB_M
-+AC_SUBST(LIBM)
 +
  PKG_PROG_PKG_CONFIG([0.24])
  
