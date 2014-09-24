@@ -1,1 +1,2 @@
-#99_ltmain_as-needed.patch
+using-fmod-link-libm.patch
+revert-appstream-usage.patch

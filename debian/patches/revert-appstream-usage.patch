@@ -1,0 +1,43 @@
+From: Andreas Henriksson <andreas@fatal.se>
+Subject: Revert back to using appdata
+
+This reverts upstream commit
+"Use APPSTREAM_XML instead of APPDATA_XML"
+
+
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -361,10 +361,10 @@ desktopdir = $(datadir)/applications
+ desktop_in_files = data/org.gnome.Cheese.desktop.in
+ desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
+ 
+-@APPSTREAM_XML_RULES@
++@APPDATA_XML_RULES@
+ @INTLTOOL_XML_RULE@
+-appstream_in_files = data/org.gnome.Cheese.appdata.xml.in
+-appstream_XML = $(appstream_in_files:.appdata.xml.in=.appdata.xml)
++appdata_in_files = data/org.gnome.Cheese.appdata.xml.in
++appdata_XML = $(appdata_in_files:.appdata.xml.in=.appdata.xml)
+ 
+ servicedir = $(datadir)/dbus-1/services
+ service_DATA = \
+@@ -537,7 +537,7 @@ dist_noinst_DATA = \
+ 	$(gsettings_SCHEMAS) \
+ 	$(noinst_gnome_camera_service_headers) \
+ 	$(noinst_resource_files) \
+-	$(appstream_in_files) \
++	$(appdata_in_files) \
+ 	data/org.gnome.Cheese.gresource.xml \
+ 	data/org.gnome.Camera.xml \
+ 	build-aux/test-driver \
+--- a/configure.ac
++++ b/configure.ac
+@@ -200,7 +200,7 @@ AM_CONDITIONAL([ENABLE_MAN], [test "x$have_manutils" = "xyes"])
+ YELP_HELP_INIT
+ 
+ # AppData
+-APPSTREAM_XML
++APPDATA_XML
+ 
+ GLIB_GSETTINGS
+ #*******************************************************************************
