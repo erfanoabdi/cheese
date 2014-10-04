@@ -38,7 +38,7 @@ Build-Depends: cdbs (>= 0.4.93~),
                libxtst-dev,
                libgudev-1.0-dev [linux-any],
                pkg-config (>= 0.24),
-               appdata-tools,
+               appstream-util,
                yelp-tools
 
 Package: cheese
