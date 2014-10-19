@@ -1,9 +1,12 @@
-cheese (3.14.0-2) UNRELEASED; urgency=medium
+cheese (3.14.1-1) UNRELEASED; urgency=medium
 
+  * New upstream release.
+    - Drop debian/patches/using-fmod-link-libm.patch: Applied upstream
   * Drop debian/patches/revert-appstream-usage.patch and build-depend against
     appstream-util
+  * debian/control.in: Bump Standards-Version to 3.9.6 (no further changes)
 
- -- Laurent Bigonville <bigon@debian.org>  Sat, 04 Oct 2014 19:57:23 +0200
+ -- Laurent Bigonville <bigon@debian.org>  Sun, 19 Oct 2014 20:31:11 +0200
 
 cheese (3.14.0-1) unstable; urgency=medium
 
