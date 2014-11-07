@@ -1,10 +1,10 @@
-cheese (3.14.1-2) UNRELEASED; urgency=medium
+cheese (3.14.1-2) unstable; urgency=medium
 
   * debian/patches/substitute-bindir-and-libexecdir.patch:
     + Substitute @bindir@ and @libexecdir@ in service files. Fixes
       launching cheese from the shell. Closes: #765513.
 
- -- Emilio Pozuelo Monfort <pochu@debian.org>  Fri, 07 Nov 2014 12:00:30 +0100
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Fri, 07 Nov 2014 12:37:43 +0100
 
 cheese (3.14.1-1) unstable; urgency=medium
 
