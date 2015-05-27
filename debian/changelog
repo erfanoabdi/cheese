@@ -3,6 +3,7 @@ cheese (3.16.1-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Drop debian/patches/substitute-bindir-and-libexecdir.patch, merged
     upstream.
+  * Drop obsolete Breaks/Replaces from pre-wheezy.
 
  -- Michael Biebl <biebl@debian.org>  Wed, 27 May 2015 02:09:54 +0200
 
