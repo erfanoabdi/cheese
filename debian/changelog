@@ -5,6 +5,7 @@ cheese (3.16.1-1) UNRELEASED; urgency=medium
     upstream.
   * Drop obsolete Breaks/Replaces from pre-wheezy.
   * Install typelib files into multiarch paths.
+  * Mark gir and dev packages as Multi-Arch: same.
 
  -- Michael Biebl <biebl@debian.org>  Wed, 27 May 2015 02:09:54 +0200
 

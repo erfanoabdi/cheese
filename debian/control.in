@@ -75,13 +75,13 @@ Description: Common files for the Cheese tool to take pictures and videos
 
 Package: libcheese-gtk23
 Architecture: any
+Multi-Arch: same
 Section: libs
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          gstreamer1.0-clutter,
          cheese-common (= ${source:Version})
 Pre-Depends: ${misc:Pre-Depends}
-Multi-Arch: same
 Description: tool to take pictures and videos from your webcam - widgets
  A webcam application that supports image and video capture. Makes
  it easy to take photos and videos of you, your friends, pets or whatever
@@ -93,6 +93,7 @@ Description: tool to take pictures and videos from your webcam - widgets
 
 Package: libcheese-gtk-dev
 Architecture: any
+Multi-Arch: same
 Section: libdevel
 Depends: libcheese-gtk23 (= ${binary:Version}),
          libcheese-dev (= ${binary:Version}),
@@ -115,6 +116,7 @@ Description: tool to take pictures and videos from your webcam - widgets dev
 
 Package: libcheese7
 Architecture: any
+Multi-Arch: same
 Section: libs
 Depends: ${shlibs:Depends},
          ${misc:Depends},
@@ -124,7 +126,6 @@ Depends: ${shlibs:Depends},
          gstreamer1.0-plugins-bad,
          gstreamer1.0-x
 Pre-Depends: ${misc:Pre-Depends}
-Multi-Arch: same
 Description: tool to take pictures and videos from your webcam - base library
  A webcam application that supports image and video capture. Makes
  it easy to take photos and videos of you, your friends, pets or whatever
@@ -136,6 +137,7 @@ Description: tool to take pictures and videos from your webcam - base library
 
 Package: libcheese-dev
 Architecture: any
+Multi-Arch: same
 Section: libdevel
 Depends: libcheese7 (= ${binary:Version}),
          gir1.2-cheese-3.0 (= ${binary:Version}),
@@ -172,6 +174,7 @@ Description: tool to take pictures and videos from your webcam - documentation
 
 Package: gir1.2-cheese-3.0
 Architecture: any
+Multi-Arch: same
 Section: introspection
 Depends: ${misc:Depends},
          ${gir:Depends}
