@@ -1,3 +1,9 @@
+cheese (3.16.1-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Michael Biebl <biebl@debian.org>  Wed, 27 May 2015 02:09:54 +0200
+
 cheese (3.14.1-2) unstable; urgency=medium
 
   * debian/patches/substitute-bindir-and-libexecdir.patch:
