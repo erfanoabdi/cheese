@@ -1,4 +1,4 @@
-cheese (3.16.1-1) UNRELEASED; urgency=medium
+cheese (3.16.1-1) unstable; urgency=medium
 
   * New upstream release.
   * Drop debian/patches/substitute-bindir-and-libexecdir.patch, merged
@@ -7,7 +7,7 @@ cheese (3.16.1-1) UNRELEASED; urgency=medium
   * Install typelib files into multiarch paths.
   * Mark gir and dev packages as Multi-Arch: same.
 
- -- Michael Biebl <biebl@debian.org>  Wed, 27 May 2015 02:09:54 +0200
+ -- Michael Biebl <biebl@debian.org>  Wed, 27 May 2015 02:23:00 +0200
 
 cheese (3.14.1-2) unstable; urgency=medium
 
