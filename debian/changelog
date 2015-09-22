@@ -1,3 +1,16 @@
+cheese (3.18.0-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Update (build-)dependencies according to configure.ac changes:
+    - gstreamer-plugins-bad bumped to >= 1.4
+    - switch from clutter-gst-2.0 to clutter-gst-3.0
+  * Rename library packages for new bumped SONAMEs
+    - libcheese7 -> libcheese8
+    - libcheese-gtk23 -> libcheese-gtk25
+  * Update libcheese-gtk25.symbols and debian/libcheese8.symbols
+
+ -- Andreas Henriksson <andreas@fatal.se>  Tue, 22 Sep 2015 18:20:38 +0200
+
 cheese (3.16.1-1) unstable; urgency=medium
 
   * New upstream release.
