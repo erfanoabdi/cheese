@@ -1,6 +1,7 @@
 cheese (3.18.1-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Upload to unstable.
 
  -- Michael Biebl <biebl@debian.org>  Wed, 14 Oct 2015 18:57:35 +0200
 
