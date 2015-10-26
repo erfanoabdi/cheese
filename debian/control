@@ -83,7 +83,7 @@ Multi-Arch: same
 Section: libs
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         gstreamer1.0-clutter,
+         gstreamer1.0-clutter-3.0,
          cheese-common (= ${source:Version})
 Pre-Depends: ${misc:Pre-Depends}
 Description: tool to take pictures and videos from your webcam - widgets

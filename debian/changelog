@@ -1,3 +1,9 @@
+cheese (3.18.1-2) UNRELEASED; urgency=medium
+
+  * Depend on gstreamer1.0-clutter-3.0 rather than gstreamer1.0-clutter.
+
+ -- Emilio Pozuelo Monfort <pochu@debian.org>  Mon, 26 Oct 2015 20:23:44 +0100
+
 cheese (3.18.1-1) unstable; urgency=medium
 
   * New upstream release.
