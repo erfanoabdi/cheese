@@ -1,3 +1,12 @@
+cheese (3.20.0-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+  * Update build-dependencies according to configure.ac changes:
+    - drop libgudev-1.0-dev [linux-any]
+  * Bump Standards-Version to 3.9.7
+
+ -- Andreas Henriksson <andreas@fatal.se>  Fri, 25 Mar 2016 13:02:49 +0100
+
 cheese (3.18.1-2) unstable; urgency=medium
 
   * Depend on gstreamer1.0-clutter-3.0 rather than gstreamer1.0-clutter.
