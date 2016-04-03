@@ -1,4 +1,4 @@
-cheese (3.20.0-1) UNRELEASED; urgency=medium
+cheese (3.20.0-1) unstable; urgency=medium
 
   [ Andreas Henriksson ]
   * New upstream release.
@@ -9,7 +9,7 @@ cheese (3.20.0-1) UNRELEASED; urgency=medium
   [ Michael Biebl ]
   * Remove obsolete --disable-scrollkeeper configure flag.
 
- -- Andreas Henriksson <andreas@fatal.se>  Fri, 25 Mar 2016 13:02:49 +0100
+ -- Michael Biebl <biebl@debian.org>  Sun, 03 Apr 2016 14:47:11 +0200
 
 cheese (3.18.1-2) unstable; urgency=medium
 
