@@ -1,11 +1,11 @@
-cheese (3.20.1-1) UNRELEASED; urgency=medium
+cheese (3.20.1-1) unstable; urgency=medium
 
   * New upstream release.
   * Use DEB_DH_MAKESHLIBS_ARGS_ALL to pass additional arguments to
     dh_makeshlibs. This avoids having to update the library names on every
     soname bump.
 
- -- Michael Biebl <biebl@debian.org>  Sat, 16 Apr 2016 03:42:20 +0200
+ -- Michael Biebl <biebl@debian.org>  Sat, 16 Apr 2016 03:52:27 +0200
 
 cheese (3.20.0-1) unstable; urgency=medium
 
