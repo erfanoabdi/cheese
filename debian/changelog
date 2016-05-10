@@ -1,6 +1,7 @@
 cheese (3.20.2-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Bump Standards-Version to 3.9.8.
 
  -- Michael Biebl <biebl@debian.org>  Tue, 10 May 2016 15:44:45 +0200
 
