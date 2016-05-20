@@ -51,8 +51,6 @@ Depends: ${shlibs:Depends},
          cheese-common (= ${source:Version}),
          gnome-video-effects
 Recommends: gvfs,
-            gnome-icon-theme,
-            hicolor-icon-theme,
             nautilus-sendto,
             yelp
 Suggests: gnome-video-effects-frei0r
