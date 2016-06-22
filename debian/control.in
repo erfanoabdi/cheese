@@ -47,7 +47,6 @@ Depends: ${shlibs:Depends},
          cheese-common (= ${source:Version}),
          gnome-video-effects
 Recommends: gvfs,
-            nautilus-sendto,
             yelp
 Suggests: gnome-video-effects-frei0r
 Description: tool to take pictures and videos from your webcam

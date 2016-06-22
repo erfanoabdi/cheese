@@ -1,3 +1,10 @@
+cheese (3.20.2-3) UNRELEASED; urgency=medium
+
+  * debian/control.in: Don't recommend nautilus-sendto,
+    support for this feature was dropped in cheese 3.10
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Wed, 22 Jun 2016 15:46:17 -0400
+
 cheese (3.20.2-2) unstable; urgency=medium
 
   * debian/control.in: Drop gnome-icon-theme from the dependencies, do not
