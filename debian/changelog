@@ -6,6 +6,7 @@ cheese (3.21.3-1) UNRELEASED; urgency=medium
 
   [ Michael Biebl ]
   * New upstream release.
+  * Convert from cdbs to dh.
 
  -- Jeremy Bicha <jbicha@ubuntu.com>  Wed, 22 Jun 2016 15:46:17 -0400
 
