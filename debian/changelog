@@ -1,4 +1,4 @@
-cheese (3.21.3-1) UNRELEASED; urgency=medium
+cheese (3.21.3-1) unstable; urgency=medium
 
   [ Jeremy Bicha ]
   * debian/control.in: Don't recommend nautilus-sendto,
@@ -8,7 +8,7 @@ cheese (3.21.3-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Convert from cdbs to dh.
 
- -- Jeremy Bicha <jbicha@ubuntu.com>  Wed, 22 Jun 2016 15:46:17 -0400
+ -- Michael Biebl <biebl@debian.org>  Tue, 06 Sep 2016 22:17:09 +0200
 
 cheese (3.20.2-2) unstable; urgency=medium
 
