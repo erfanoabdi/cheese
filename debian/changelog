@@ -1,3 +1,9 @@
+cheese (3.21.92-1) unstable; urgency=medium
+
+  * New upstream beta release.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Tue, 13 Sep 2016 14:31:29 +0200
+
 cheese (3.21.3-1) unstable; urgency=medium
 
   [ Jeremy Bicha ]
