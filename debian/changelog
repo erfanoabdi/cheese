@@ -1,10 +1,10 @@
-cheese (3.22.0-1) UNRELEASED; urgency=medium
+cheese (3.22.0-1) unstable; urgency=medium
 
   * New upstream release.
   * Bump debhelper compat level to 10.
   * Use non-multiarch path (/usr/lib/cheese) for libexecdir.
 
- -- Michael Biebl <biebl@debian.org>  Tue, 20 Sep 2016 09:08:44 +0200
+ -- Michael Biebl <biebl@debian.org>  Tue, 20 Sep 2016 09:20:12 +0200
 
 cheese (3.21.92-1) unstable; urgency=medium
 
