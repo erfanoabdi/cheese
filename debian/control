@@ -11,8 +11,7 @@ Standards-Version: 3.9.8
 Homepage: https://wiki.gnome.org/Apps/Cheese
 Vcs-Browser: https://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/cheese/
 Vcs-Svn: svn://anonscm.debian.org/pkg-gnome/desktop/unstable/cheese/
-Build-Depends: debhelper (>= 9),
-               dh-autoreconf,
+Build-Depends: debhelper (>= 10),
                docbook-xsl,
                gnome-common,
                gnome-pkg-tools (>= 0.10),
