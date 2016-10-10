@@ -1,8 +1,8 @@
-cheese (3.22.1-1) UNRELEASED; urgency=medium
+cheese (3.22.1-1) unstable; urgency=medium
 
   * New upstream release.
 
- -- Michael Biebl <biebl@debian.org>  Tue, 11 Oct 2016 00:55:40 +0200
+ -- Michael Biebl <biebl@debian.org>  Tue, 11 Oct 2016 01:00:52 +0200
 
 cheese (3.22.0-1) unstable; urgency=medium
 
