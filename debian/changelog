@@ -1,4 +1,4 @@
-cheese (3.25.90-1) UNRELEASED; urgency=medium
+cheese (3.25.90-1) unstable; urgency=medium
 
   * New upstream release
   * debian/cheese.install:
