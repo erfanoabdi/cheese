@@ -1,6 +1,8 @@
 cheese (3.25.90-1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * debian/cheese.install:
+    gnome-camera-service has been removed in new release
 
  -- Jeremy Bicha <jbicha@ubuntu.com>  Tue, 29 Aug 2017 14:15:46 -0400
 
