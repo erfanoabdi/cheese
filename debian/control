@@ -6,7 +6,7 @@ Source: cheese
 Section: gnome
 Priority: optional
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Uploaders: Andreas Henriksson <andreas@fatal.se>, Emilio Pozuelo Monfort <pochu@debian.org>, Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>
+Uploaders: Emilio Pozuelo Monfort <pochu@debian.org>, Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>
 Standards-Version: 4.1.0
 Homepage: https://wiki.gnome.org/Apps/Cheese
 Vcs-Browser: https://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/cheese/
@@ -40,6 +40,8 @@ Build-Depends: debhelper (>= 10),
                libxtst-dev,
                pkg-config (>= 0.24),
                appstream-util,
+               xauth <!nocheck>,
+               xvfb <!nocheck>,
                yelp-tools
 
 Package: cheese

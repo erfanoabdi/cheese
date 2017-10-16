@@ -25,5 +25,6 @@ override_dh_clean:
 	rm -rf *vala.stamp
 	rm -rf src/*.c
 
-# Disable test-suite, requires a working GL/EGL environment
+# https://bugzilla.gnome.org/731009
 override_dh_auto_test:
+	-xvfb-run dh_auto_test

@@ -36,6 +36,8 @@ Build-Depends: debhelper (>= 10),
                libxtst-dev,
                pkg-config (>= 0.24),
                appstream-util,
+               xauth <!nocheck>,
+               xvfb <!nocheck>,
                yelp-tools
 
 Package: cheese
