@@ -1,6 +1,7 @@
 cheese (3.26.0-2) UNRELEASED; urgency=medium
 
   * debian/cheese.install: Adapt to new appstream metadata install location
+  * Add apport hook from Ubuntu
 
  -- Jeremy Bicha <jbicha@debian.org>  Thu, 16 Nov 2017 16:37:53 -0500
 
