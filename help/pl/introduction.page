@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="introduction" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index" group="#first"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.6" date="2012-05-09" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="final"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Wprowadzenie do programu <app>Cheese</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Wprowadzenie</title>
+
+  <p><app>Cheese</app> to program umożliwiający robienie zdjęć i nagrań wideo za pomocą kamery internetowej. Można robić kilka zdjęć jedno po drugim za pomocą <link xref="burst-mode">trybu <gui>seryjnego</gui></link> i zastosowywać <link xref="effects-apply"><gui>efekty</gui> specjalne</link>.</p>
+
+  <p>Domyślnie <app>Cheese</app> uruchamia się w trybie <gui>zdjęć</gui>, gotowy do <link xref="photo-take">zrobienia zdjęcia</link>. Przełączenie na tryb <gui>wideo</gui> umożliwia <link xref="video-record">nagranie wideo</link>.</p>
+
+  <p><app>Cheese</app> działa z większością kamer internetowych, chociaż niektóre starsze kamery mogą nie być obsługiwane.</p>
+
+</page>

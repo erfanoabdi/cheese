@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="burst-mode" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#main" group="#first"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-19" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2011, 2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Zrób kilka zdjęć jednym przyciśnięciem klawisza w trybie <gui>seryjnym</gui>. Pamiętaj o pozowaniu do każdego zdjęcia!</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Robienie zdjęć jedno po drugim</title>
+
+  <p>Można używać trybu <gui>seryjnego</gui> do automatycznego robienia kilku zdjęć pod rząd. Jest to szczególnie zabawne, jeśli do każdego zdjęcia pozuje się inaczej. Aby go użyć:</p>
+
+  <steps>
+    <item>
+      <p>Upewnij się, że program jest w trybie <gui>seryjnym</gui>. Przycisk <gui style="button">Zdjęcia seryjne</gui> po lewej stronie ekranu powinien być zaznaczony.</p>
+    </item>
+    <item>
+      <p>Kliknij przycisk <gui style="button">Zrób wiele zdjęć za pomocą kamery</gui> na środku dolnego panelu lub naciśnij <key>spację</key>, aby zacząć robić zdjęcia.</p>
+      <p>Domyślnie robione są cztery zdjęcia, z jednosekundowym opóźnieniem i odliczaniem między zdjęciami.</p>
+    </item>
+    <item>
+      <p>Aby zatrzymać nagrywanie, kliknij ten sam przycisk ponownie. Można też nacisnąć klawisz <key>Esc</key> lub <key>spację</key>.</p>
+    </item>
+  </steps>
+
+<section id="burst-preferences">
+  <title>Zmiana preferencji trybu <gui>seryjnego</gui></title>
+
+  <p>Można zmienić liczbę zdjęć robionych w każdej serii oraz długość opóźnienia między zdjęciami:</p>
+
+  <steps>
+    <item>
+      <p>Wybierz <guiseq><gui style="menu">Cheese</gui><gui style="menuitem">Preferencje</gui><gui style="tab">Robienie zdjęć</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Zmień ustawienia preferencji:</p>
+      <terms>
+        <item>
+          <title>Odliczanie</title>
+          <p>Odliczanie od trzech przed zrobieniem zdjęcia.</p>
+        </item>
+        <item>
+          <title>Lampa błyskowa</title>
+          <p>Ekran błyska podczas robienia zdjęcia.</p>
+        </item>
+        <item>
+          <title>Liczba zdjęć</title>
+          <p>Liczba zdjęć robionych w jednej serii.</p>
+        </item>
+        <item>
+          <title>Opóźnienie między zdjęciami (w sekundach)</title>
+          <p>Opóźnienie między dwoma zdjęciami. Jeśli włączono <gui>odliczanie</gui>, to opóźnienie musi być dłuższe niż cztery sekundy, aby miało jakiś efekt.</p>
+          <!--<p>The delay between the last photo and the start of the next
+          countdown. If <gui>Countdown</gui> is disabled, this is the delay
+          between photos.</p>-->
+        </item>
+      </terms>
+    </item>
+  </steps>
+
+</section>
+
+</page>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="video-record" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#main" group="#first"/>
+    <revision pkgversion="3.0" date="2011-08-25" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Używanie kamery do nagrywania krótkich filmów do dzielenia się ze znajomymi.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Nagrywanie wideo</title>
+
+  <p>Aby nagrać wideo za pomocą kamery:</p>
+
+  <steps>
+    <item>
+      <p>Upewnij się, że program jest w trybie <gui>wideo</gui>. Przycisk <gui style="button">Wideo</gui> po lewej stronie ekranu powinien być zaznaczony.</p>
+    </item>
+    <item>
+      <p>Kliknij przycisk <gui style="button">Nagraj wideo za pomocą kamery</gui> na środku dolnego panelu lub naciśnij <key>spację</key>, aby zacząć nagrywać wideo.</p>
+    </item>
+    <item>
+     <p>Aby zatrzymać nagrywanie, kliknij ten sam przycisk ponownie. Można też nacisnąć klawisz <key>Esc</key> lub <key>spację</key>.</p>
+    </item>
+  </steps>
+
+  <p>Nagrania wideo są zapisywane w formacie WebM (<file>.webm</file>).</p>
+
+  <p>Po zatrzymaniu nagrywania wideo automatycznie pojawi się na dole okna programu <app>Cheese</app>. Stąd można je <link xref="photo-view">otworzyć</link> lub usunąć.</p>
+
+  <p>Jeśli nagranie wideo udostępnione znajomym używającym innych systemów operacyjnych (np. Windows lub Mac OS) nie chce się odtwarzać, to być może trzeba <link href="help:gnome-help/video-sending">przekonwertować je na inny format</link>.</p>
+
+</page>

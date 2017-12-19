@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="effects-apply" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#main"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Dodaj zabawne efekty do zdjęć i nagrań wideo, na przykład kolorując się na zielono lub zniekształcając zdjęcie jak w krzywym zwierciadle.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Zastosowywanie efektów do zdjęć i nagrań wideo</title>
+
+  <p>Można zastosowywać zabawne, interesujące efekty do zdjęć i nagrań wideo:</p>
+
+  <steps>
+    <item>
+      <p>Kliknij przycisk <gui style="button">Efekty</gui>.</p>
+    </item>
+    <item>
+      <p>Wybierz efekt do użycia klikając go lub wybierz <gui>Bez efektów</gui>, aby nie używać żadnego.</p>
+    </item>
+  </steps>
+
+  <p><app>Cheese</app> zawiera 35 efektów, z których tylko 9 jest wyświetlanych na pierwszej stronie. Kliknij strzałki do tyłu i do przodu obok przycisku <gui style="button">Efekty</gui>, aby przejść do innych stron.</p>
+
+  <figure>
+    <title>Niektóre efekty, od lewej do prawej: sepia, zwariowany, sobel (pierwszy rząd), przebieg fali, rentgen, deformacja (drugi rząd)</title>
+    <media its:translate="no" type="image" src="figures/effects.png" width="529" height="264"/>
+  </figure>
+
+</page>
