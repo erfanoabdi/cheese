@@ -81,7 +81,6 @@ Depends: ${shlibs:Depends},
          ${misc:Depends},
          gstreamer1.0-clutter-3.0,
          cheese-common (>= ${source:Version})
-Pre-Depends: ${misc:Pre-Depends}
 Description: tool to take pictures and videos from your webcam - widgets
  A webcam application that supports image and video capture. Makes
  it easy to take photos and videos of you, your friends, pets or whatever
@@ -125,7 +124,6 @@ Depends: ${shlibs:Depends},
          gstreamer1.0-plugins-good (>= 0.11.0),
          gstreamer1.0-plugins-bad (>= 1.4),
          gstreamer1.0-x
-Pre-Depends: ${misc:Pre-Depends}
 Description: tool to take pictures and videos from your webcam - base library
  A webcam application that supports image and video capture. Makes
  it easy to take photos and videos of you, your friends, pets or whatever
@@ -160,6 +158,7 @@ Description: tool to take pictures and videos from your webcam - base dev
 
 Package: libcheese-doc
 Architecture: all
+Multi-Arch: foreign
 Section: doc
 Depends: ${misc:Depends}
 Suggests: devhelp
