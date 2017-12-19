@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="pref-image-properties" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#preferences"/>
+    <link type="guide" xref="index#problems"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Dostosowanie nasycenia, kontrastu, jasności i barwy, aby zdjęcia i nagrania wideo lepiej wyglądały.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Zdjęcia i nagrania wideo źle wyglądają</title>
+
+  <p>Jeśli zdjęcia i nagrania wideo są za ciemne lub kolory są niewłaściwe, spróbuj dostosować ich nasycenie, kontrast, jasność i barwę:</p>
+
+  <steps>
+    <item>
+      <p>Wybierz <guiseq><gui>Cheese</gui><gui>Preferencje</gui><gui>Obraz</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Przesuwaj suwaki, aby znaleźć najlepsze ustawienia dla kamery.</p>
+    </item>
+    <item>
+      <p>Kliknij przycisk <gui>Zamknij</gui>, aby zobaczyć, czy obraz wygląda lepiej.</p>
+    </item>
+  </steps>
+
+  <figure>
+    <title>Różne opcje we <gui>właściwościach obrazu</gui> (od lewej do prawej): jasność, kontrast, barwa i nasycenie</title>
+    <media its:translate="no" type="image" src="figures/image-properties.png" width="800" height="150"/>
+  </figure>
+
+  <terms>
+    <item>
+      <title>Jasność</title>
+      <p>Zwiększenie jasności sprawi, że zdjęcia i nagrania wideo będą jaśniejsze. W ciemnych pomieszczeniach zwiększenie jasności powoduje większą ziarnistość obrazu.</p>
+    </item>
+    <item>
+      <title>Kontrast</title>
+      <p>Ustawienie większego kontrastu zwiększy różnicę między ciemniejszymi a jaśniejszymi kolorami. Jeśli obraz wygląda na wyblakły, to można spróbować zwiększyć kontrast.</p>
+    </item>
+    <item>
+      <title>Barwa</title>
+      <p>To ustawienie dodaje kolory do obrazu. Jeśli ma on niewłaściwy kolor (na przykład jest zbyt żółty), spróbuj zmienić barwę.</p>
+    </item>
+    <item>
+      <title>Nasycenie</title>
+      <p>Zmniejszenie nasycenia zmniejsza kolory obrazu. Jeśli są one zbyt ostre, zmniejsz nasycenie.</p>
+    </item>
+  </terms>
+
+</page>

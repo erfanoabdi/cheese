@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="photo-save" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#main"/>
+    <revision pkgversion="3.0" date="2011-08-25" status="review"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Zapisywanie zdjęcia lub nagrania wideo do innego katalogu.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Zapisywanie zdjęcia lub nagrania wideo</title>
+
+  <p>Domyślnie Cheese zapisuje zdjęcia i nagrania wideo w podkatalogach <file>Kamera</file> znajdujących się w katalogach <file>Obrazy</file> i <file>Wideo</file> użytkownika.</p>
+
+  <p>Aby zapisać obraz w innym miejscu, kliknij obraz na dole okna prawym przyciskiem myszy i wybierz <gui>Zapisz jako…</gui>. Następnie wybierz, gdzie go zapisać.</p>
+
+  <p>W nowym miejscu zostanie zapisana nowa kopia obrazu. Poprzednia pozostanie w katalogu <file>Kamera</file>.</p>
+
+</page>

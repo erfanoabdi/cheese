@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="photo-delete" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#main"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Usuwanie niepotrzebnych zdjęć i nagrań wideo.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Usuwanie zdjęcia lub nagrania wideo</title>
+
+  <p>Jeśli zdjęcie lub nagranie wideo jest już niepotrzebne, to można je trwale usunąć:</p>
+
+  <steps>
+    <item>
+      <p>Znajdź zdjęcie lub nagranie wideo do usunięcia wśród zdjęć na dole okna programu <app>Cheese</app>.</p>
+    </item>
+    <item>
+      <p>Kliknij je prawym przyciskiem myszy i wybierz <gui>Usuń</gui>.</p>
+    </item>
+    <item>
+      <p>Zostanie wyświetlone potwierdzenie trwałego usunięcia. Potwierdź klikając przycisk <gui>Usuń</gui>. Nie będzie można przywrócić tego zdjęcia lub nagrania wideo.</p>
+    </item>
+  </steps>
+
+  <p>Jeśli nie ma pewności, czy na pewno trwale usunąć zdjęcie lub nagranie wideo, to można kliknąć je prawym przyciskiem myszy i wybrać <gui>Przenieś do kosza</gui>. Spowoduje to przeniesienie go do <gui>Kosza</gui> komputera.</p>
+
+  <note>
+    <p>Cheese nie ma własnego <gui>Kosza</gui> i nie ma dostępu do <gui>Kosza</gui> komputera z poziomu programu <app>Cheese</app>.</p>
+  </note>
+
+</page>
