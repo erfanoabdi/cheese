@@ -1,4 +1,5 @@
 libcheese-gtk.so.25 libcheese-gtk25 #MINVER#
+* Build-Depends-Package: libcheese-gtk-dev
  cheese_avatar_chooser_get_picture@Base 3.18.0
  cheese_avatar_chooser_get_type@Base 3.18.0
  cheese_avatar_chooser_new@Base 3.18.0

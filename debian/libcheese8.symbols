@@ -1,4 +1,5 @@
 libcheese.so.8 libcheese8 #MINVER#
+* Build-Depends-Package: libcheese-dev
  cheese_camera_cat@Base 3.18.0
  cheese_camera_connect_effect_texture@Base 3.18.0
  cheese_camera_device_cat@Base 3.18.0

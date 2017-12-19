@@ -4,6 +4,7 @@ cheese (3.26.0-3) UNRELEASED; urgency=medium
   * Add debian/gbp.conf
   * Bump Standards-Version to 4.1.2
   * Update Multi-Arch metadata
+  * Bump debhelper compat to 11
 
  -- Jeremy Bicha <jbicha@debian.org>  Tue, 19 Dec 2017 13:15:33 -0500
 
