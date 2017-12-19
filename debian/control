@@ -6,8 +6,8 @@ Source: cheese
 Section: gnome
 Priority: optional
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Uploaders: Emilio Pozuelo Monfort <pochu@debian.org>, Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>
-Standards-Version: 4.1.0
+Uploaders: Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>
+Standards-Version: 4.1.2
 Homepage: https://wiki.gnome.org/Apps/Cheese
 Vcs-Browser: https://anonscm.debian.org/git/pkg-gnome/cheese.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-gnome/cheese.git
@@ -48,7 +48,7 @@ Package: cheese
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         cheese-common (= ${source:Version}),
+         cheese-common (>= ${source:Version}),
          gnome-video-effects
 Recommends: gvfs,
             yelp
@@ -80,7 +80,7 @@ Section: libs
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          gstreamer1.0-clutter-3.0,
-         cheese-common (= ${source:Version})
+         cheese-common (>= ${source:Version})
 Pre-Depends: ${misc:Pre-Depends}
 Description: tool to take pictures and videos from your webcam - widgets
  A webcam application that supports image and video capture. Makes
@@ -120,7 +120,7 @@ Multi-Arch: same
 Section: libs
 Depends: ${shlibs:Depends},
          ${misc:Depends},
-         cheese-common (= ${source:Version}),
+         cheese-common (>= ${source:Version}),
          gstreamer1.0-plugins-base (>= 0.11.0),
          gstreamer1.0-plugins-good (>= 0.11.0),
          gstreamer1.0-plugins-bad (>= 1.4),
