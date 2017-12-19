@@ -5,6 +5,7 @@ cheese (3.26.0-3) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.1.2
   * Update Multi-Arch metadata
   * Bump debhelper compat to 11
+  * Build with all hardening flags
 
  -- Jeremy Bicha <jbicha@debian.org>  Tue, 19 Dec 2017 13:15:33 -0500
 
