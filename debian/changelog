@@ -1,9 +1,9 @@
-cheese (3.26.0-4) UNRELEASED; urgency=medium
+cheese (3.26.0-4) unstable; urgency=medium
 
   * Drop obsolete Build-Depends on rarian-compat
   * Update Vcs fields for migration to https://salsa.debian.org/
 
- -- Jeremy Bicha <jbicha@debian.org>  Wed, 27 Dec 2017 13:36:34 -0500
+ -- Jeremy Bicha <jbicha@debian.org>  Mon, 22 Jan 2018 21:11:25 -0500
 
 cheese (3.26.0-3) unstable; urgency=medium
 
