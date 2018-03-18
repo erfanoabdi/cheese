@@ -78,13 +78,10 @@
 
   <title>Enregistrement d'une photo ou d'une vidéo</title>
 
-  <p>By default, Cheese saves the photos and videos in the
-  <file>Webcam</file> folder in your user's <file>Photo</file>
-  or <file>Videos</file> folder of your home folder.</p>
+  <p>Par défaut, Cheese enregistre les photos et les vidéos dans le dossier <file>Webcam</file> se situant dans le dossier <file>Photos</file> ou <file>Vidéos</file> de votre répertoire personnel.</p>
 
   <p>Pour enregistrer une image dans un autre dossier, faites un clic droit sur la photo dans le flux d'images et cliquez sur <gui>Enregistrer sous…</gui>. Choisissez ensuite le dossier où vous voulez enregistrer l'image.</p>
 
-  <p>A new copy of the image will be saved in the new location. The old version
-  will remain in the <file>Webcam</file> folder.</p>
+  <p>Une nouvelle copie de l'image est enregistrée dans le nouvel emplacement. L'ancienne version est conservée dans le dossier <file>Webcam</file>.</p>
 
 </page>

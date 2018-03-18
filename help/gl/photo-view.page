@@ -31,18 +31,13 @@
 
   <title>Ver unha foto ou vídeo que tomou</title>
 
-  <p>After you take a photo or record a video, it will appear in the photo
-  stream at the bottom of the window. You can right-click it and press
-  <gui style="menuitem">Open</gui> to open it in the photo viewer or video
-  player application.</p>
+  <p>Despois de tomar unha foto ou gravar un vídeo aparecerá na tira de fotos na parte inferior da pantalla. Pode facer clic dereito e premer  <gui style="menuitem">Abrir</gui> para mostralo no visor de fotos ou no reprodutor de vídeos.</p>
 
 <!-- TODO: This is a bug, it doesn't work right now.
   <p>If you want to see a bigger version of a photo, or to play a video,
   double-click it. This will open it in the default photo viewer or video
   player.</p>-->
 
-  <p>All of the photos and videos in the photo stream are saved in the
-  <file>Pictures/Webcam</file> or <file>Videos/Webcam</file> folders in your
-  user folder.</p>
+  <p>Todas as fotos e vídeos da tira de fotos gárdanse nos cartafoles <file>Pictures/Webcam</file> ou <file>Videos/Webcam</file> do seu cartafol persoal.</p>
 
 </page>

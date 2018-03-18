@@ -8,7 +8,7 @@
 <link rel="up" href="libcheese.html" title="libcheese">
 <link rel="prev" href="CheeseCameraDevice.html" title="CheeseCameraDevice">
 <link rel="next" href="CheeseEffect.html" title="CheeseEffect">
-<meta name="generator" content="GTK-Doc V1.25.1 (XML mode)">
+<meta name="generator" content="GTK-Doc V1.27.1 (XML mode)">
 <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
@@ -16,7 +16,8 @@
 <td width="100%" align="left" class="shortcuts">
 <a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
                   <a href="#CheeseCameraDeviceMonitor.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
-                  <a href="#CheeseCameraDeviceMonitor.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_signals">  <span class="dim">|</span> 
+                  <a href="#CheeseCameraDeviceMonitor.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_interfaces">  <span class="dim">|</span> 
+                  <a href="#CheeseCameraDeviceMonitor.implemented-interfaces" class="shortcut">Implemented Interfaces</a></span><span id="nav_signals">  <span class="dim">|</span> 
                   <a href="#CheeseCameraDeviceMonitor.signals" class="shortcut">Signals</a></span>
 </td>
 <td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
@@ -64,6 +65,22 @@ mentioned in the release notes for the affected release.
 </td>
 <td class="function_name">
 <a class="link" href="CheeseCameraDeviceMonitor.html#cheese-camera-device-monitor-new" title="cheese_camera_device_monitor_new ()">cheese_camera_device_monitor_new</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<span class="returnvalue">void</span>
+</td>
+<td class="function_name">
+<a class="link" href="CheeseCameraDeviceMonitor.html#cheese-camera-device-monitor-new-async" title="cheese_camera_device_monitor_new_async ()">cheese_camera_device_monitor_new_async</a> <span class="c_punctuation">()</span>
+</td>
+</tr>
+<tr>
+<td class="function_type">
+<a class="link" href="CheeseCameraDeviceMonitor.html" title="CheeseCameraDeviceMonitor"><span class="returnvalue">CheeseCameraDeviceMonitor</span></a> *
+</td>
+<td class="function_name">
+<a class="link" href="CheeseCameraDeviceMonitor.html#cheese-camera-device-monitor-new-finish" title="cheese_camera_device_monitor_new_finish ()">cheese_camera_device_monitor_new_finish</a> <span class="c_punctuation">()</span>
 </td>
 </tr>
 <tr>
@@ -125,6 +142,12 @@ mentioned in the release notes for the affected release.
 </pre>
 </div>
 <div class="refsect1">
+<a name="CheeseCameraDeviceMonitor.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+CheeseCameraDeviceMonitor implements
+ <a href="../gio/GInitable.html#GInitable-struct">GInitable</a> and  <a href="../gio/GAsyncInitable.html#GAsyncInitable-struct">GAsyncInitable</a>.</p>
+</div>
+<div class="refsect1">
 <a name="CheeseCameraDeviceMonitor.includes"></a><h2>Includes</h2>
 <pre class="synopsis">#include &lt;cheese/cheese-camera-device-monitor.h&gt;
 </pre>
@@ -143,10 +166,86 @@ CheeseCameraDeviceMonitor::removed signal when an event happens.</p>
 <a name="cheese-camera-device-monitor-new"></a><h3>cheese_camera_device_monitor_new ()</h3>
 <pre class="programlisting"><a class="link" href="CheeseCameraDeviceMonitor.html" title="CheeseCameraDeviceMonitor"><span class="returnvalue">CheeseCameraDeviceMonitor</span></a> *
 cheese_camera_device_monitor_new (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
-<p>Returns a new <a class="link" href="CheeseCameraDeviceMonitor.html" title="CheeseCameraDeviceMonitor"><span class="type">CheeseCameraDeviceMonitor</span></a> object.</p>
+<p>Returns a new <a class="link" href="CheeseCameraDeviceMonitor.html" title="CheeseCameraDeviceMonitor"><span class="type">CheeseCameraDeviceMonitor</span></a> object. The initialization may block.
+See <a class="link" href="CheeseCameraDeviceMonitor.html#cheese-camera-device-monitor-new-async" title="cheese_camera_device_monitor_new_async ()"><code class="function">cheese_camera_device_monitor_new_async()</code></a> for the asynchronous version.</p>
 <div class="refsect3">
 <a name="cheese-camera-device-monitor-new.returns"></a><h4>Returns</h4>
 <p> a new <a class="link" href="CheeseCameraDeviceMonitor.html" title="CheeseCameraDeviceMonitor"><span class="type">CheeseCameraDeviceMonitor</span></a> object.</p>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-camera-device-monitor-new-async"></a><h3>cheese_camera_device_monitor_new_async ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>
+cheese_camera_device_monitor_new_async
+                               (<em class="parameter"><code><a href="../gio/GCancellable.html#GCancellable-struct"><span class="type">GCancellable</span></a> *cancellable</code></em>,
+                                <em class="parameter"><code><a href="../gio/GAsyncResult.html#GAsyncReadyCallback"><span class="type">GAsyncReadyCallback</span></a> callback</code></em>,
+                                <em class="parameter"><code><span class="type">gpointer</span> user_data</code></em>);</pre>
+<p>Creates a new <a class="link" href="CheeseCameraDeviceMonitor.html" title="CheeseCameraDeviceMonitor"><span class="type">CheeseCameraDeviceMonitor</span></a> object asynchronously. Callback
+will be called when it is done. Use <a class="link" href="CheeseCameraDeviceMonitor.html#cheese-camera-device-monitor-new-finish" title="cheese_camera_device_monitor_new_finish ()"><code class="function">cheese_camera_device_monitor_new_finish()</code></a>
+to get the result.</p>
+<p>See <a class="link" href="CheeseCameraDeviceMonitor.html#cheese-camera-device-monitor-new" title="cheese_camera_device_monitor_new ()"><code class="function">cheese_camera_device_monitor_new()</code></a> for the synchronous version.</p>
+<div class="refsect3">
+<a name="cheese-camera-device-monitor-new-async.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>cancellable</p></td>
+<td class="parameter_description"><p>a <a href="../gio/GCancellable.html#GCancellable-struct"><span class="type">GCancellable</span></a> or NULL</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>callback</p></td>
+<td class="parameter_description"><p>a GAsyncReadyCallback to call when the initialization is finished</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>user_data</p></td>
+<td class="parameter_description"><p>user data to pass to callback</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="cheese-camera-device-monitor-new-finish"></a><h3>cheese_camera_device_monitor_new_finish ()</h3>
+<pre class="programlisting"><a class="link" href="CheeseCameraDeviceMonitor.html" title="CheeseCameraDeviceMonitor"><span class="returnvalue">CheeseCameraDeviceMonitor</span></a> *
+cheese_camera_device_monitor_new_finish
+                               (<em class="parameter"><code><a href="../gio/GAsyncResult.html#GAsyncResult-struct"><span class="type">GAsyncResult</span></a> *result</code></em>,
+                                <em class="parameter"><code><span class="type">GError</span> **error</code></em>);</pre>
+<p>Finishes creating a new <a class="link" href="CheeseCameraDeviceMonitor.html" title="CheeseCameraDeviceMonitor"><span class="type">CheeseCameraDeviceMonitor</span></a> object.</p>
+<div class="refsect3">
+<a name="cheese-camera-device-monitor-new-finish.parameters"></a><h4>Parameters</h4>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="parameters_name">
+<col class="parameters_description">
+<col width="200px" class="parameters_annotations">
+</colgroup>
+<tbody>
+<tr>
+<td class="parameter_name"><p>result</p></td>
+<td class="parameter_description"><p>the GAsyncResult from the callback</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+<tr>
+<td class="parameter_name"><p>error</p></td>
+<td class="parameter_description"><p>return location for errors, or NULL to ignore</p></td>
+<td class="parameter_annotations"> </td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect3">
+<a name="cheese-camera-device-monitor-new-finish.returns"></a><h4>Returns</h4>
+<p> a new <a class="link" href="CheeseCameraDeviceMonitor.html" title="CheeseCameraDeviceMonitor"><span class="type">CheeseCameraDeviceMonitor</span></a> object or NULL if error is set.</p>
 </div>
 </div>
 <hr>
@@ -296,6 +395,6 @@ the system.</p>
 </div>
 </div>
 <div class="footer">
-<hr>Generated by GTK-Doc V1.25.1</div>
+<hr>Generated by GTK-Doc V1.27.1</div>
 </body>
 </html>

@@ -35,26 +35,19 @@
 
   <steps>
     <item>
-      <p>Make sure that you are in <gui>Video</gui> mode. If you are, the
-      <gui style="button">Video</gui> button will be selected on the left side
-      of the screen.</p>
+      <p>Asegúrese que está no <gui>Modo vídeo</gui>. Se xa está nel, o botón <gui style="button">Vídeo</gui> na banda dereita da pantalla estará seleccionado.</p>
     </item>
     <item>
-      <p>Click the <gui style="button">Record a video using a webcam</gui>
-      button in the middle of the bottom panel, or press the
-      <key>Space</key> key, to start recording the video.</p>
+      <p>Prema <gui style="button">Gravar un vídeo usando a cámara web</gui> no medio do panel inferior  ou prema a tecla <key>Espazo</key> para iniciar a gravación.</p>
     </item>
     <item>
-     <p>To stop recording, press the same button again. You can also press the 
-     <key>Esc</key> or <key>Space</key> key to stop recording.</p>
+     <p>Para deter a gravación, prema o mesmo botón de novo. Tamén pode usar a tecla <key>Esc</key> ou <key>Barra espaciadora</key> para o mesmo.</p>
     </item>
   </steps>
 
-  <p>Videos are saved in the WebM (<file>.webm</file>) format.</p>
+  <p>Os vídeos gárdanse en formato WebM (<file>.webm</file>).</p>
 
-  <p>After you have stopped recording, the video will automatically appear in
-  the photo stream at the bottom of the <app>Cheese</app> window. From there,
-  you can <link xref="photo-view">open</link> or delete the video.</p>
+  <p>Despois de deter a gravación, o vídeo aparecerá automaticamente na colección de fotos na parte inferior da xanela de <app>Cheese</app>. Desde alí pode <link xref="photo-view">abrir</link> ou eliminar o vídeo.</p>
 
   <p>Se ten problemas ao compartir un vídeo cos amigos usando outros sistemas operativos (como Windows ou Mac OS) deberá <link href="help:gnome-help/video-sending">convertelos a un formato diferente</link>.</p>
 

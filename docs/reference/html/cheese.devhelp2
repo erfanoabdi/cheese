@@ -70,6 +70,8 @@
     <keyword type="property" name="The “device” property" link="CheeseCameraDevice.html#CheeseCameraDevice--device"/>
     <keyword type="property" name="The “name” property" link="CheeseCameraDevice.html#CheeseCameraDevice--name"/>
     <keyword type="function" name="cheese_camera_device_monitor_new ()" link="CheeseCameraDeviceMonitor.html#cheese-camera-device-monitor-new"/>
+    <keyword type="function" name="cheese_camera_device_monitor_new_async ()" link="CheeseCameraDeviceMonitor.html#cheese-camera-device-monitor-new-async"/>
+    <keyword type="function" name="cheese_camera_device_monitor_new_finish ()" link="CheeseCameraDeviceMonitor.html#cheese-camera-device-monitor-new-finish"/>
     <keyword type="function" name="cheese_camera_device_monitor_coldplug ()" link="CheeseCameraDeviceMonitor.html#cheese-camera-device-monitor-coldplug"/>
     <keyword type="struct" name="struct CheeseCameraDeviceMonitorClass" link="CheeseCameraDeviceMonitor.html#CheeseCameraDeviceMonitorClass"/>
     <keyword type="struct" name="struct CheeseCameraDeviceMonitor" link="CheeseCameraDeviceMonitor.html#CheeseCameraDeviceMonitor-struct"/>

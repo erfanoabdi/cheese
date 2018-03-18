@@ -21,6 +21,12 @@
 
     <desc>De resolutie van een video of foto bepaalt hoeveel details u erin kunt zien. Het wijzigen hiervan zal invloed hebben op de bestandsgrootte.</desc>
 
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Justin van Steijn</mal:name>
+      <mal:email>jvs@fsfe.org</mal:email>
+      <mal:years>2015, 2016, 2017.</mal:years>
+    </mal:credit>
   </info>
 
   <title>Verander de opname-resolutie van uw webcam</title>

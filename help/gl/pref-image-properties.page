@@ -39,11 +39,10 @@
       <p>Seleccione <guiseq><gui>Cheese</gui><gui>Preferencias</gui><gui>Imaxe</gui></guiseq>.</p>
     </item>
     <item>
-      <p>Move the sliders to find the best settings for your webcam.</p>
+      <p>Mova as barras de desprazamento para buscar os mellores axustes para a cámara web.</p>
     </item>
     <item>
-      <p>Click <gui>Close</gui> and check to see if the preview looks
-      better.</p>
+      <p>Prema <gui>Pechar</gui> e comprobe se a previsualización se ve mellor.</p>
     </item>
   </steps>
 

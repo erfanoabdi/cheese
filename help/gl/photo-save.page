@@ -19,7 +19,7 @@
 
     <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
 
-    <desc>Save a photo or video to a different folder.</desc>
+    <desc>Gardar unha foto ou vídeo nun cartafol distinto.</desc>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Fran Dieguez</mal:name>
@@ -30,15 +30,10 @@
 
   <title>Gardar unha foto ou vídeo</title>
 
-  <p>By default, Cheese saves the photos and videos in the
-  <file>Webcam</file> folder in your user's <file>Photo</file>
-  or <file>Videos</file> folder of your home folder.</p>
+  <p>Por omisión, Cheese garda as fotos e vídeos no cartafol <file>Webcam</file> dentro do seu cartafol <file>Fotos</file> e <file>Vídeos</file> do seu cartafol de usuario.</p>
 
-  <p>To save an image to a different location, right-click the image in the
-  photo stream and click <gui>Save As…</gui>. Then, choose where you want to
-  save the image.</p>
+  <p>Para gardar unha imaxe nunha localización distinta, prema co botón dereito sobre unha imaxe da tira de fotos e prema en <gui>Gardar como…</gui>. Logo, seleccione onde quere gardar a imaxe.</p>
 
-  <p>A new copy of the image will be saved in the new location. The old version
-  will remain in the <file>Webcam</file> folder.</p>
+  <p>Gardarase unha nova copia da imaxe na nova localización. A versión anterior manterase no cartafol <file>Webcam</file>.</p>
 
 </page>

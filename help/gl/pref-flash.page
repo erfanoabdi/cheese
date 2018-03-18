@@ -31,11 +31,8 @@
 
   <title>Desactivar o flash</title>
 
-  <p>When you take a photo with Cheese, the computer screen briefly turns
-  white.</p>
+  <p>Ao tomar unha foto con Cheese, a pantalla do computador tornarase brevemente branca.</p>
 
-  <p>To disable this feature, select
-  <guiseq><gui>Cheese</gui><gui>Preferences</gui><gui>Capture</gui></guiseq>
-  and uncheck <gui>Fire flash</gui>.</p>
+  <p>Para desactivar esta características, seleccione <guiseq><gui>Cheese</gui><gui>Preferencias</gui><gui>Capturar</gui></guiseq> e desmarque <gui>Disparar flash</gui>.</p>
 
 </page>

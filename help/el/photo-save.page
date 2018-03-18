@@ -42,13 +42,10 @@
 
   <title>Αποθήκευση μιας φωτογραφίας ή ενός βίντεο</title>
 
-  <p>By default, Cheese saves the photos and videos in the
-  <file>Webcam</file> folder in your user's <file>Photo</file>
-  or <file>Videos</file> folder of your home folder.</p>
+  <p>Από προεπιλογή, το Cheese αποθηκεύει της φωτογραφίες και τα βίντεο στους φακέλους <file>Webcam</file> και <file>Φωτογραφίες</file> ή <file>Βίντεο</file> στον προσωπικό σας φάκελο.</p>
 
   <p>Για να αποθηκεύσετε μια εικόνα σε διαφορετική τοποθεσία, κάντε δεξί κλικ στην εικόνα στη ροή φωτογραφιών και κάντε κλικ στο <gui>Αποθήκευση ως...</gui>. Μετά, επιλέξτε που θέλετε να αποθηκεύσετε την εικόνα.</p>
 
-  <p>A new copy of the image will be saved in the new location. The old version
-  will remain in the <file>Webcam</file> folder.</p>
+  <p>Ένα νέο αντίγραφο της εικόνας θα αποθηκευθεί στη νέα τοποθεσία. Η παλιά έκδοση θα παραμείνει στον φάκελο <file>Webcam</file>. </p>
 
 </page>

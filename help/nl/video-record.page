@@ -21,6 +21,12 @@
     <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
 
     <desc>Gebruik uw webcam om korte filmpjes op te nemen om te delen met vrienden.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Justin van Steijn</mal:name>
+      <mal:email>jvs@fsfe.org</mal:email>
+      <mal:years>2015, 2016, 2017.</mal:years>
+    </mal:credit>
   </info>
 
   <title>Een video opnemen</title>
@@ -43,6 +49,6 @@
 
   <p>Nadat u bent gestopt met opnemen zal de video automatisch verschijnen in de fotoreeks aan de onderkant van het <app>Cheese</app>-scherm. Daar kunt u de video <link xref="photo-view">openen</link> of verwijderen.</p>
 
-  <p>Als u problemen heeft met het delen van een video met mensen die gebruik maken van andere besturingssystemen (zoals Windows of Mac OS), dan moet u de video misschien <link href="help:gnome-help/video-sending">converteren naar een ander formaat</link>.</p>
+  <p>Als u problemen heeft met het delen van een video met mensen die gebruik maken van andere besturingssystemen (zoals Windows of Mac OS), dan moet u de video misschien <link href="help:gnome-help/video-sending">omzetten naar een ander formaat</link>.</p>
 
 </page>
