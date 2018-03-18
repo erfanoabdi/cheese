@@ -34,35 +34,28 @@
     </mal:credit>
   </info>
 
-  <title>Take photos</title>
+  <title>Sacar fotos</title>
 
   <p>As cámaras web poden usarse para tomar fotos, así como vídeos. Para tomar unha foto:</p>
 
   <steps>
     <item>
-      <p>Make sure that you are in <gui>Photo</gui> mode. If you are, the
-      <gui style="button">Photo</gui> button will be selected on the left side
-      of the screen.</p>
+      <p>Asegúrese que está en modo <gui>Foto</gui>. Se é así, o botón <gui>Foto</gui> estará seleccionado na pantalla.</p>
     </item>
     <item>
-      <p>Click the <gui style="button">Take a photo using a webcam</gui>
-      button in the middle of the bottom panel, or press the
-      <key>Space</key> key, to take the photo.</p>
+      <p>Prema o botón <gui style="button">Sacar unha foto usando a cámara web</gui> no medio do panel inferior ou prema a tecla <key>Espazo</key>.</p>
     </item>
     <item>
       <p>Haberá unha pequena conta atrás, seguida dun flash e logo aparecerá a foto na tira de fotos.</p>
     </item>
   </steps>
 
-  <p>The photos in the photo stream are automatically saved in the
-  <file>Pictures/Webcam</file> folder in your home folder. They are saved
-  using the JPEG (<file>.jpg</file>) format.</p>
+  <p>As fotos na tira de fotos gárdanse automaticamente no cartafol <file>Pictures/Webcam</file> do seu cartafol persoal. Gardaranse no formato JPEG (<file>.jpg</file>).</p>
 
   <p>Para cancelar a toma dunha foto despois de que premeu <gui>Tomar unha foto</gui> prema <key>Esc</key> antes de que a conta atrás remate.</p>
 
   <note>
-    <p>To take multiple photos in rapid succession, use
-    <link xref="burst-mode"><gui>Burst</gui> mode</link>.</p>
+    <p>Para tomar varias fotos rapidamente, use o <link xref="burst-mode"><gui>Modo ráfaga</gui> </link>.</p>
   </note>
 
 </page>

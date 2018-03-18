@@ -37,13 +37,10 @@
       <p>Busque a foto ou vídeo que quere eliminar da tira de fotos na parte inferior da xanela de <app>Cheese</app>.</p>
     </item>
     <item>
-      <p>Right-click it and select <gui>Delete</gui>.<!-- Alternatively, click it
-      once to select it and press the <key>Delete</key> key.--></p>
+      <p>Prema co botón dereito e seleccione <gui>Eliminar</gui>.</p>
     </item>
     <item>
-      <p>You will be asked if you want to permanently delete it. Confirm by
-      clicking <gui>Delete</gui>; you will not be able to recover the photo
-      or video.</p>
+      <p>Preguntaráselle se quere eliminala permanentemente. Confirme premendo <gui>Eliminar</gui>. Teña en conta que non poderá recuperar a foto ou vídeo.</p>
     </item>
   </steps>
 

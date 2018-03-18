@@ -34,21 +34,17 @@
 
   <steps>
     <item>
-      <p>Click <gui style="button">Effects</gui>.</p>
+      <p>Prema <gui style="button">Efectos</gui>.</p>
     </item>
     <item>
-      <p>Select the effect you want to use by clicking one of the options or
-      select <gui>No Effect</gui> if you don't want to use one.</p>
+      <p>Seleccione o efecto que desexa usar premendo sobre unha das opcións ou seleccione <gui>Ningún efecto</gui> se non quere usar ningún.</p>
     </item>
   </steps>
 
-  <p><app>Cheese</app> offers 35 effects, of which only 9 are shown on the
-  first page. Click the back and forward arrows next to
-  <gui style="button">Effects</gui> to navigate to the other pages.</p>
+  <p><app>Cheese</app> conta con 35 efectos, dos cales só 9 se mostran na primeira páxina. Prema os botóns con frechas para navegar entre as páxinas de <gui style="button">Efectos</gui>.</p>
 
   <figure>
-    <title>Some of the effects, from left to right: Sepia, Shagadelic, Sobel
-    (first row), Waveform, X-Ray, Warp (second row)</title>
+    <title>Algúns dos efectos, de esquerda a dereita: Sepic, Sagadelico, Sobel, Forma de onda, Raios X e Warp.</title>
     <media its:translate="no" type="image" src="figures/effects.png" width="529" height="264"/>
   </figure>
 

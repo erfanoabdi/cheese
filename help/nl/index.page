@@ -17,8 +17,14 @@
 
     <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
 
-    <desc>Cheese laat u foto's en video's nemen met uw webcam. U kunt zelfs speciale effecten toevoegen!</desc>
+    <desc>Met Cheese kunt u foto's en video's nemen met uw webcam. U kunt zelfs speciale effecten toevoegen!</desc>
 
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Justin van Steijn</mal:name>
+      <mal:email>jvs@fsfe.org</mal:email>
+      <mal:years>2015, 2016, 2017.</mal:years>
+    </mal:credit>
   </info>
 
   <title><media type="image" mime="image/png" src="figures/cheese.png" height="40" its:translate="no"/> Cheese webcamtoepassing</title>

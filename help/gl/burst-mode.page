@@ -21,7 +21,7 @@
 
     <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
 
-    <desc>Capture several photos with one button press in <gui>Burst</gui> mode. Change your pose in between each shot!</desc>
+    <desc>Capture varias fotos premendo un botón no modo <gui>Ráfaga</gui>. Cambie a súa pose entre cada disparo!</desc>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Fran Dieguez</mal:name>
@@ -30,25 +30,20 @@
     </mal:credit>
   </info>
 
-  <title>Take photos in quick succession</title>
+  <title>Saque fotos nunha sucesión rápida</title>
 
   <p>Use o modo <gui>ráfaga</gui> para sacar varias fotos en fila de forma automática. Isto é particularmente divertido se cambia a súa foto entre as poses! Para usar o modo <gui>ráfaga</gui>:</p>
 
   <steps>
     <item>
-      <p>Make sure that you are in <gui>Burst</gui> mode. If you are, the
-      <gui style="button">Burst</gui> button will be selected on the left side
-      of the screen.</p>
+      <p>Asegúrese que está en modo <gui>Ráfaga</gui>. Se é así, o botón <gui>Ráfaga</gui> estará seleccionado na parte esquerda da pantalla.</p>
     </item>
     <item>
-      <p>Click the <gui style="button">Take multiple photos using a
-      webcam</gui> button in the middle of the bottom panel, or press the
-      <key>Space</key> key, to start taking photos.</p>
+      <p>Prema <gui style="button">Sacar varias fotos usando a cámara web</gui> na metade do panel inferior ou prema a tecla <key>Barra espaciadora</key>, para comezar a sacar fotos.</p>
       <p>Por omisión, tomaranse catro fotos, con un segundo de atraso e unha conta atrás entre as fotos.</p>
     </item>
     <item>
-      <p>To stop recording, press the same button again. You can also press the
-      <key>Esc</key> or <key>Space</key> key to stop recording.</p>
+      <p>Para deter a gravación, prema o mesmo botón de novo. Tamén pode usar a tecla <key>Esc</key> ou <key>Barra espaciadora</key> para o mesmo.</p>
     </item>
   </steps>
 
@@ -78,9 +73,7 @@
         </item>
         <item>
           <title>Atraso entre fotos (segundos)</title>
-          <p>The delay between two photos. If you have the <gui>Countdown</gui>
-          enabled, then this delay needs to be set to over four seconds for it
-          to have any effect.</p>
+          <p>O atraso entre dúas fotos. Se ten a <gui>Conta atrás</gui> activada, entón este atraso precisa estabelecerse entre a máis de 4 segundos para que teña efecto.</p>
           <!--<p>The delay between the last photo and the start of the next
           countdown. If <gui>Countdown</gui> is disabled, this is the delay
           between photos.</p>-->

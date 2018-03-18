@@ -21,6 +21,12 @@
     <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
 
     <desc>Schakel het aftellen uit zodat foto's meteen worden genomen.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Justin van Steijn</mal:name>
+      <mal:email>jvs@fsfe.org</mal:email>
+      <mal:years>2015, 2016, 2017.</mal:years>
+    </mal:credit>
   </info>
 
   <title><gui>Aftellen</gui> uitschakelen</title>

@@ -20,6 +20,12 @@
     <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
 
     <desc>Leuke effecten toevoegen aan uw foto's en video's, zoals uzelf groen maken of het vervormen van de foto als een lachspiegel.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Justin van Steijn</mal:name>
+      <mal:email>jvs@fsfe.org</mal:email>
+      <mal:years>2015, 2016, 2017.</mal:years>
+    </mal:credit>
   </info>
 
   <title>Effecten toepassen op foto's en video's</title>
@@ -38,7 +44,7 @@
   <p><app>Cheese</app> biedt 35 effecten aan, waarvan er 9 worden getoond op de eerste pagina. Klik op de vorige- en volgende-knoppen naast <gui style="button">Effecten</gui> om naar de andere pagina's te bladeren.</p>
 
   <figure>
-    <title>Enkele van de effecten, van links naar rechts: Sepia, Shagadelic, Sobel (eerste rij), Waveform, X-Ray, Warp (tweede rij)</title>
+    <title>Enkele van de effecten, van links naar rechts: Sepia-tint, Bedwelmen, Sobel (eerste rij), Golfvormig, Röntgen, Vervormen (tweede rij)</title>
     <media its:translate="no" type="image" src="figures/effects.png" width="529" height="264"/>
   </figure>
 

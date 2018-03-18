@@ -1,6 +1,218 @@
+commit 355c121cd032837cad1bd54e1a560afc0712acba
+Author: David King <amigadave@amigadave.com>
+Date:   Mon Mar 12 13:29:22 2018 +0000
+
+    Update NEWS for 3.28.0 release
+
+M	NEWS
+M	configure.ac
+
+commit 671d27c97e64cf6581f661a80cbdf68340b7a3a0
+Author: David King <amigadave@amigadave.com>
+Date:	Mon Mar 12 13:17:11 2018 +0000
+
+    Add new device monitor methods to documentation
+
+M	docs/reference/cheese-sections.txt
+M	libcheese/cheese-gtk.symbols
+
+commit 673ad8a03ca9d16caf3ccbcfa64bb9cb948bba2b
+Author: Jiro Matsuzawa <jmatsuzawa@gnome.org>
+Date:	Sat Mar 10 01:05:18 2018 +0000
+
+    Update Japanese translation
+
+M	po/ja.po
+
+commit 72a56f95a695dd52c1934905c8364c2860af76b7
+Author: gogo <trebelnik2@gmail.com>
+Date:	Wed Mar 7 16:26:22 2018 +0000
+
+    Update Croatian translation
+
+M	po/hr.po
+
+commit efa35e4b25c203ac92b59950e112120ae76a4d4b
+Author: Ondrej Holy <oholy@redhat.com>
+Date:	Thu Nov 2 09:45:33 2017 +0100
+
+    monitor: Implement GAsyncInitable interface
+
+    Monitor initialization may block if external camera is connected,
+    probably due to some kernel bug. It causes freezes for applications,
+    which is not acceptable. Let's implement GAsyncInitable interface,
+    so it can be initialized asynchronously.
+
+    https://bugzilla.gnome.org/show_bug.cgi?id=782627
+
+M	libcheese/cheese-camera-device-monitor.c
+M	libcheese/cheese-camera-device-monitor.h
+
+commit 7b1e1b343791d933a50a63bd79a22526c62832b0
+Author: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>
+Date:	Sat Feb 24 11:46:56 2018 +0000
+
+    Update Esperanto translation
+
+M	po/eo.po
+
+commit 40cc15dc826ab4480c51192e89f76ac893103b51
+Author: Marcos Lans <marcoslansgarza@gmail.com>
+Date:	Wed Feb 21 22:04:03 2018 +0000
+
+    Update Galician translation
+
+M	help/gl/gl.po
+
+commit 5c2978bb864a49ed00b68bbf9a7e2c27a4bd79fd
+Author: Justin van Steijn <jvs@fsfe.org>
+Date:	Wed Feb 21 21:47:54 2018 +0000
+
+    Update Dutch translation
+
+M	help/nl/nl.po
+
+commit 6a0bd53644941e977c6a10e0f1f9e885151eacff
+Author: Mart Raudsepp <leio@gentoo.org>
+Date:	Thu Feb 8 23:47:40 2018 +0000
+
+    Update Estonian translation
+
+M	po/et.po
+
+commit 78e445106a3f6f2181a4b62b5d8bcda879838b86
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	Thu Feb 8 03:22:59 2018 +0100
+
+    Update Polish translation
+
+M	help/pl/pl.po
+
+commit bb86137d32b1634897a50b420f73a19ab4cdb7f1
+Author: Pieter Schalk Schoeman <pieter@sonbesie.co.za>
+Date:	Mon Feb 5 16:42:16 2018 +0000
+
+    Update Afrikaans translation
+
+M	po/af.po
+
+commit 1d24ca5672f94bd1924b919f540fd8bcdf341378
+Author: Pieter Schalk Schoeman <pieter@sonbesie.co.za>
+Date:	Mon Feb 5 16:40:34 2018 +0000
+
+    Update Afrikaans translation
+
+M	po/af.po
+
+commit c808bed88be58936369561fada0f1434b9f203b2
+Author: Pieter Schalk Schoeman <pieter@sonbesie.co.za>
+Date:	Mon Dec 18 14:54:42 2017 +0000
+
+    Update Afrikaans translation
+
+M	po/af.po
+
+commit 470b6f8fc3618d79b7be06d90f166ef7f0a585d6
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	Mon Dec 4 19:58:19 2017 +0100
+
+    Remove the OMF file
+
+    It’s a gnome-doc-utils/ScrollKeeper leftover.
+
+D	help/cheese.omf.in
+
+commit 54e2f32718d7e21597e8da589c604f8d2889cd48
+Author: Guntupalli Karunakar <karunakar@indlinux.org>
+Date:	Thu Nov 9 18:14:37 2017 +0000
+
+    Update Hindi translation
+
+M	po/hi.po
+
+commit 9068fa251825934e81c6bac543079ab51e599b50
+Author: Charles Monzat <superboa@hotmail.fr>
+Date:	Sat Oct 21 17:51:58 2017 +0000
+
+    Update French translation
+
+M	help/fr/fr.po
+
+commit 5fd3767f0e511a7ad88f854698421005606d0ec9
+Author: Pawan Chitrakar <chautari@gmail.com>
+Date:	Sun Oct 15 11:45:17 2017 +0000
+
+    Update Nepali translation
+
+M	po/ne.po
+
+commit b06878709d7e1e6ef6534907cb0a548b8bdd7085
+Author: Xavi Ivars <xavi.ivars@gmail.com>
+Date:	Thu Oct 5 13:33:08 2017 +0200
+
+    [l10n] Updated Catalan (Valencian) translation
+
+M	po/ca@valencia.po
+
+commit 4a13ada4ebb60555d5676287deb61a0c776448a9
+Author: Sveinn í Felli <sv1@fellsnet.is>
+Date:	Mon Oct 2 10:36:47 2017 +0000
+
+    Update Icelandic translation
+
+M	po/is.po
+
+commit 3bdbd1b9fe692fb6f3f584134e39655dd649bbce
+Author: Efstathios Iosifidis <eiosifidis@gnome.org>
+Date:	Mon Sep 25 21:27:19 2017 +0000
+
+    Update Greek translation
+
+M	help/el/el.po
+
+commit 3e276f43bba83577bbbacaa3c7f3f7b21b1d9608
+Author: Fran Dieguez <frandieguez@gnome.org>
+Date:	Mon Sep 25 13:17:17 2017 +0000
+
+    Update Galician translation
+
+M	help/gl/gl.po
+
+commit 4d61fbd8ff83fc48bfa556e0ab88954dd942a013
+Author: Arash Mousavi <mousavi.arash@gmail.com>
+Date:	Fri Sep 22 22:14:56 2017 +0330
+
+    Update Persian translations
+
+M	po/fa.po
+
+commit 9c0d248f993521785ebe4e0ea014ff69e2420813
+Author: Andre Klapper <a9016009@gmx.de>
+Date:	Sun Sep 17 11:59:43 2017 +0200
+
+    help: Remove unused blurry images (screenshots?) that bloat the
+    tarball
+
+D	help/C/figures/cheese-delete.png
+D	help/C/figures/cheese-effects.png
+D	help/C/figures/cheese-introduction.png
+D	help/C/figures/cheese-record.png
+D	help/C/figures/cheese-save.png
+D	help/C/figures/cheese-take.png
+D	help/C/figures/settings.png
+M	help/Makefile.am
+
+commit f07159dfe505b93571158c496787597802bc5cda
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	Sat Sep 16 00:13:14 2017 +0200
+
+    Update Polish help translation
+
+M	help/pl/pl.po
+
 commit 41843aad67d56918587543aec22ba15cfef25ebc
 Author: David King <amigadave@amigadave.com>
-Date:   Mon Sep 11 22:14:25 2017 +0100
+Date:	Mon Sep 11 22:14:25 2017 +0100
 
     Update NEWS for 3.26.0 release
 

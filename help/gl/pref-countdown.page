@@ -29,7 +29,7 @@
     </mal:credit>
   </info>
 
-  <title>Disable the <gui>Countdown</gui></title>
+  <title>Desactivar a <gui>Conta atrás</gui></title>
 
   <p>Por omisión, <app>Cheese</app> fai unha conta atrás antes de tomar unha foto. Pode desactivar esta característica seleccionando <guiseq><gui>Cheese</gui><gui>Preferencias</gui></guiseq> e desmarcando <gui>Conta atrás</gui> </p>
 

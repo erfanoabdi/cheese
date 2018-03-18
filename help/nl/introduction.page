@@ -22,11 +22,17 @@
     <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
 
     <desc>Introductie van de webcamtoepassing <app>Cheese</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Justin van Steijn</mal:name>
+      <mal:email>jvs@fsfe.org</mal:email>
+      <mal:years>2015, 2016, 2017.</mal:years>
+    </mal:credit>
   </info>
 
   <title>Introductie</title>
 
-  <p><app>Cheese</app> is een webcamtoepassing die u foto's en video's laat maken met uw webcam. U kunt meerdere foto's achtereenvolgens maken door gebruik te maken van de <link xref="burst-mode"><gui>Burst</gui>-modus</link> en <link xref="effects-apply">speciale <gui>Effecten</gui></link> toepassen om er een persoonlijk tintje aan te geven.</p>
+  <p><app>Cheese</app> is een webcamtoepassing waarmee u foto's en video's kunt maken met uw webcam. U kunt meerdere foto's achtereenvolgens maken door gebruik te maken van de <link xref="burst-mode"><gui>Burst</gui>-modus</link> en <link xref="effects-apply">speciale <gui>Effecten</gui></link> toepassen om er een persoonlijk tintje aan te geven.</p>
 
   <p>Standaard start <app>Cheese</app> in de <gui>Foto</gui>-modus, klaar om <link xref="photo-take">een foto te nemen</link>. Om <link xref="video-record">een video op te nemen</link> dient u over te schakelen naar de <gui>Video</gui>-modus.</p>
 
