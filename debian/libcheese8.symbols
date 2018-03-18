@@ -14,6 +14,8 @@ libcheese.so.8 libcheese8 #MINVER#
  cheese_camera_device_monitor_error_quark@Base 3.18.0
  cheese_camera_device_monitor_get_type@Base 3.18.0
  cheese_camera_device_monitor_new@Base 3.18.0
+ cheese_camera_device_monitor_new_async@Base 3.28.0
+ cheese_camera_device_monitor_new_finish@Base 3.28.0
  cheese_camera_device_new@Base 3.18.0
  cheese_camera_error_quark@Base 3.18.0
  cheese_camera_get_balance_property_range@Base 3.18.0

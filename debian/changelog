@@ -1,6 +1,7 @@
 cheese (3.28.0-1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * debian/libcheese8.symbols: Add new symbols
 
  -- Jeremy Bicha <jbicha@debian.org>  Sun, 18 Mar 2018 13:57:53 -0400
 
