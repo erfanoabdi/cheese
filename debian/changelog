@@ -1,3 +1,10 @@
+cheese (3.30.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/control.in: Bump Standards-Version to 4.2.1 (no further changes)
+
+ -- Laurent Bigonville <bigon@debian.org>  Tue, 16 Oct 2018 10:33:10 +0200
+
 cheese (3.28.0-1) unstable; urgency=medium
 
   * New upstream release
