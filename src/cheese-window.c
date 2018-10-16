@@ -92,6 +92,7 @@ static GParamSpec* cheese_main_window_properties[CHEESE_MAIN_WINDOW_NUM_PROPERTI
 #define _g_list_free0(var) ((var == NULL) ? NULL : (var = (g_list_free (var), NULL)))
 typedef struct _CheeseCountdownPrivate CheeseCountdownPrivate;
 typedef struct _CheeseEffectsManagerPrivate CheeseEffectsManagerPrivate;
+#define _g_ptr_array_unref0(var) ((var == NULL) ? NULL : (var = (g_ptr_array_unref (var), NULL)))
 
 struct _CheeseMainWindow {
 	GtkApplicationWindow parent_instance;
@@ -119,6 +120,7 @@ struct _CheeseMainWindowPrivate {
 	GtkImage* take_action_button_image;
 	GtkToggleButton* effects_toggle_button;
 	GtkWidget* buttons_area;
+	GtkButton* switch_camera_button;
 	GtkMenu* thumbnail_popup;
 	ClutterStage* viewport;
 	ClutterActor* viewport_layout;
@@ -304,6 +306,8 @@ void cheese_main_window_camera_state_change_playing (CheeseMainWindow* self);
 CheeseEffect* cheese_effects_manager_get_effect (CheeseEffectsManager* self,
                                                  const gchar* name);
 void cheese_main_window_camera_state_change_null (CheeseMainWindow* self);
+void cheese_main_window_on_switch_camera_clicked (CheeseMainWindow* self);
+void cheese_main_window_set_switch_camera_button_state (CheeseMainWindow* self);
 void cheese_main_window_setup_ui (CheeseMainWindow* self);
 static void _cheese_main_window_on_stage_resize_clutter_actor_allocation_changed (ClutterActor* _sender,
                                                                            ClutterActorBox* box,
@@ -314,6 +318,8 @@ static gboolean _cheese_main_window_on_thumb_view_popup_menu_gtk_widget_popup_me
 static gboolean _cheese_main_window_on_thumbnail_button_press_event_gtk_widget_button_press_event (GtkWidget* _sender,
                                                                                             GdkEventButton* event,
                                                                                             gpointer self);
+static void _cheese_main_window_on_switch_camera_clicked_gtk_button_clicked (GtkButton* _sender,
+                                                                      gpointer self);
 static gboolean _cheese_main_window_on_key_release_gtk_widget_key_release_event (GtkWidget* _sender,
                                                                           GdkEventKey* event,
                                                                           gpointer self);
@@ -822,7 +828,7 @@ cheese_main_window_on_file_delete (CheeseMainWindow* self)
 						_inner_error_ = NULL;
 						_tmp16_ = err;
 						_tmp17_ = _tmp16_->message;
-						g_warning ("cheese-window.vala:285: Unable to delete file: %s", _tmp17_);
+						g_warning ("cheese-window.vala:287: Unable to delete file: %s", _tmp17_);
 						_tmp18_ = skip_all_errors;
 						if (!_tmp18_) {
 							GtkMessageDialog* error_dialog = NULL;
@@ -2616,7 +2622,7 @@ cheese_main_window_setup_effects_selector (CheeseMainWindow* self)
 		_tmp3_ = self->priv->effects_manager;
 		_tmp4_ = _tmp3_->effects;
 		if (g_list_length (_tmp4_) == ((guint) 0)) {
-			g_warning ("cheese-window.vala:1121: gnome-video-effects is not installed.");
+			g_warning ("cheese-window.vala:1123: gnome-video-effects is not installed.");
 			return;
 		}
 		_tmp5_ = self->priv->effects_manager;
@@ -2919,6 +2925,212 @@ cheese_main_window_camera_state_change_null (CheeseMainWindow* self)
 
 
 /**
+   * Select next camera in list and activate it.
+   */
+static gpointer
+_g_ptr_array_ref0 (gpointer self)
+{
+	return self ? g_ptr_array_ref (self) : NULL;
+}
+
+
+void
+cheese_main_window_on_switch_camera_clicked (CheeseMainWindow* self)
+{
+	CheeseCameraDevice* selected = NULL;
+	CheeseCameraDevice* next = NULL;
+	GPtrArray* cameras = NULL;
+	guint i = 0U;
+	CheeseCamera* _tmp0_;
+	CheeseCamera* _tmp1_;
+	CheeseCameraDevice* _tmp2_;
+	CheeseCameraDevice* _tmp3_;
+	CheeseCameraDevice* _tmp4_;
+	CheeseCamera* _tmp5_;
+	GPtrArray* _tmp6_;
+	GPtrArray* _tmp7_;
+	guint _tmp19_;
+	GPtrArray* _tmp20_;
+	guint _tmp21_;
+	CheeseCameraDevice* _tmp29_;
+	CheeseCameraDevice* _tmp30_;
+	CheeseCamera* _tmp31_;
+	CheeseCameraDevice* _tmp32_;
+	CheeseCamera* _tmp33_;
+	g_return_if_fail (self != NULL);
+	next = NULL;
+	_tmp0_ = self->priv->camera;
+	if (_tmp0_ == NULL) {
+		_g_ptr_array_unref0 (cameras);
+		_g_object_unref0 (next);
+		_g_object_unref0 (selected);
+		return;
+	}
+	_tmp1_ = self->priv->camera;
+	_tmp2_ = cheese_camera_get_selected_device (_tmp1_);
+	_tmp3_ = _g_object_ref0 (_tmp2_);
+	_g_object_unref0 (selected);
+	selected = _tmp3_;
+	_tmp4_ = selected;
+	if (_tmp4_ == NULL) {
+		_g_ptr_array_unref0 (cameras);
+		_g_object_unref0 (next);
+		_g_object_unref0 (selected);
+		return;
+	}
+	_tmp5_ = self->priv->camera;
+	_tmp6_ = cheese_camera_get_camera_devices (_tmp5_);
+	_tmp7_ = _g_ptr_array_ref0 (_tmp6_);
+	_g_ptr_array_unref0 (cameras);
+	cameras = _tmp7_;
+	{
+		gboolean _tmp8_ = FALSE;
+		i = (guint) 0;
+		_tmp8_ = TRUE;
+		while (TRUE) {
+			guint _tmp10_;
+			GPtrArray* _tmp11_;
+			guint _tmp12_;
+			GPtrArray* _tmp13_;
+			guint _tmp14_;
+			void* _tmp15_;
+			CheeseCameraDevice* _tmp16_;
+			CheeseCameraDevice* _tmp17_;
+			CheeseCameraDevice* _tmp18_;
+			if (!_tmp8_) {
+				guint _tmp9_;
+				_tmp9_ = i;
+				i = _tmp9_ + 1;
+			}
+			_tmp8_ = FALSE;
+			_tmp10_ = i;
+			_tmp11_ = cameras;
+			_tmp12_ = _tmp11_->len;
+			if (!(_tmp10_ < _tmp12_)) {
+				break;
+			}
+			_tmp13_ = cameras;
+			_tmp14_ = i;
+			_tmp15_ = g_ptr_array_index (_tmp13_, _tmp14_);
+			_tmp16_ = _g_object_ref0 (G_TYPE_CHECK_INSTANCE_CAST (_tmp15_, CHEESE_TYPE_CAMERA_DEVICE, CheeseCameraDevice));
+			_g_object_unref0 (next);
+			next = _tmp16_;
+			_tmp17_ = next;
+			_tmp18_ = selected;
+			if (_tmp17_ == _tmp18_) {
+				break;
+			}
+		}
+	}
+	_tmp19_ = i;
+	_tmp20_ = cameras;
+	_tmp21_ = _tmp20_->len;
+	if ((_tmp19_ + 1) < _tmp21_) {
+		GPtrArray* _tmp22_;
+		guint _tmp23_;
+		void* _tmp24_;
+		CheeseCameraDevice* _tmp25_;
+		_tmp22_ = cameras;
+		_tmp23_ = i;
+		_tmp24_ = g_ptr_array_index (_tmp22_, _tmp23_ + 1);
+		_tmp25_ = _g_object_ref0 (G_TYPE_CHECK_INSTANCE_CAST (_tmp24_, CHEESE_TYPE_CAMERA_DEVICE, CheeseCameraDevice));
+		_g_object_unref0 (next);
+		next = _tmp25_;
+	} else {
+		GPtrArray* _tmp26_;
+		void* _tmp27_;
+		CheeseCameraDevice* _tmp28_;
+		_tmp26_ = cameras;
+		_tmp27_ = g_ptr_array_index (_tmp26_, (guint) 0);
+		_tmp28_ = _g_object_ref0 (G_TYPE_CHECK_INSTANCE_CAST (_tmp27_, CHEESE_TYPE_CAMERA_DEVICE, CheeseCameraDevice));
+		_g_object_unref0 (next);
+		next = _tmp28_;
+	}
+	_tmp29_ = next;
+	_tmp30_ = selected;
+	if (_tmp29_ == _tmp30_) {
+		_g_ptr_array_unref0 (cameras);
+		_g_object_unref0 (next);
+		_g_object_unref0 (selected);
+		return;
+	}
+	_tmp31_ = self->priv->camera;
+	_tmp32_ = next;
+	cheese_camera_set_device (_tmp31_, _tmp32_);
+	_tmp33_ = self->priv->camera;
+	cheese_camera_switch_camera_device (_tmp33_);
+	_g_ptr_array_unref0 (cameras);
+	_g_object_unref0 (next);
+	_g_object_unref0 (selected);
+}
+
+
+/**
+   * Set switch camera buttons visible state.
+   */
+void
+cheese_main_window_set_switch_camera_button_state (CheeseMainWindow* self)
+{
+	CheeseCameraDevice* selected = NULL;
+	GPtrArray* cameras = NULL;
+	CheeseCamera* _tmp0_;
+	CheeseCamera* _tmp2_;
+	CheeseCameraDevice* _tmp3_;
+	CheeseCameraDevice* _tmp4_;
+	CheeseCameraDevice* _tmp5_;
+	CheeseCamera* _tmp7_;
+	GPtrArray* _tmp8_;
+	GPtrArray* _tmp9_;
+	GPtrArray* _tmp10_;
+	guint _tmp11_;
+	GtkButton* _tmp13_;
+	g_return_if_fail (self != NULL);
+	_tmp0_ = self->priv->camera;
+	if (_tmp0_ == NULL) {
+		GtkButton* _tmp1_;
+		_tmp1_ = self->priv->switch_camera_button;
+		gtk_widget_set_visible ((GtkWidget*) _tmp1_, FALSE);
+		_g_ptr_array_unref0 (cameras);
+		_g_object_unref0 (selected);
+		return;
+	}
+	_tmp2_ = self->priv->camera;
+	_tmp3_ = cheese_camera_get_selected_device (_tmp2_);
+	_tmp4_ = _g_object_ref0 (_tmp3_);
+	_g_object_unref0 (selected);
+	selected = _tmp4_;
+	_tmp5_ = selected;
+	if (_tmp5_ == NULL) {
+		GtkButton* _tmp6_;
+		_tmp6_ = self->priv->switch_camera_button;
+		gtk_widget_set_visible ((GtkWidget*) _tmp6_, FALSE);
+		_g_ptr_array_unref0 (cameras);
+		_g_object_unref0 (selected);
+		return;
+	}
+	_tmp7_ = self->priv->camera;
+	_tmp8_ = cheese_camera_get_camera_devices (_tmp7_);
+	_tmp9_ = _g_ptr_array_ref0 (_tmp8_);
+	_g_ptr_array_unref0 (cameras);
+	cameras = _tmp9_;
+	_tmp10_ = cameras;
+	_tmp11_ = _tmp10_->len;
+	if (_tmp11_ > ((guint) 1)) {
+		GtkButton* _tmp12_;
+		_tmp12_ = self->priv->switch_camera_button;
+		gtk_widget_set_visible ((GtkWidget*) _tmp12_, TRUE);
+		_g_ptr_array_unref0 (cameras);
+		_g_object_unref0 (selected);
+		return;
+	}
+	_tmp13_ = self->priv->switch_camera_button;
+	gtk_widget_set_visible ((GtkWidget*) _tmp13_, FALSE);
+	_g_ptr_array_unref0 (cameras);
+	_g_object_unref0 (selected);
+}
+
+
+/**
    * Load the UI from the GtkBuilder description.
    */
 static void
@@ -2949,6 +3161,14 @@ _cheese_main_window_on_thumbnail_button_press_event_gtk_widget_button_press_even
 	gboolean result;
 	result = cheese_main_window_on_thumbnail_button_press_event ((CheeseMainWindow*) self, _sender, event);
 	return result;
+}
+
+
+static void
+_cheese_main_window_on_switch_camera_clicked_gtk_button_clicked (GtkButton* _sender,
+                                                                 gpointer self)
+{
+	cheese_main_window_on_switch_camera_clicked ((CheeseMainWindow*) self);
 }
 
 
@@ -3020,7 +3240,8 @@ cheese_main_window_setup_ui (CheeseMainWindow* self)
 	GdkScreen* _tmp54_;
 	GdkScreen* _tmp55_;
 	CheeseThumbView* _tmp56_;
-	GtkClutterEmbed* _tmp57_;
+	GtkButton* _tmp57_;
+	GtkClutterEmbed* _tmp58_;
 	GError * _inner_error_ = NULL;
 	g_return_if_fail (self != NULL);
 	_tmp0_ = clutter_script_new ();
@@ -3062,7 +3283,7 @@ cheese_main_window_setup_ui (CheeseMainWindow* self)
 		err = _inner_error_;
 		_inner_error_ = NULL;
 		_tmp10_ = err->message;
-		g_error ("cheese-window.vala:1236: Error: %s", _tmp10_);
+		g_error ("cheese-window.vala:1324: Error: %s", _tmp10_);
 		_g_error_free0 (err);
 	}
 	__finally8:
@@ -3166,7 +3387,7 @@ cheese_main_window_setup_ui (CheeseMainWindow* self)
 		e = _inner_error_;
 		_inner_error_ = NULL;
 		_tmp53_ = e->message;
-		g_error ("cheese-window.vala:1273: Error parsing CSS: %s\n", _tmp53_);
+		g_error ("cheese-window.vala:1361: Error parsing CSS: %s\n", _tmp53_);
 		_g_error_free0 (e);
 	}
 	__finally9:
@@ -3182,8 +3403,10 @@ cheese_main_window_setup_ui (CheeseMainWindow* self)
 	gtk_style_context_add_provider_for_screen (_tmp55_, (GtkStyleProvider*) css, (guint) GTK_STYLE_PROVIDER_PRIORITY_USER);
 	_tmp56_ = self->priv->thumb_view;
 	g_signal_connect_object ((GtkWidget*) _tmp56_, "button-press-event", (GCallback) _cheese_main_window_on_thumbnail_button_press_event_gtk_widget_button_press_event, self, 0);
-	_tmp57_ = self->priv->viewport_widget;
-	gtk_widget_realize ((GtkWidget*) _tmp57_);
+	_tmp57_ = self->priv->switch_camera_button;
+	g_signal_connect_object (_tmp57_, "clicked", (GCallback) _cheese_main_window_on_switch_camera_clicked_gtk_button_clicked, self, 0);
+	_tmp58_ = self->priv->viewport_widget;
+	gtk_widget_realize ((GtkWidget*) _tmp58_);
 	cheese_main_window_set_wide_mode (self, FALSE);
 	cheese_main_window_setup_effects_selector (self);
 	g_signal_connect_object ((GtkWidget*) self, "key-release-event", (GCallback) _cheese_main_window_on_key_release_gtk_widget_key_release_event, self, 0);
@@ -3336,6 +3559,7 @@ cheese_main_window_set_camera (CheeseMainWindow* self,
 	_tmp0_ = _g_object_ref0 (camera);
 	_g_object_unref0 (self->priv->camera);
 	self->priv->camera = _tmp0_;
+	cheese_main_window_set_switch_camera_button_state (self);
 }
 
 
@@ -3357,6 +3581,7 @@ cheese_main_window_class_init (CheeseMainWindowClass * klass)
 	gtk_widget_class_bind_template_child_full (GTK_WIDGET_CLASS (klass), "take_action_button_image", FALSE, CheeseMainWindow_private_offset + G_STRUCT_OFFSET (CheeseMainWindowPrivate, take_action_button_image));
 	gtk_widget_class_bind_template_child_full (GTK_WIDGET_CLASS (klass), "effects_toggle_button", FALSE, CheeseMainWindow_private_offset + G_STRUCT_OFFSET (CheeseMainWindowPrivate, effects_toggle_button));
 	gtk_widget_class_bind_template_child_full (GTK_WIDGET_CLASS (klass), "buttons_area", FALSE, CheeseMainWindow_private_offset + G_STRUCT_OFFSET (CheeseMainWindowPrivate, buttons_area));
+	gtk_widget_class_bind_template_child_full (GTK_WIDGET_CLASS (klass), "switch_camera_button", FALSE, CheeseMainWindow_private_offset + G_STRUCT_OFFSET (CheeseMainWindowPrivate, switch_camera_button));
 }
 
 
@@ -3392,6 +3617,7 @@ cheese_main_window_finalize (GObject * obj)
 	_g_object_unref0 (self->priv->take_action_button_image);
 	_g_object_unref0 (self->priv->effects_toggle_button);
 	_g_object_unref0 (self->priv->buttons_area);
+	_g_object_unref0 (self->priv->switch_camera_button);
 	_g_object_unref0 (self->priv->thumbnail_popup);
 	_g_object_unref0 (self->priv->viewport);
 	_g_object_unref0 (self->priv->viewport_layout);

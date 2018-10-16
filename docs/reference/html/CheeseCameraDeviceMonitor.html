@@ -8,7 +8,7 @@
 <link rel="up" href="libcheese.html" title="libcheese">
 <link rel="prev" href="CheeseCameraDevice.html" title="CheeseCameraDevice">
 <link rel="next" href="CheeseEffect.html" title="CheeseEffect">
-<meta name="generator" content="GTK-Doc V1.27.1 (XML mode)">
+<meta name="generator" content="GTK-Doc V1.29.1 (XML mode)">
 <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
@@ -106,12 +106,12 @@ mentioned in the release notes for the affected release.
 <tr>
 <td class="signal_type"><span class="returnvalue">void</span></td>
 <td class="signal_name"><a class="link" href="CheeseCameraDeviceMonitor.html#CheeseCameraDeviceMonitor-added" title="The “added” signal">added</a></td>
-<td class="signal_flags"><a href="../gobject/gobject-Signals.html#G-SIGNAL-ACTION:CAPS">Action</a></td>
+<td class="signal_flags">Action</td>
 </tr>
 <tr>
 <td class="signal_type"><span class="returnvalue">void</span></td>
 <td class="signal_name"><a class="link" href="CheeseCameraDeviceMonitor.html#CheeseCameraDeviceMonitor-removed" title="The “removed” signal">removed</a></td>
-<td class="signal_flags"><a href="../gobject/gobject-Signals.html#G-SIGNAL-ACTION:CAPS">Action</a></td>
+<td class="signal_flags">Action</td>
 </tr>
 </tbody>
 </table></div>
@@ -137,7 +137,7 @@ mentioned in the release notes for the affected release.
 </div>
 <div class="refsect1">
 <a name="CheeseCameraDeviceMonitor.object-hierarchy"></a><h2>Object Hierarchy</h2>
-<pre class="screen">    <a href="../gobject/gobject-The-Base-Object-Type.html#GObject-struct">GObject</a>
+<pre class="screen">    GObject
     <span class="lineart">╰──</span> CheeseCameraDeviceMonitor
 </pre>
 </div>
@@ -145,7 +145,7 @@ mentioned in the release notes for the affected release.
 <a name="CheeseCameraDeviceMonitor.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
 <p>
 CheeseCameraDeviceMonitor implements
- <a href="../gio/GInitable.html#GInitable-struct">GInitable</a> and  <a href="../gio/GAsyncInitable.html#GAsyncInitable-struct">GAsyncInitable</a>.</p>
+ GInitable and  GAsyncInitable.</p>
 </div>
 <div class="refsect1">
 <a name="CheeseCameraDeviceMonitor.includes"></a><h2>Includes</h2>
@@ -178,8 +178,8 @@ See <a class="link" href="CheeseCameraDeviceMonitor.html#cheese-camera-device-mo
 <a name="cheese-camera-device-monitor-new-async"></a><h3>cheese_camera_device_monitor_new_async ()</h3>
 <pre class="programlisting"><span class="returnvalue">void</span>
 cheese_camera_device_monitor_new_async
-                               (<em class="parameter"><code><a href="../gio/GCancellable.html#GCancellable-struct"><span class="type">GCancellable</span></a> *cancellable</code></em>,
-                                <em class="parameter"><code><a href="../gio/GAsyncResult.html#GAsyncReadyCallback"><span class="type">GAsyncReadyCallback</span></a> callback</code></em>,
+                               (<em class="parameter"><code><span class="type">GCancellable</span> *cancellable</code></em>,
+                                <em class="parameter"><code><span class="type">GAsyncReadyCallback</span> callback</code></em>,
                                 <em class="parameter"><code><span class="type">gpointer</span> user_data</code></em>);</pre>
 <p>Creates a new <a class="link" href="CheeseCameraDeviceMonitor.html" title="CheeseCameraDeviceMonitor"><span class="type">CheeseCameraDeviceMonitor</span></a> object asynchronously. Callback
 will be called when it is done. Use <a class="link" href="CheeseCameraDeviceMonitor.html#cheese-camera-device-monitor-new-finish" title="cheese_camera_device_monitor_new_finish ()"><code class="function">cheese_camera_device_monitor_new_finish()</code></a>
@@ -196,7 +196,7 @@ to get the result.</p>
 <tbody>
 <tr>
 <td class="parameter_name"><p>cancellable</p></td>
-<td class="parameter_description"><p>a <a href="../gio/GCancellable.html#GCancellable-struct"><span class="type">GCancellable</span></a> or NULL</p></td>
+<td class="parameter_description"><p>a <span class="type">GCancellable</span> or NULL</p></td>
 <td class="parameter_annotations"> </td>
 </tr>
 <tr>
@@ -218,7 +218,7 @@ to get the result.</p>
 <a name="cheese-camera-device-monitor-new-finish"></a><h3>cheese_camera_device_monitor_new_finish ()</h3>
 <pre class="programlisting"><a class="link" href="CheeseCameraDeviceMonitor.html" title="CheeseCameraDeviceMonitor"><span class="returnvalue">CheeseCameraDeviceMonitor</span></a> *
 cheese_camera_device_monitor_new_finish
-                               (<em class="parameter"><code><a href="../gio/GAsyncResult.html#GAsyncResult-struct"><span class="type">GAsyncResult</span></a> *result</code></em>,
+                               (<em class="parameter"><code><span class="type">GAsyncResult</span> *result</code></em>,
                                 <em class="parameter"><code><span class="type">GError</span> **error</code></em>);</pre>
 <p>Finishes creating a new <a class="link" href="CheeseCameraDeviceMonitor.html" title="CheeseCameraDeviceMonitor"><span class="type">CheeseCameraDeviceMonitor</span></a> object.</p>
 <div class="refsect3">
@@ -352,7 +352,7 @@ after <a class="link" href="CheeseCameraDeviceMonitor.html#cheese-camera-device-
 </tbody>
 </table></div>
 </div>
-<p>Flags: <a href="../gobject/gobject-Signals.html#G-SIGNAL-ACTION:CAPS">Action</a></p>
+<p>Flags: Action</p>
 </div>
 <hr>
 <div class="refsect2">
@@ -390,11 +390,11 @@ the system.</p>
 </tbody>
 </table></div>
 </div>
-<p>Flags: <a href="../gobject/gobject-Signals.html#G-SIGNAL-ACTION:CAPS">Action</a></p>
+<p>Flags: Action</p>
 </div>
 </div>
 </div>
 <div class="footer">
-<hr>Generated by GTK-Doc V1.27.1</div>
+<hr>Generated by GTK-Doc V1.29.1</div>
 </body>
 </html>
