@@ -1,6 +1,98 @@
+commit ab4bbb9ec65ae84607b95f0ca5bca61f7a8ac71f
+Author: David King <amigadave@amigadave.com>
+Date:   Tue Sep 4 08:47:25 2018 +0100
+
+    Update NEWS for 3.30.0 release
+
+M	NEWS
+M	configure.ac
+
+commit 125f55e734b5f93f3908879c5d693396514b2cdc
+Author: Madis O <sidam@protonmail.com>
+Date:	Sat Sep 1 22:29:18 2018 +0000
+
+    Update Estonian translation
+
+M	po/et.po
+
+commit 67050015c1a19e4e358b015602cf1a3dfda1fd6c
+Author: Cheng-Chia Tseng <pswo10680@gmail.com>
+Date:	Tue Aug 21 16:08:18 2018 +0000
+
+    Update Chinese (Taiwan) translation
+
+M	po/zh_TW.po
+
+commit 9b03a823f403f8bff4f6d8d058693c8e83d1ce32
+Author: Waldo Luís Ribeiro <waldoribeiro@sapo.pt>
+Date:	Tue Aug 14 19:12:17 2018 +0000
+
+    Update British English translation
+
+M	po/en_GB.po
+
+commit b1dccccafedd4025650a32aa8d915dc3415d5121
+Author: Jan-Michael Brummer <jan.brummer@tabos.org>
+Date:	Tue May 1 22:48:43 2018 +0200
+
+    cheese-window: Add camera toggle button
+
+    Fixes: https://bugzilla.gnome.org/show_bug.cgi?id=750285
+
+M	data/cheese-main-window.ui
+M	src/cheese-window.vala
+
+commit 92e84f9651dc51138efd18337d8d2552e903248b
+Author: Jordi Mas <jmas@softcatala.org>
+Date:	Sat May 12 18:59:15 2018 +0200
+
+    Update Catalan translation
+
+M	help/ca/ca.po
+
+commit fe595616b26436acc6d3202c84411449d9ea78f3
+Author: Matej Urbančič <mateju@svn.gnome.org>
+Date:	Fri Apr 6 21:32:08 2018 +0200
+
+    Updated Slovenian translation
+
+M	po/sl.po
+
+commit 6b3a4bedb41190997451d443af876321b62710bb
+Author: Daniel Șerbănescu <daniel@serbanescu.dk>
+Date:	Sat Mar 24 21:15:20 2018 +0000
+
+    Update Romanian translation
+
+M	po/ro.po
+
+commit 405c32e50dbd8d97599b90999ab62e749a2e99ea
+Author: Nathan Follens <nathan@anche.no>
+Date:	Sat Mar 24 18:59:56 2018 +0000
+
+    Update Dutch translation
+
+M	po/nl.po
+
+commit 41447a2adbbba31f2121054778f2b7bc4e130518
+Author: Mingcong Bai <jeffbai@aosc.xyz>
+Date:	Tue Mar 20 17:10:19 2018 +0800
+
+    Update zh_CN translation
+
+M	po/zh_CN.po
+
+commit 34c71968f2878c26b2151c1b36171ca7e0610b72
+Author: Marcos Lans <marcoslansgarza@gmail.com>
+Date:	Wed Mar 14 22:48:06 2018 +0000
+
+    Update Galician translation
+
+M	help/gl/gl.po
+
 commit 355c121cd032837cad1bd54e1a560afc0712acba
 Author: David King <amigadave@amigadave.com>
-Date:   Mon Mar 12 13:29:22 2018 +0000
+Date:	Mon Mar 12 13:29:22 2018 +0000
 
     Update NEWS for 3.28.0 release
 

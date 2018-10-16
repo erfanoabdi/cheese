@@ -56,7 +56,7 @@
   apply <link xref="effects-apply">special <gui>Effects</gui></link> to add a
   personal touch to them.</p>
 
-  <p>Per defecte, el <app>Cheese</app> s'inicia en <gui>Mode foto</gui>, preparat per <link xref="take-photo">fer una foto</link>. Heu de canviar-lo a al <gui>Mode vídeo</gui> per <link xref="record-video">enregistrar un vídeo</link> o al <gui>Mode seqüència</gui> per <link xref="burst-mode">fer diverses fotos de cop</link>.</p>
+  <p>Per defecte, el <app>Cheese</app> s'inicia en <gui>Mode foto</gui>, preparat per <link xref="take-photo">fer una foto</link>. Heu de canviar-lo al <gui>Mode vídeo</gui> per <link xref="record-video">enregistrar un vídeo</link> o al <gui>Mode seqüència</gui> per <link xref="burst-mode">fer diverses fotos de cop</link>.</p>
 
   <p>El <app>Cheese</app> funciona amb la majoria de càmeres web, però les més antigues poden presentar problemes de compatibilitat.</p>
 
