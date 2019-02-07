@@ -1,6 +1,77 @@
+commit f9cf3e578eb43865741d272bcdc85d9ea16fc88c
+Author: David King <amigadave@amigadave.com>
+Date:   Mon Feb 4 18:50:10 2019 +0000
+
+    Update NEWS for 3.31.90 release
+
+M	NEWS
+M	configure.ac
+
+commit 2f8aa2ac70c7cbf44b2606e42c4797d3793184ae
+Author: Piotr Drąg <piotrdrag@gmail.com>
+Date:	Mon Feb 4 18:20:19 2019 +0100
+
+    Update Polish translation
+
+M	po/pl.po
+
+commit 48882da6a6dc4fc1c19e15f5210c9e10feb67ff5
+Author: Robert Ancell <robert.ancell@canonical.com>
+Date:	Mon Jul 2 14:09:49 2018 +1200
+
+    Remove app menu
+
+    https://wiki.gnome.org/Initiatives/GnomeGoals/AppMenuRetirement
+
+M	data/headerbar.ui
+M	data/menus.ui
+
+commit eb6675f15e4e7c2f7d126364f9a4bdb221a4dd42
+Author: Andika Triwidada <atriwidada@gnome.org>
+Date:	Sat Jan 12 05:46:43 2019 +0000
+
+    Update Indonesian translation
+
+M	po/id.po
+
+commit 89575e77d63324048deac19366709609381fa7f0
+Author: Charles Monzat <charles.monzat@numericable.fr>
+Date:	Sat Dec 29 15:01:35 2018 +0000
+
+    Update French translation
+
+M	po/fr.po
+
+commit fde76112d7262a7d9a75328f5ca6a270233ff530
+Author: Andre Klapper <a9016009@gmx.de>
+Date:	Sun Dec 16 01:00:16 2018 +0100
+
+    Replace git.gnome.org by Gitlab URL in <GitRepository> in DOAP file
+
+M	cheese.doap
+
+commit 8e94bc4745dfe83d7abb03d52740977a50d1b8c8
+Author: Andre Klapper <a9016009@gmx.de>
+Date:	Sat Dec 15 19:12:16 2018 +0100
+
+    Replace Bugzilla by Gitlab URL in DOAP file
+
+M	cheese.doap
+
+commit 657ae5dcf2dfa45cc65edf7da2798fc48fd6b9db
+Author: Bjørn Lie <bjorn.lie@gmail.com>
+Date:	Thu Jul 26 20:31:55 2018 +0000
+
+    Drop deprecated GtkScrollbar-min-slider-length
+
+    It seems to serve no purpose anymore + added bonus:
+    Avoid deprecation warning littering journald logs.
+
+M	data/cheese.css
+
 commit ab4bbb9ec65ae84607b95f0ca5bca61f7a8ac71f
 Author: David King <amigadave@amigadave.com>
-Date:   Tue Sep 4 08:47:25 2018 +0100
+Date:	Tue Sep 4 08:47:25 2018 +0100
 
     Update NEWS for 3.30.0 release
 
