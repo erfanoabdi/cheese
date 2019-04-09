@@ -112,11 +112,9 @@ am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
 	$(ACLOCAL_M4)
 DIST_COMMON = $(srcdir)/Makefile.am $(top_srcdir)/configure \
 	$(am__configure_deps) $(dist_noinst_SCRIPTS) \
-	$(dist_appsicon16_DATA) $(dist_appsicon22_DATA) \
-	$(dist_appsicon24_DATA) $(dist_appsicon256_DATA) \
-	$(dist_appsicon32_DATA) $(dist_appsicon48_DATA) \
-	$(dist_appsiconsymbolic_DATA) $(dist_noinst_DATA) \
-	$(cheese_HEADERS) $(noinst_HEADERS) $(am__DIST_COMMON)
+	$(dist_appsiconscalable_DATA) $(dist_appsiconsymbolic_DATA) \
+	$(dist_noinst_DATA) $(cheese_HEADERS) $(noinst_HEADERS) \
+	$(am__DIST_COMMON)
 am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \
  configure.lineno config.status.lineno
 mkinstalldirs = $(install_sh) -d
@@ -125,10 +123,7 @@ CONFIG_CLEAN_FILES = data/cheese.pc data/cheese-gtk.pc \
 	data/org.gnome.Cheese.desktop.in
 CONFIG_CLEAN_VPATH_FILES =
 am__installdirs = "$(DESTDIR)$(bindir)" "$(DESTDIR)$(libdir)" \
-	"$(DESTDIR)$(desktopdir)" "$(DESTDIR)$(appsicon16dir)" \
-	"$(DESTDIR)$(appsicon22dir)" "$(DESTDIR)$(appsicon24dir)" \
-	"$(DESTDIR)$(appsicon256dir)" "$(DESTDIR)$(appsicon32dir)" \
-	"$(DESTDIR)$(appsicon48dir)" \
+	"$(DESTDIR)$(desktopdir)" "$(DESTDIR)$(appsiconscalabledir)" \
 	"$(DESTDIR)$(appsiconsymbolicdir)" "$(DESTDIR)$(girdir)" \
 	"$(DESTDIR)$(pkgconfigdir)" "$(DESTDIR)$(servicedir)" \
 	"$(DESTDIR)$(typelibdir)" "$(DESTDIR)$(cheesedir)" \
@@ -370,9 +365,7 @@ am__can_run_installinfo = \
     n|no|NO) false;; \
     *) (install-info --version) >/dev/null 2>&1;; \
   esac
-DATA = $(desktop_DATA) $(dist_appsicon16_DATA) $(dist_appsicon22_DATA) \
-	$(dist_appsicon24_DATA) $(dist_appsicon256_DATA) \
-	$(dist_appsicon32_DATA) $(dist_appsicon48_DATA) \
+DATA = $(desktop_DATA) $(dist_appsiconscalable_DATA) \
 	$(dist_appsiconsymbolic_DATA) $(dist_noinst_DATA) $(gir_DATA) \
 	$(pkgconfig_DATA) $(service_DATA) $(typelib_DATA)
 HEADERS = $(cheese_HEADERS) $(nodist_cheese_HEADERS) $(noinst_HEADERS)
@@ -922,19 +915,9 @@ pkgconfig_DATA = \
 	data/cheese-gtk.pc
 
 iconthemedir = $(datadir)/icons/hicolor
-appsicon16dir = $(iconthemedir)/16x16/apps
-appsicon22dir = $(iconthemedir)/22x22/apps
-appsicon24dir = $(iconthemedir)/24x24/apps
-appsicon32dir = $(iconthemedir)/32x32/apps
-appsicon48dir = $(iconthemedir)/48x48/apps
-appsicon256dir = $(iconthemedir)/256x256/apps
+appsiconscalabledir = $(iconthemedir)/scalable/apps
 appsiconsymbolicdir = $(iconthemedir)/symbolic/apps
-dist_appsicon16_DATA = data/icons/16x16/org.gnome.Cheese.png
-dist_appsicon22_DATA = data/icons/22x22/org.gnome.Cheese.png
-dist_appsicon24_DATA = data/icons/24x24/org.gnome.Cheese.png
-dist_appsicon32_DATA = data/icons/32x32/org.gnome.Cheese.png
-dist_appsicon48_DATA = data/icons/48x48/org.gnome.Cheese.png
-dist_appsicon256_DATA = data/icons/256x256/org.gnome.Cheese.png
+dist_appsiconscalable_DATA = data/icons/scalable/org.gnome.Cheese.svg
 dist_appsiconsymbolic_DATA = data/icons/symbolic/org.gnome.Cheese-symbolic.svg
 update_icon_cache = gtk-update-icon-cache --ignore-theme-index --force
 tests_test_libcheese_gtk_SOURCES = \
@@ -1830,132 +1813,27 @@ uninstall-desktopDATA:
 	@list='$(desktop_DATA)'; test -n "$(desktopdir)" || list=; \
 	files=`for p in $$list; do echo $$p; done | sed -e 's|^.*/||'`; \
 	dir='$(DESTDIR)$(desktopdir)'; $(am__uninstall_files_from_dir)
-install-dist_appsicon16DATA: $(dist_appsicon16_DATA)
+install-dist_appsiconscalableDATA: $(dist_appsiconscalable_DATA)
 	@$(NORMAL_INSTALL)
-	@list='$(dist_appsicon16_DATA)'; test -n "$(appsicon16dir)" || list=; \
+	@list='$(dist_appsiconscalable_DATA)'; test -n "$(appsiconscalabledir)" || list=; \
 	if test -n "$$list"; then \
-	  echo " $(MKDIR_P) '$(DESTDIR)$(appsicon16dir)'"; \
-	  $(MKDIR_P) "$(DESTDIR)$(appsicon16dir)" || exit 1; \
+	  echo " $(MKDIR_P) '$(DESTDIR)$(appsiconscalabledir)'"; \
+	  $(MKDIR_P) "$(DESTDIR)$(appsiconscalabledir)" || exit 1; \
 	fi; \
 	for p in $$list; do \
 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
 	  echo "$$d$$p"; \
 	done | $(am__base_list) | \
 	while read files; do \
-	  echo " $(INSTALL_DATA) $$files '$(DESTDIR)$(appsicon16dir)'"; \
-	  $(INSTALL_DATA) $$files "$(DESTDIR)$(appsicon16dir)" || exit $$?; \
+	  echo " $(INSTALL_DATA) $$files '$(DESTDIR)$(appsiconscalabledir)'"; \
+	  $(INSTALL_DATA) $$files "$(DESTDIR)$(appsiconscalabledir)" || exit $$?; \
 	done
 
-uninstall-dist_appsicon16DATA:
+uninstall-dist_appsiconscalableDATA:
 	@$(NORMAL_UNINSTALL)
-	@list='$(dist_appsicon16_DATA)'; test -n "$(appsicon16dir)" || list=; \
+	@list='$(dist_appsiconscalable_DATA)'; test -n "$(appsiconscalabledir)" || list=; \
 	files=`for p in $$list; do echo $$p; done | sed -e 's|^.*/||'`; \
-	dir='$(DESTDIR)$(appsicon16dir)'; $(am__uninstall_files_from_dir)
-install-dist_appsicon22DATA: $(dist_appsicon22_DATA)
-	@$(NORMAL_INSTALL)
-	@list='$(dist_appsicon22_DATA)'; test -n "$(appsicon22dir)" || list=; \
-	if test -n "$$list"; then \
-	  echo " $(MKDIR_P) '$(DESTDIR)$(appsicon22dir)'"; \
-	  $(MKDIR_P) "$(DESTDIR)$(appsicon22dir)" || exit 1; \
-	fi; \
-	for p in $$list; do \
-	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
-	  echo "$$d$$p"; \
-	done | $(am__base_list) | \
-	while read files; do \
-	  echo " $(INSTALL_DATA) $$files '$(DESTDIR)$(appsicon22dir)'"; \
-	  $(INSTALL_DATA) $$files "$(DESTDIR)$(appsicon22dir)" || exit $$?; \
-	done
-
-uninstall-dist_appsicon22DATA:
-	@$(NORMAL_UNINSTALL)
-	@list='$(dist_appsicon22_DATA)'; test -n "$(appsicon22dir)" || list=; \
-	files=`for p in $$list; do echo $$p; done | sed -e 's|^.*/||'`; \
-	dir='$(DESTDIR)$(appsicon22dir)'; $(am__uninstall_files_from_dir)
-install-dist_appsicon24DATA: $(dist_appsicon24_DATA)
-	@$(NORMAL_INSTALL)
-	@list='$(dist_appsicon24_DATA)'; test -n "$(appsicon24dir)" || list=; \
-	if test -n "$$list"; then \
-	  echo " $(MKDIR_P) '$(DESTDIR)$(appsicon24dir)'"; \
-	  $(MKDIR_P) "$(DESTDIR)$(appsicon24dir)" || exit 1; \
-	fi; \
-	for p in $$list; do \
-	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
-	  echo "$$d$$p"; \
-	done | $(am__base_list) | \
-	while read files; do \
-	  echo " $(INSTALL_DATA) $$files '$(DESTDIR)$(appsicon24dir)'"; \
-	  $(INSTALL_DATA) $$files "$(DESTDIR)$(appsicon24dir)" || exit $$?; \
-	done
-
-uninstall-dist_appsicon24DATA:
-	@$(NORMAL_UNINSTALL)
-	@list='$(dist_appsicon24_DATA)'; test -n "$(appsicon24dir)" || list=; \
-	files=`for p in $$list; do echo $$p; done | sed -e 's|^.*/||'`; \
-	dir='$(DESTDIR)$(appsicon24dir)'; $(am__uninstall_files_from_dir)
-install-dist_appsicon256DATA: $(dist_appsicon256_DATA)
-	@$(NORMAL_INSTALL)
-	@list='$(dist_appsicon256_DATA)'; test -n "$(appsicon256dir)" || list=; \
-	if test -n "$$list"; then \
-	  echo " $(MKDIR_P) '$(DESTDIR)$(appsicon256dir)'"; \
-	  $(MKDIR_P) "$(DESTDIR)$(appsicon256dir)" || exit 1; \
-	fi; \
-	for p in $$list; do \
-	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
-	  echo "$$d$$p"; \
-	done | $(am__base_list) | \
-	while read files; do \
-	  echo " $(INSTALL_DATA) $$files '$(DESTDIR)$(appsicon256dir)'"; \
-	  $(INSTALL_DATA) $$files "$(DESTDIR)$(appsicon256dir)" || exit $$?; \
-	done
-
-uninstall-dist_appsicon256DATA:
-	@$(NORMAL_UNINSTALL)
-	@list='$(dist_appsicon256_DATA)'; test -n "$(appsicon256dir)" || list=; \
-	files=`for p in $$list; do echo $$p; done | sed -e 's|^.*/||'`; \
-	dir='$(DESTDIR)$(appsicon256dir)'; $(am__uninstall_files_from_dir)
-install-dist_appsicon32DATA: $(dist_appsicon32_DATA)
-	@$(NORMAL_INSTALL)
-	@list='$(dist_appsicon32_DATA)'; test -n "$(appsicon32dir)" || list=; \
-	if test -n "$$list"; then \
-	  echo " $(MKDIR_P) '$(DESTDIR)$(appsicon32dir)'"; \
-	  $(MKDIR_P) "$(DESTDIR)$(appsicon32dir)" || exit 1; \
-	fi; \
-	for p in $$list; do \
-	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
-	  echo "$$d$$p"; \
-	done | $(am__base_list) | \
-	while read files; do \
-	  echo " $(INSTALL_DATA) $$files '$(DESTDIR)$(appsicon32dir)'"; \
-	  $(INSTALL_DATA) $$files "$(DESTDIR)$(appsicon32dir)" || exit $$?; \
-	done
-
-uninstall-dist_appsicon32DATA:
-	@$(NORMAL_UNINSTALL)
-	@list='$(dist_appsicon32_DATA)'; test -n "$(appsicon32dir)" || list=; \
-	files=`for p in $$list; do echo $$p; done | sed -e 's|^.*/||'`; \
-	dir='$(DESTDIR)$(appsicon32dir)'; $(am__uninstall_files_from_dir)
-install-dist_appsicon48DATA: $(dist_appsicon48_DATA)
-	@$(NORMAL_INSTALL)
-	@list='$(dist_appsicon48_DATA)'; test -n "$(appsicon48dir)" || list=; \
-	if test -n "$$list"; then \
-	  echo " $(MKDIR_P) '$(DESTDIR)$(appsicon48dir)'"; \
-	  $(MKDIR_P) "$(DESTDIR)$(appsicon48dir)" || exit 1; \
-	fi; \
-	for p in $$list; do \
-	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
-	  echo "$$d$$p"; \
-	done | $(am__base_list) | \
-	while read files; do \
-	  echo " $(INSTALL_DATA) $$files '$(DESTDIR)$(appsicon48dir)'"; \
-	  $(INSTALL_DATA) $$files "$(DESTDIR)$(appsicon48dir)" || exit $$?; \
-	done
-
-uninstall-dist_appsicon48DATA:
-	@$(NORMAL_UNINSTALL)
-	@list='$(dist_appsicon48_DATA)'; test -n "$(appsicon48dir)" || list=; \
-	files=`for p in $$list; do echo $$p; done | sed -e 's|^.*/||'`; \
-	dir='$(DESTDIR)$(appsicon48dir)'; $(am__uninstall_files_from_dir)
+	dir='$(DESTDIR)$(appsiconscalabledir)'; $(am__uninstall_files_from_dir)
 install-dist_appsiconsymbolicDATA: $(dist_appsiconsymbolic_DATA)
 	@$(NORMAL_INSTALL)
 	@list='$(dist_appsiconsymbolic_DATA)'; test -n "$(appsiconsymbolicdir)" || list=; \
@@ -2413,7 +2291,7 @@ install-binPROGRAMS: install-libLTLIBRARIES
 
 installdirs: installdirs-recursive
 installdirs-am:
-	for dir in "$(DESTDIR)$(bindir)" "$(DESTDIR)$(libdir)" "$(DESTDIR)$(desktopdir)" "$(DESTDIR)$(appsicon16dir)" "$(DESTDIR)$(appsicon22dir)" "$(DESTDIR)$(appsicon24dir)" "$(DESTDIR)$(appsicon256dir)" "$(DESTDIR)$(appsicon32dir)" "$(DESTDIR)$(appsicon48dir)" "$(DESTDIR)$(appsiconsymbolicdir)" "$(DESTDIR)$(girdir)" "$(DESTDIR)$(pkgconfigdir)" "$(DESTDIR)$(servicedir)" "$(DESTDIR)$(typelibdir)" "$(DESTDIR)$(cheesedir)" "$(DESTDIR)$(cheesedir)"; do \
+	for dir in "$(DESTDIR)$(bindir)" "$(DESTDIR)$(libdir)" "$(DESTDIR)$(desktopdir)" "$(DESTDIR)$(appsiconscalabledir)" "$(DESTDIR)$(appsiconsymbolicdir)" "$(DESTDIR)$(girdir)" "$(DESTDIR)$(pkgconfigdir)" "$(DESTDIR)$(servicedir)" "$(DESTDIR)$(typelibdir)" "$(DESTDIR)$(cheesedir)" "$(DESTDIR)$(cheesedir)"; do \
 	  test -z "$$dir" || $(MKDIR_P) "$$dir"; \
 	done
 install: install-recursive
@@ -2528,12 +2406,10 @@ info: info-recursive
 info-am:
 
 install-data-am: install-cheeseHEADERS install-data-local \
-	install-desktopDATA install-dist_appsicon16DATA \
-	install-dist_appsicon22DATA install-dist_appsicon24DATA \
-	install-dist_appsicon256DATA install-dist_appsicon32DATA \
-	install-dist_appsicon48DATA install-dist_appsiconsymbolicDATA \
-	install-girDATA install-nodist_cheeseHEADERS \
-	install-pkgconfigDATA install-serviceDATA install-typelibDATA
+	install-desktopDATA install-dist_appsiconscalableDATA \
+	install-dist_appsiconsymbolicDATA install-girDATA \
+	install-nodist_cheeseHEADERS install-pkgconfigDATA \
+	install-serviceDATA install-typelibDATA
 	@$(NORMAL_INSTALL)
 	$(MAKE) $(AM_MAKEFLAGS) install-data-hook
 install-dvi: install-dvi-recursive
@@ -2615,10 +2491,7 @@ ps: ps-recursive
 ps-am:
 
 uninstall-am: uninstall-binPROGRAMS uninstall-cheeseHEADERS \
-	uninstall-desktopDATA uninstall-dist_appsicon16DATA \
-	uninstall-dist_appsicon22DATA uninstall-dist_appsicon24DATA \
-	uninstall-dist_appsicon256DATA uninstall-dist_appsicon32DATA \
-	uninstall-dist_appsicon48DATA \
+	uninstall-desktopDATA uninstall-dist_appsiconscalableDATA \
 	uninstall-dist_appsiconsymbolicDATA uninstall-girDATA \
 	uninstall-libLTLIBRARIES uninstall-local \
 	uninstall-nodist_cheeseHEADERS uninstall-pkgconfigDATA \
@@ -2641,9 +2514,7 @@ uninstall-am: uninstall-binPROGRAMS uninstall-cheeseHEADERS \
 	html-am info info-am install install-am install-binPROGRAMS \
 	install-cheeseHEADERS install-data install-data-am \
 	install-data-hook install-data-local install-desktopDATA \
-	install-dist_appsicon16DATA install-dist_appsicon22DATA \
-	install-dist_appsicon24DATA install-dist_appsicon256DATA \
-	install-dist_appsicon32DATA install-dist_appsicon48DATA \
+	install-dist_appsiconscalableDATA \
 	install-dist_appsiconsymbolicDATA install-dvi install-dvi-am \
 	install-exec install-exec-am install-girDATA install-html \
 	install-html-am install-info install-info-am \
@@ -2656,10 +2527,7 @@ uninstall-am: uninstall-binPROGRAMS uninstall-cheeseHEADERS \
 	mostlyclean-compile mostlyclean-generic mostlyclean-libtool \
 	pdf pdf-am ps ps-am tags tags-am uninstall uninstall-am \
 	uninstall-binPROGRAMS uninstall-cheeseHEADERS \
-	uninstall-desktopDATA uninstall-dist_appsicon16DATA \
-	uninstall-dist_appsicon22DATA uninstall-dist_appsicon24DATA \
-	uninstall-dist_appsicon256DATA uninstall-dist_appsicon32DATA \
-	uninstall-dist_appsicon48DATA \
+	uninstall-desktopDATA uninstall-dist_appsiconscalableDATA \
 	uninstall-dist_appsiconsymbolicDATA uninstall-girDATA \
 	uninstall-hook uninstall-libLTLIBRARIES uninstall-local \
 	uninstall-nodist_cheeseHEADERS uninstall-pkgconfigDATA \

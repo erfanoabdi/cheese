@@ -20,7 +20,7 @@
 
     <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
 
-    <desc>Désactiver le flash de l'écran lors de la prise de photos.</desc>
+    <desc>Désactiver le flash de l’écran lors de la prise de photos.</desc>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Bruno Brouard</mal:name>
@@ -79,7 +79,7 @@
 
   <title>Désactivation du flash</title>
 
-  <p>Quand vous prenez une photo avec Cheese, l'écran de l'ordinateur devient blanc un court instant.</p>
+  <p>Quand vous prenez une photo avec Cheese, l’écran de l’ordinateur devient blanc un court instant.</p>
 
   <p>Pour désactiver cette fonctionnalité, cliquez sur <guiseq><gui>Cheese</gui><gui>Préférences</gui><gui>Capture</gui></guiseq> et décochez <gui>Déclencher le flash</gui>.</p>
 

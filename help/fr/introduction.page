@@ -21,7 +21,7 @@
 
     <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
 
-    <desc>Introduction à l'application webcam de <app>Cheese</app>.</desc>
+    <desc>Introduction à l’application webcam de <app>Cheese</app>.</desc>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Bruno Brouard</mal:name>
@@ -80,7 +80,7 @@
 
   <title>Introduction</title>
 
-  <p><app>Cheese</app> est une application webcam qui vous permet de prendre des photos et d'enregistrer des vidéos avec votre webcam. Vous pouvez prendre une succession rapide de photos en utilisant le <link xref="burst-mode">mode <gui>rafale</gui></link> et appliquer des <link xref="effects-apply"><gui>Effets</gui> spéciaux</link> pour leur donner une touche personnelle.</p>
+  <p><app>Cheese</app> est une application webcam qui vous permet de prendre des photos et d’enregistrer des vidéos avec votre webcam. Vous pouvez prendre une succession rapide de photos en utilisant le <link xref="burst-mode">mode <gui>rafale</gui></link> et appliquer des <link xref="effects-apply"><gui>Effets</gui> spéciaux</link> pour leur donner une touche personnelle.</p>
 
   <p>Par défaut, <app>Cheese</app> démarre en mode <gui>photo</gui>, prêt à <link xref="photo-take">prendre une photo</link>. Vous devez basculer en mode <gui>vidéo</gui> pour <link xref="video-record">enregistrer une vidéo</link>.</p>
 

@@ -19,7 +19,7 @@
 
     <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
 
-    <desc>Ajouter des effets amusants à vos photos et vidéos, comme devenir tout vert ou distordre l'image comme dans un miroir déformant.</desc>
+    <desc>Ajouter des effets amusants à vos photos et vidéos, comme devenir tout vert ou distordre l’image comme dans un miroir déformant.</desc>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Bruno Brouard</mal:name>
@@ -76,7 +76,7 @@
     </mal:credit>
   </info>
 
-  <title>Ajout d'effets aux photos et aux vidéos</title>
+  <title>Ajout d’effets aux photos et aux vidéos</title>
 
   <p>Vous pouvez appliquer des effets amusants à vos photos et vos vidéos :</p>
 
@@ -85,11 +85,11 @@
       <p>Cliquez sur <gui style="button">Effets</gui>.</p>
     </item>
     <item>
-      <p>Sélectionnez l'effet souhaité en cliquant sur une des options ou sélectionnez <gui>Aucun effet</gui> si vous ne souhaitez pas en utiliser.</p>
+      <p>Sélectionnez l’effet souhaité en cliquant sur une des options ou sélectionnez <gui>Aucun effet</gui> si vous ne souhaitez pas en utiliser.</p>
     </item>
   </steps>
 
-  <p><app>Cheese</app> fournit 35 effets. Seuls 9 d'entre eux sont affichés sur la première page. Cliquez sur les flèches gauche ou droite de part et d'autre du bouton <gui style="button">Effets</gui> pour naviguer parmi les autres pages.</p>
+  <p><app>Cheese</app> fournit 35 effets. Seuls 9 d’entre eux sont affichés sur la première page. Cliquez sur les flèches gauche ou droite de part et d’autre du bouton <gui style="button">Effets</gui> pour naviguer parmi les autres pages.</p>
 
   <figure>
     <title>Quelques effets, de gauche à droite : sépia, psychédélique, contours (première ligne), ondes, rayon X, torsion (seconde ligne)</title>

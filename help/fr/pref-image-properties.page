@@ -78,9 +78,9 @@
     </mal:credit>
   </info>
 
-  <title>Mes photos et vidéos n'ont pas l'air normales</title>
+  <title>Mes photos et vidéos n’ont pas l’air normales</title>
 
-  <p>Si vos photos ou vos vidéos sont trop sombres ou si les couleurs ont l'air fausses, essayez d'ajuster la saturation, le contraste, la luminosité et la teinte :</p>
+  <p>Si vos photos ou vos vidéos sont trop sombres ou si les couleurs ont l’air fausses, essayez d’ajuster la saturation, le contraste, la luminosité et la teinte :</p>
 
   <steps>
     <item>
@@ -90,31 +90,31 @@
       <p>Modifiez les positions des glissières pour trouver les meilleurs réglages pour votre webcam.</p>
     </item>
     <item>
-      <p>Cliquez sur <gui>Fermer</gui> et vérifiez que l'aperçu est amélioré.</p>
+      <p>Cliquez sur <gui>Fermer</gui> et vérifiez que l’aperçu est amélioré.</p>
     </item>
   </steps>
 
   <figure>
-    <title>Différentes options dans <gui>Propriétés de l'image</gui> (de gauche à droite) : modification de la luminosité, du contraste, de la teinte et de la saturation</title>
+    <title>Différentes options dans <gui>Propriétés de l’image</gui> (de gauche à droite) : modification de la luminosité, du contraste, de la teinte et de la saturation</title>
     <media its:translate="no" type="image" src="figures/image-properties.png" width="800" height="150"/>
   </figure>
 
   <terms>
     <item>
       <title>Luminosité</title>
-      <p>Augmenter la luminosité rend les photos et les vidéos plus claires. Cependant, si vous êtes dans une pièce sombre, augmenter la luminosité augmente le grain de l'image.</p>
+      <p>Augmenter la luminosité rend les photos et les vidéos plus claires. Cependant, si vous êtes dans une pièce sombre, augmenter la luminosité augmente le grain de l’image.</p>
     </item>
     <item>
       <title>Contraste</title>
-      <p>Utiliser un fort contraste augmente la différence entre les couleurs sombres et claires. Si l'image a l'air délavée, essayez d'augmenter le contraste.</p>
+      <p>Utiliser un fort contraste augmente la différence entre les couleurs sombres et claires. Si l’image a l’air délavée, essayez d’augmenter le contraste.</p>
     </item>
     <item>
       <title>Teinte</title>
-      <p>Modifier la teinte de l'image lui ajoute une couleur particulière. Si les couleurs de l'image semblent fausses (par exemple, trop de jaune), essayez de changer la teinte.</p>
+      <p>Modifier la teinte de l’image lui ajoute une couleur particulière. Si les couleurs de l’image semblent fausses (par exemple, trop de jaune), essayez de changer la teinte.</p>
     </item>
     <item>
       <title>Saturation</title>
-      <p>Réduire la saturation rend l'image moins colorée. Si les couleurs semblent trop accentuées, réduisez la saturation.</p>
+      <p>Réduire la saturation rend l’image moins colorée. Si les couleurs semblent trop accentuées, réduisez la saturation.</p>
     </item>
   </terms>
 

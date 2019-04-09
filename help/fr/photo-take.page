@@ -88,19 +88,19 @@
 
   <steps>
     <item>
-      <p>Vérifiez que vous êtes en mode <gui>Photo</gui>. Si c'est le cas, le bouton <gui style="button">Photo</gui> est sélectionné à gauche de l'écran.</p>
+      <p>Vérifiez que vous êtes en mode <gui>Photo</gui>. Si c’est le cas, le bouton <gui style="button">Photo</gui> est sélectionné à gauche de l’écran.</p>
     </item>
     <item>
-      <p>Cliquez sur le bouton <gui style="button">Prendre une photo avec une webcam</gui> au milieu du panneau inférieur, ou appuyez sur la <key>Barre d'espace</key> pour prendre la photo.</p>
+      <p>Cliquez sur le bouton <gui style="button">Prendre une photo avec une webcam</gui> au milieu du panneau inférieur, ou appuyez sur la <key>Barre d’espace</key> pour prendre la photo.</p>
     </item>
     <item>
-      <p>Un court compte à rebours s'affiche, suivi d'un flash, puis la photo apparaît dans le flux d'images.</p>
+      <p>Un court compte à rebours s’affiche, suivi d’un flash, puis la photo apparaît dans le flux d’images.</p>
     </item>
   </steps>
 
-  <p>Les photos du flux d'images sont automatiquement enregistrées dans le dossier <file>Images/Webcam</file> de votre dossier personnel. Elles sont enregistrées au format JPEG (<file>.jpg</file>).</p>
+  <p>Les photos du flux d’images sont automatiquement enregistrées dans le dossier <file>Images/Webcam</file> de votre dossier personnel. Elles sont enregistrées au format JPEG (<file>.jpg</file>).</p>
 
-  <p>Pour annuler la prise d'une photo après avoir cliqué sur <gui>Prendre une photo</gui>, appuyez sur la touche <key>Échap</key> avant la fin du compte à rebours.</p>
+  <p>Pour annuler la prise d’une photo après avoir cliqué sur <gui>Prendre une photo</gui>, appuyez sur la touche <key>Échap</key> avant la fin du compte à rebours.</p>
 
   <note>
     <p>Pour prendre plusieurs photos les unes à la suite des autres, utilisez le <link xref="pref-burst-mode">mode <gui>rafale</gui></link>.</p>
