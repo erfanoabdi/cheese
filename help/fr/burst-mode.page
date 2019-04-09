@@ -78,20 +78,20 @@
     </mal:credit>
   </info>
 
-  <title>Prise d'une rapide succession de photos</title>
+  <title>Prise d’une rapide succession de photos</title>
 
   <p>Utilisez le mode <gui>rafale</gui> pour prendre automatiquement plusieurs photos à la suite. Cela est particulièrement amusant si vous changez de pose entre les prises ! Pour utiliser le mode <gui>rafale</gui> :</p>
 
   <steps>
     <item>
-      <p>Vérifiez que vous êtes en mode <gui>rafale</gui>. Si c'est le cas, le bouton <gui style="button">Rafale</gui> est sélectionné à gauche de l'écran.</p>
+      <p>Vérifiez que vous êtes en mode <gui>rafale</gui>. Si c’est le cas, le bouton <gui style="button">Rafale</gui> est sélectionné à gauche de l’écran.</p>
     </item>
     <item>
-      <p>Cliquez sur le bouton <gui>Prendre plusieurs photos avec une webcam</gui> au milieu du panneau inférieur ou appuyez sur la <key>Barre d'espace</key> pour démarrer la prise.</p>
-      <p>Par défaut, Cheese prend quatre photos séparées d'une seconde par un compte à rebours.</p>
+      <p>Cliquez sur le bouton <gui>Prendre plusieurs photos avec une webcam</gui> au milieu du panneau inférieur ou appuyez sur la <key>Barre d’espace</key> pour démarrer la prise.</p>
+      <p>Par défaut, Cheese prend quatre photos séparées d’une seconde par un compte à rebours.</p>
     </item>
     <item>
-      <p>Pour arrêter l'enregistrement, appuyez de nouveau sur le même bouton. Vous pouvez également appuyer sur la touche <key>Échap</key> ou <key>Barre d'espace</key> pour arrêter l'enregistrement.</p>
+      <p>Pour arrêter l’enregistrement, appuyez de nouveau sur le même bouton. Vous pouvez également appuyer sur la touche <key>Échap</key> ou <key>Barre d’espace</key> pour arrêter l’enregistrement.</p>
     </item>
   </steps>
 
@@ -113,7 +113,7 @@
         </item>
         <item>
           <title>Déclenchement du flash</title>
-          <p>Votre écran déclenche un flash lorsqu'une photo est prise.</p>
+          <p>Votre écran déclenche un flash lorsqu’une photo est prise.</p>
         </item>
         <item>
           <title>Nombre de photos</title>
@@ -121,7 +121,7 @@
         </item>
         <item>
           <title>Délai entre les photos (en secondes)</title>
-          <p>Délai entre deux photos. Si le <gui>retardateur</gui> est activé, alors le délai doit être d'au moins quatre secondes pour avoir un quelconque effet.</p>
+          <p>Délai entre deux photos. Si le <gui>retardateur</gui> est activé, alors le délai doit être d’au moins quatre secondes pour avoir un quelconque effet.</p>
           <!--<p>The delay between the last photo and the start of the next
           countdown. If <gui>Countdown</gui> is disabled, this is the delay
           between photos.</p>-->

@@ -19,7 +19,7 @@
 
     <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
 
-    <desc>La définition d'une vidéo ou d'une photo détermine la quantité de détails qu'elle contient ; la modifier affecte la taille du fichier.</desc>
+    <desc>La définition d’une vidéo ou d’une photo détermine la quantité de détails qu’elle contient ; la modifier affecte la taille du fichier.</desc>
 
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
@@ -79,7 +79,7 @@
 
   <title>Modification de la définition de capture de votre webcam</title>
 
-  <p>Une plus haute définition permet généralement d'obtenir des images de meilleure qualité, mais les photos et les vidéos avec une plus haute définition prennent plus de place sur le disque dur, particulièrement pour les vidéos.</p>
+  <p>Une plus haute définition permet généralement d’obtenir des images de meilleure qualité, mais les photos et les vidéos avec une plus haute définition prennent plus de place sur le disque dur, particulièrement pour les vidéos.</p>
 
   <p>Si vous voulez que vos photos prennent moins de place sur le disque, réduisez la définition de votre webcam. Si vous voulez des images de meilleure qualité, augmentez la définition. Pour modifier la définition de la webcam :</p>
 
@@ -88,7 +88,7 @@
       <p>Sélectionnez <guiseq><gui>Cheese</gui><gui>Préférences</gui><gui>Webcam</gui></guiseq>.</p>
     </item>
     <item>
-      <p>Choisissez une définition différente dans la liste déroulante. Certaines webcams ne prennent en charge qu'une seule définition, il est donc possible que vous n'ayez pas le choix.</p>
+      <p>Choisissez une définition différente dans la liste déroulante. Certaines webcams ne prennent en charge qu’une seule définition, il est donc possible que vous n’ayez pas le choix.</p>
     </item>
     <item>
       <p>Cliquez sur <gui>Fermer</gui>.</p>

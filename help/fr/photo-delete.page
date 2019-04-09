@@ -76,13 +76,13 @@
     </mal:credit>
   </info>
 
-  <title>Suppression d'une photo ou d'une vidéo</title>
+  <title>Suppression d’une photo ou d’une vidéo</title>
 
-  <p>Si vous ne voulez plus d'une photo ou d'une vidéo, vous pouvez la supprimer définitivement :</p>
+  <p>Si vous ne voulez plus d’une photo ou d’une vidéo, vous pouvez la supprimer définitivement :</p>
 
   <steps>
     <item>
-      <p>Trouvez la photo ou la vidéo que vous voulez supprimer dans le flux d'images au bas de la fenêtre <app>Cheese</app>.</p>
+      <p>Trouvez la photo ou la vidéo que vous voulez supprimer dans le flux d’images au bas de la fenêtre <app>Cheese</app>.</p>
     </item>
     <item>
       <p>Effectuez un clic droit et sélectionnez <gui>Supprimer</gui>.</p>
@@ -92,7 +92,7 @@
     </item>
   </steps>
 
-  <p>Si vous n'êtes pas sûr de vouloir supprimer de manière définitive une photo ou une vidéo, vous pouvez effectuer un clic droit dessus et sélectionner <gui>Mettre à la corbeille</gui> à la place. La photo est alors déplacée dans le dossier <gui>Corbeille</gui> de l'ordinateur.</p>
+  <p>Si vous n’êtes pas sûr de vouloir supprimer de manière définitive une photo ou une vidéo, vous pouvez effectuer un clic droit dessus et sélectionner <gui>Mettre à la corbeille</gui> à la place. La photo est alors déplacée dans le dossier <gui>Corbeille</gui> de l’ordinateur.</p>
 
   <note>
     <p>Cheese ne possède pas son propre dossier <gui>Corbeille</gui> et vous ne pouvez pas accéder au dossier <gui>Corbeille</gui> à partir de <app>Cheese</app>.</p>

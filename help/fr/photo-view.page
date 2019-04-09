@@ -19,7 +19,7 @@
 
     <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
 
-    <desc>Les photos et les vidéos apparaissent automatiquement dans le flux d'images.</desc>
+    <desc>Les photos et les vidéos apparaissent automatiquement dans le flux d’images.</desc>
   
     <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
       <mal:name>Bruno Brouard</mal:name>
@@ -77,15 +77,15 @@
   </info>
 
 
-  <title>Affichage d'une photo ou d'une vidéo que vous avez faite</title>
+  <title>Affichage d’une photo ou d’une vidéo que vous avez faite</title>
 
-  <p>Après avoir pris une photo ou enregistré une vidéo, elle apparaît dans le flux d'images en bas de la fenêtre. Effectuez un clic droit dessus et cliquez sur <gui style="menuitem">Ouvrir</gui> pour l'ouvrir dans le visionneur d'images ou le lecteur de vidéo.</p>
+  <p>Après avoir pris une photo ou enregistré une vidéo, elle apparaît dans le flux d’images en bas de la fenêtre. Effectuez un clic droit dessus et cliquez sur <gui style="menuitem">Ouvrir</gui> pour l’ouvrir dans le visionneur d’images ou le lecteur de vidéo.</p>
 
 <!-- TODO: This is a bug, it doesn't work right now.
   <p>If you want to see a bigger version of a photo, or to play a video,
   double-click it. This will open it in the default photo viewer or video
   player.</p>-->
 
-  <p>Toutes les photos et vidéos du flux d'images sont enregistrées dans les dossiers <file>Images/Webcam</file> ou <file>Vidéos/Webcam</file> de votre dossier personnel.</p>
+  <p>Toutes les photos et vidéos du flux d’images sont enregistrées dans les dossiers <file>Images/Webcam</file> ou <file>Vidéos/Webcam</file> de votre dossier personnel.</p>
 
 </page>

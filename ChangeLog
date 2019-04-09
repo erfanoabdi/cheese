@@ -1,6 +1,328 @@
+commit f968f45985a93a75ce20236615bf8ff5586174ce
+Author: David King <amigadave@amigadave.com>
+Date:   Mon Apr 8 16:16:27 2019 +0100
+
+    Update NEWS for 3.32.1 release
+
+M	NEWS
+M	configure.ac
+
+commit 358cc89538565fd446723a3362806584d54752da
+Author: Ask Hjorth Larsen <asklarsen@gmail.com>
+Date:	Sun Apr 7 03:43:02 2019 +0200
+
+    Updated Danish translation
+
+M	po/da.po
+
+commit 284c402c7cfddf3bca8e3dbf06668a89dff5f77e
+Author: Carmen Bianca BAKKER <carmen@carmenbianca.eu>
+Date:	Sat Mar 30 09:23:08 2019 +0000
+
+    Update Esperanto translation
+
+M	po/eo.po
+
+commit 06564a26321e1a51579743b29231ecc0e235df00
+Author: Goran Vidović <trebelnik2@gmail.com>
+Date:	Mon Mar 25 21:51:00 2019 +0000
+
+    Update Croatian translation
+
+M	po/hr.po
+
+commit 5481726b186da7763b6a645ff43aee5ac932e10c
+Author: Jakub Steiner <jimmac@gmail.com>
+Date:	Wed Jan 9 13:52:31 2019 +0100
+
+    icon: update app icon
+
+    - GNOME 3.32 redesign of app icons.
+      See https://gitlab.gnome.org/GNOME/Initiatives/issues/2
+      for more info.
+
+    /label ~"9. Initiative: AppIconRedesign"
+
+M	Makefile.am
+D	data/icons/16x16/org.gnome.Cheese.png
+D	data/icons/22x22/org.gnome.Cheese.png
+D	data/icons/24x24/org.gnome.Cheese.png
+D	data/icons/256x256/org.gnome.Cheese.png
+D	data/icons/32x32/org.gnome.Cheese.png
+D	data/icons/48x48/org.gnome.Cheese.png
+D	data/icons/org.gnome.Cheese.svg
+A	data/icons/scalable/org.gnome.Cheese.svg
+
+commit d4f867f9b663167bf3588a0b9fc7e1b6cfb79aec
+Author: David King <amigadave@amigadave.com>
+Date:	Sat Mar 9 08:29:45 2019 +0000
+
+    Fix g_assert() use in tests
+
+    Rather than using g_assert(), which is disabled if G_DISABLE_ASSERT is
+    set, use the g_assert_*() macros that are explicitly intended for
+    use in
+    unit tests, and unaffected.
+
+    https://gitlab.gnome.org/GNOME/cheese/issues/22
+
+M	tests/test-libcheese-gtk.c
+M	tests/test-libcheese.c
+
+commit 70cd445781ffa08dff1ddad84ee949fd1476d9aa
+Author: David King <amigadave@amigadave.com>
+Date:	Tue Mar 12 15:11:14 2019 +0000
+
+    Update NEWS for 3.32.0 release
+
+M	NEWS
+M	configure.ac
+
+commit 2fb2da02774ffbcd174f77cb35ededf0f932a5c0
+Author: Mart Raudsepp <leio@gentoo.org>
+Date:	Sun Mar 10 14:32:18 2019 +0000
+
+    Update Estonian translation
+
+M	po/et.po
+
+commit 0bcf8670e5b50a72d45b994523ba669fdc6a8f21
+Author: Charles Monzat <charles.monzat@free.fr>
+Date:	Wed Mar 6 22:44:45 2019 +0000
+
+    Update French translation
+
+M	help/fr/fr.po
+
+commit 7b72fb7fe41a3d0ba0d39b344e7768fdd5ec363f
+Author: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>
+Date:	Sun Mar 3 10:26:09 2019 +0000
+
+    Update Latvian translation
+
+M	po/lv.po
+
+commit 39c97485469b13c70e8ac7422b617a348cb541fc
+Author: Stas Solovey <whats_up@tut.by>
+Date:	Thu Feb 28 17:38:24 2019 +0000
+
+    Update Russian translation
+
+M	po/ru.po
+
+commit da8ab6e47f84c72aaf57c6b9e3f994a661dc56de
+Author: Марко Костић <marko.m.kostic@gmail.com>
+Date:	Thu Feb 28 14:13:08 2019 +0000
+
+    Update Serbian translation
+
+M	po/sr.po
+
+commit 62840da94b32cd9f8660675588077830005b8ab3
+Author: Changwoo Ryu <cwryu@debian.org>
+Date:	Thu Feb 28 03:16:22 2019 +0000
+
+    Update Korean translation
+
+M	po/ko.po
+
+commit 8173e555af430eabbf5ea5ad0011ec232bf93b16
+Author: Trần Ngọc Quân <vnwildman@gmail.com>
+Date:	Thu Feb 28 07:21:29 2019 +0700
+
+    Updated Vietnamese translation
+
+    Signed-off-by: Trần Ngọc Quân <vnwildman@gmail.com>
+
+M	po/vi.po
+
+commit fe48fba540f7af04a3a973fbc3779a82f40dc4f0
+Author: Milo Casagrande <milo@ubuntu.com>
+Date:	Mon Feb 25 13:18:29 2019 +0000
+
+    Update Italian translation
+
+M	po/it.po
+
+commit 2139a8de1e974ddbc81462071f26440a93d1c239
+Author: Nathan Follens <nathan@anche.no>
+Date:	Sun Feb 24 11:01:26 2019 +0000
+
+    Update Dutch translation
+
+M	po/nl.po
+
+commit dbd88f305d03522bee45af41bee741c51b89e344
+Author: Kjartan Maraas <kmaraas@gnome.org>
+Date:	Tue Feb 19 10:49:40 2019 +0000
+
+    Update Norwegian Bokmål translation
+
+M	po/nb.po
+
+commit b99e215eb43c1f7b36ace4fb9d680678d517c6b3
+Author: Yi-Jyun Pan <pan93412@gmail.com>
+Date:	Sun Feb 17 16:11:33 2019 +0000
+
+    Update Chinese (Taiwan) translation
+
+M	po/zh_TW.po
+
+commit d97a838ca6bd19c8050f69c593e2517e2cf60e30
+Author: Tim Sabsch <tim@sabsch.com>
+Date:	Sun Feb 17 15:19:54 2019 +0000
+
+    Update German translation
+
+M	po/de.po
+
+commit c80491ca351a3698dedd064d872e826dc33a92f9
+Author: Baurzhan Muftakhidinov <baurthefirst@gmail.com>
+Date:	Sun Feb 17 06:55:44 2019 +0000
+
+    Update Kazakh translation
+
+M	po/kk.po
+
+commit 19e8047b425c94da8297baf385407118e7ee9d2a
+Author: Efstathios Iosifidis <eiosifidis@gnome.org>
+Date:	Sun Feb 17 00:25:46 2019 +0000
+
+    Update Greek translation
+
+M	po/el.po
+
+commit f2df91c43e105a4b4cab0aed5bf62b0c65b3b440
+Author: Alan Mortensen <alanmortensen.am@gmail.com>
+Date:	Wed Feb 13 18:11:13 2019 +0100
+
+    Updated Danish translation
+
+M	po/da.po
+
+commit ff80eed7b280704d680674542c10f3e025f56bcb
+Author: Daniel Șerbănescu <daniel@serbanescu.dk>
+Date:	Wed Feb 13 12:57:32 2019 +0000
+
+    Update Romanian translation
+
+M	po/ro.po
+
+commit 9045db2366d8731ea2a07b64610b244dc74aae7b
+Author: Matej Urbančič <mateju@svn.gnome.org>
+Date:	Tue Feb 12 12:43:14 2019 +0100
+
+    Added Slovenian translation
+
+M	po/sl.po
+
+commit cdcee460419675b90b1eb672b0fb75aa7eea8ce2
+Author: Charles Monzat <charles.monzat@free.fr>
+Date:	Sat Feb 9 17:08:41 2019 +0000
+
+    Update French translation
+
+M	po/fr.po
+
+commit 4cbfd79293b4614607ff925941c7c3dcd8ba2e12
+Author: Fran Dieguez <frandieguez@gnome.org>
+Date:	Sat Feb 9 15:45:36 2019 +0000
+
+    Update Galician translation
+
+M	po/gl.po
+
+commit a04c6c7c08edea7b96d84175fb37e2cbf23396af
+Author: Rafael Fontenelle <rafaelff@gnome.org>
+Date:	Sat Feb 9 15:22:33 2019 +0000
+
+    Update Brazilian Portuguese translation
+
+M	po/pt_BR.po
+
+commit 60002c2f1babe05e151f5786d53e9045b2ca78f2
+Author: Aurimas Černius <aurisc4@gmail.com>
+Date:	Sat Feb 9 17:02:13 2019 +0200
+
+    Updated Lithuanian translation
+
+M	po/lt.po
+
+commit 8e958195a3b63370a56b855db209678840fc1040
+Author: Serdar Sağlam <teknomobil@msn.com>
+Date:	Sat Feb 9 09:36:05 2019 +0000
+
+    Update Turkish translation
+
+M	po/tr.po
+
+commit 1ecbe114a57403fbd914c65a0a651d80ecdfb712
+Author: Ryuta Fujii <translation@sicklylife.jp>
+Date:	Sat Feb 9 09:00:27 2019 +0000
+
+    Update Japanese translation
+
+M	po/ja.po
+
+commit ca5ed0ed678e2b99e8e7c68d4c34d99714f9cb74
+Author: Anders Jonsson <anders.jonsson@norsjovallen.se>
+Date:	Thu Feb 7 20:13:10 2019 +0000
+
+    Update Swedish translation
+
+M	po/sv.po
+
+commit b58b78f38f565a03b3a0cab43069c0203f08dcfc
+Author: Marek Cernocky <marek_cernocky@conel.cz>
+Date:	Thu Feb 7 11:48:28 2019 +0100
+
+    Updated Czech translation
+
+M	po/cs.po
+
+commit 9d2edf792dcf813cb5fdbe5fdbb7662592f79b06
+Author: Kukuh Syafaat <kukuhsyafaat@gnome.org>
+Date:	Wed Feb 6 14:24:20 2019 +0000
+
+    Update Indonesian translation
+
+M	po/id.po
+
+commit a4344ba3f6e71753f75dab2ba0bd4273483e0f71
+Author: Daniel Mustieles <daniel.mustieles.contractor@bbva.com>
+Date:	Wed Feb 6 11:35:45 2019 +0100
+
+    Updated Spanish translation
+
+M	po/es.po
+
+commit 76df7e2c28478d2db1e9d9f02038ef599c580b05
+Author: Balázs Úr <balazs@urbalazs.hu>
+Date:	Tue Feb 5 19:45:22 2019 +0000
+
+    Update Hungarian translation
+
+M	po/hu.po
+
+commit f29e173a47127123c8d78cfec47d7fb1e9f3addf
+Author: Jiri Grönroos <jiri.gronroos@iki.fi>
+Date:	Tue Feb 5 19:05:49 2019 +0000
+
+    Update Finnish translation
+
+M	po/fi.po
+
+commit fb4e47de993e9c08c3a9adf7bc7d2b141507c573
+Author: Fabio Tomat <f.t.public@gmail.com>
+Date:	Tue Feb 5 11:24:15 2019 +0000
+
+    Update Friulian translation
+
+M	po/fur.po
+
 commit f9cf3e578eb43865741d272bcdc85d9ea16fc88c
 Author: David King <amigadave@amigadave.com>
-Date:   Mon Feb 4 18:50:10 2019 +0000
+Date:	Mon Feb 4 18:50:10 2019 +0000
 
     Update NEWS for 3.31.90 release
 

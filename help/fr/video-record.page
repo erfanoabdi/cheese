@@ -77,26 +77,26 @@
     </mal:credit>
   </info>
 
-  <title>Enregistrement d'une vidéo</title>
+  <title>Enregistrement d’une vidéo</title>
 
-  <p>Pour enregistrer une vidéo à l'aide de votre webcam :</p>
+  <p>Pour enregistrer une vidéo à l’aide de votre webcam :</p>
 
   <steps>
     <item>
-      <p>Vérifiez que vous êtes en mode <gui>vidéo</gui>. Si c'est le cas, le bouton <gui style="button">Vidéo</gui> est sélectionné à gauche de l'écran.</p>
+      <p>Vérifiez que vous êtes en mode <gui>vidéo</gui>. Si c’est le cas, le bouton <gui style="button">Vidéo</gui> est sélectionné à gauche de l’écran.</p>
     </item>
     <item>
-      <p>Cliquez sur le bouton <gui style="button">Enregistrer une vidéo</gui> au milieu du panneau inférieur ou appuyez sur la <key>Barre d'espace</key> pour démarrer l'enregistrement de la vidéo.</p>
+      <p>Cliquez sur le bouton <gui style="button">Enregistrer une vidéo</gui> au milieu du panneau inférieur ou appuyez sur la <key>Barre d’espace</key> pour démarrer l’enregistrement de la vidéo.</p>
     </item>
     <item>
-     <p>Pour arrêter l'enregistrement, appuyez de nouveau sur le même bouton. Vous pouvez également appuyer sur la touche <key>Échap</key> ou <key>Barre d'espace</key> pour arrêter l'enregistrement.</p>
+     <p>Pour arrêter l’enregistrement, appuyez de nouveau sur le même bouton. Vous pouvez également appuyer sur la touche <key>Échap</key> ou <key>Barre d’espace</key> pour arrêter l’enregistrement.</p>
     </item>
   </steps>
 
   <p>Les vidéos sont enregistrées dans le format WebM (<file>.webm</file>).</p>
 
-  <p>Après avoir arrêté l'enregistrement, la vidéo apparaît automatiquement dans le flux d'images en bas de la fenêtre de <app>Cheese</app>. Vous pouvez y <link xref="photo-view">ouvrir</link> ou supprimer la vidéo.</p>
+  <p>Après avoir arrêté l’enregistrement, la vidéo apparaît automatiquement dans le flux d’images en bas de la fenêtre de <app>Cheese</app>. Vous pouvez y <link xref="photo-view">ouvrir</link> ou supprimer la vidéo.</p>
 
-  <p>Si vous n'arrivez pas à partager une vidéo avec des personnes utilisant d'autres systèmes d'exploitation (comme Windows ou Mac OS), vous pouvez avoir besoin de <link href="help:gnome-help/video-sending">les convertir dans un autre format</link>.</p>
+  <p>Si vous n’arrivez pas à partager une vidéo avec des personnes utilisant d’autres systèmes d’exploitation (comme Windows ou Mac OS), vous pouvez avoir besoin de <link href="help:gnome-help/video-sending">les convertir dans un autre format</link>.</p>
 
 </page>
