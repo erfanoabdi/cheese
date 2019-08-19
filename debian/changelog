@@ -1,4 +1,4 @@
-cheese (3.33.90.1-1) UNRELEASED; urgency=medium
+cheese (3.33.90.1-1) experimental; urgency=medium
 
   * New upstream release
   * debian/compat:
