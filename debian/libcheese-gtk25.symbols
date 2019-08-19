@@ -15,5 +15,6 @@ libcheese-gtk.so.25 libcheese-gtk25 #MINVER#
  cheese_widget_get_type@Base 3.18.0
  cheese_widget_get_video_area@Base 3.18.0
  cheese_widget_new@Base 3.18.0
+ cheese_widget_state_get_type@Base 3.18.0
  um_crop_area_get_type@Base 3.18.0
 

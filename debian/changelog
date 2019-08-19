@@ -1,4 +1,4 @@
-cheese (3.33.90-1) UNRELEASED; urgency=medium
+cheese (3.33.90.1-1) UNRELEASED; urgency=medium
 
   * New upstream release
   * debian/compat:
@@ -9,8 +9,10 @@ cheese (3.33.90-1) UNRELEASED; urgency=medium
   * debian/rules:
     - remove the dh_autoreconf and dh_install overrides since there are
       not needed anymore
+  * debian/libcheese8.symbols, debian/libcheese-gtk25.symbols:
+    - updated for the new version
 
- -- Sebastien Bacher <seb128@debian.org>  Mon, 19 Aug 2019 17:52:48 +0200
+ -- Sebastien Bacher <seb128@debian.org>  Mon, 19 Aug 2019 18:08:56 +0200
 
 cheese (3.32.1-1) unstable; urgency=medium
 

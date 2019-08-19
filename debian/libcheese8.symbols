@@ -57,5 +57,4 @@ libcheese.so.8 libcheese8 #MINVER#
  cheese_fileutil_reset_burst@Base 3.18.0
  cheese_init@Base 3.18.0
  cheese_video_format_get_type@Base 3.18.0
- cheese_widget_state_get_type@Base 3.18.0
 
