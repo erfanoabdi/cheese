@@ -1,110 +1,107 @@
-# translation of cheese master to Indonesian
-# Copyright (C) 2010 THE Cheese'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the Cheese package.
+# Karbi translation for cheese.
+# Copyright (C) 2019 cheese's Free Software Foundation, Inc.
+# This file is distributed under the same license as the cheese package.
+# Jor Teron <jor.teron@gmail.com>, 2019.
 #
-# Andika Triwidada <andika@gmail.com>, 2010-2015.
-# Dirgita <dirgitadevina@yahoo.co.id>, 2010, 2011, 2012.
-# Vincent Sebastian The <vincent.s.the@gmail.com>, 2011.
-# Kukuh Syafaat <kukuhsyafaat@gnome.org>, 2019.
 msgid ""
 msgstr ""
 "Project-Id-Version: cheese master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/cheese/issues\n"
-"POT-Creation-Date: 2019-06-01 12:53+0000\n"
-"PO-Revision-Date: 2019-06-21 18:33+0700\n"
-"Last-Translator: Kukuh Syafaat <kukuhsyafaat@gnome.org>\n"
-"Language-Team: Indonesian <gnome@i15n.org>\n"
-"Language: id\n"
+"POT-Creation-Date: 2019-07-06 07:35+0000\n"
+"PO-Revision-Date: 2019-07-17 21:35+0530\n"
+"Last-Translator: Jor Teron <jor.teron@gmail.com>\n"
+"Language-Team: Karbi <mjw@li.org>\n"
+"Language: mjw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural= n!=1;\n"
-"X-Generator: Poedit 2.2.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: ../data/cheese-main-window.ui.h:1
 msgid "Photo mode"
-msgstr "Mode foto"
+msgstr ""
 
 #: ../data/cheese-main-window.ui.h:2
 msgid "Photo"
-msgstr "Foto"
+msgstr ""
 
 #: ../data/cheese-main-window.ui.h:3
 msgid "Video mode"
-msgstr "Mode video"
+msgstr ""
 
 #: ../data/cheese-main-window.ui.h:4
 msgid "Video"
-msgstr "Video"
+msgstr ""
 
 #: ../data/cheese-main-window.ui.h:5
 msgid "Photo burst mode"
-msgstr "Mode rentetan foto"
+msgstr ""
 
 #: ../data/cheese-main-window.ui.h:6
 msgid "Burst"
-msgstr "Rentetan"
+msgstr ""
 
 #: ../data/cheese-main-window.ui.h:7 ../src/cheese-window.vala:1415
 msgid "Take a photo using a webcam"
-msgstr "Ambil foto memakai webcam"
+msgstr ""
 
 #: ../data/cheese-main-window.ui.h:8
 msgid "Navigate to the previous page of effects"
-msgstr "Navigasi ke halaman efek sebelumnya"
+msgstr ""
 
 #: ../data/cheese-main-window.ui.h:9
 msgid "Effects"
-msgstr "Efek"
+msgstr "Effects"
 
 #: ../data/cheese-main-window.ui.h:10
 msgid "_Effects"
-msgstr "_Efek"
+msgstr "_Effects"
 
 #: ../data/cheese-main-window.ui.h:11
 msgid "Navigate to the next page of effects"
-msgstr "Navigasi ke halaman efek selanjutnya"
+msgstr ""
 
 #: ../data/cheese-main-window.ui.h:12
 msgid "Leave fullscreen mode and go back to windowed mode"
-msgstr "Tinggalkan mode layar penuh dan kembalik ke mode jendela"
+msgstr ""
 
 #: ../data/cheese-prefs.ui.h:1
 msgid "Preferences"
-msgstr "Preferensi"
+msgstr ""
 
 #: ../data/cheese-prefs.ui.h:2 ../data/headerbar.ui.h:4
 msgid "_Help"
-msgstr "Ba_ntuan"
+msgstr ""
 
 #: ../data/cheese-prefs.ui.h:3
 msgid "_Close"
-msgstr "_Tutup"
+msgstr ""
 
 #: ../data/cheese-prefs.ui.h:4
 msgid "Device"
-msgstr "Perangkat"
+msgstr "Device"
 
 #: ../data/cheese-prefs.ui.h:5
 msgid "Photo resolution"
-msgstr "Resolusi foto"
+msgstr "Photo apun"
 
 #: ../data/cheese-prefs.ui.h:6
 msgid "Video resolution"
-msgstr "Resolusi video"
+msgstr "Video apun"
 
 #: ../data/cheese-prefs.ui.h:7 ../libcheese/cheese-fileutil.c:283
 #: ../libcheese/cheese-fileutil.c:303
 msgid "Webcam"
-msgstr "Webkam"
+msgstr "Webcam"
 
 #: ../data/cheese-prefs.ui.h:8
 msgid "Brightness"
-msgstr "Kecerahan"
+msgstr "Atur"
 
 #: ../data/cheese-prefs.ui.h:9
 msgid "Saturation"
-msgstr "Saturasi"
+msgstr "Saturation"
 
 #: ../data/cheese-prefs.ui.h:10
 msgid "Hue"
@@ -112,116 +109,116 @@ msgstr "Hue"
 
 #: ../data/cheese-prefs.ui.h:11
 msgid "Contrast"
-msgstr "Kontras"
+msgstr "Contrast"
 
 #: ../data/cheese-prefs.ui.h:12
 msgid "Image"
-msgstr "Citra"
+msgstr "Arjan"
 
 #: ../data/cheese-prefs.ui.h:13
 msgid "Shutter"
-msgstr "Tombol"
+msgstr ""
 
 #: ../data/cheese-prefs.ui.h:14
 msgid "_Countdown"
-msgstr "_Hitung mundur"
+msgstr ""
 
 #: ../data/cheese-prefs.ui.h:15
 msgid "Fire _flash"
-msgstr "Nyalakan lampu _kilat"
+msgstr ""
 
 #: ../data/cheese-prefs.ui.h:16
 msgid "Burst mode"
-msgstr "Mode rentetan"
+msgstr ""
 
 #: ../data/cheese-prefs.ui.h:17
 msgid "Number of photos"
-msgstr "Jumlah foto"
+msgstr "Arjan son koan"
 
 #: ../data/cheese-prefs.ui.h:18
 msgid "Delay between photos (seconds)"
-msgstr "Jeda antar foto (detik)"
+msgstr ""
 
 #: ../data/cheese-prefs.ui.h:19
 msgid "Capture"
-msgstr "Ambil"
+msgstr "Ke-nep"
 
 #: ../data/headerbar.ui.h:1
 msgid "_Fullscreen"
-msgstr "_Layar Penuh"
+msgstr ""
 
 #: ../data/headerbar.ui.h:2
 msgid "P_references"
-msgstr "P_referensi"
+msgstr ""
 
 #: ../data/headerbar.ui.h:3
 msgid "_Keyboard Shortcuts"
-msgstr "Pintasan Papan Ti_k"
+msgstr "_Keyboard Shortcuts"
 
 #: ../data/headerbar.ui.h:5
 msgid "_About Cheese"
-msgstr "Tent_ang Cheese"
+msgstr "Cheese _Aputhak"
 
 #: ../data/headerbar.ui.h:6 ../libcheese/cheese-avatar-chooser.c:85
 #: ../src/cheese-window.vala:1444
 msgid "Take a Photo"
-msgstr "Ambil Foto"
+msgstr "Arjan ke-nep"
 
 #: ../data/menus.ui.h:1
 msgid "Open"
-msgstr "Buka"
+msgstr "Kangpu"
 
 #: ../data/menus.ui.h:2
 msgid "Save _As…"
-msgstr "Simp_an Sebagai…"
+msgstr ""
 
 #: ../data/menus.ui.h:3
 msgid "Move to _Trash"
-msgstr "Buang ke _Tempat Sampah"
+msgstr ""
 
 #: ../data/menus.ui.h:4
 msgid "Delete"
-msgstr "Hapus"
+msgstr "Kethan"
 
 #: ../data/shortcuts.ui.h:1
 msgctxt "shortcut window"
 msgid "Overview"
-msgstr "Ringkasan"
+msgstr ""
 
 #: ../data/shortcuts.ui.h:2
 msgctxt "shortcut window"
 msgid "Fullscreen on / off"
-msgstr "Layar penuh nyala / mati"
+msgstr ""
 
 #: ../data/shortcuts.ui.h:3
 msgctxt "shortcut window"
 msgid "Quit the application"
-msgstr "Keluar aplikasi"
+msgstr ""
 
 #: ../data/shortcuts.ui.h:4
 msgctxt "shortcut window"
 msgid "Thumbnails"
-msgstr "Gambar Mini"
+msgstr ""
 
 #: ../data/shortcuts.ui.h:5
 msgctxt "shortcut window"
 msgid "Open"
-msgstr "Buka"
+msgstr "Kangpu"
 
 #: ../data/shortcuts.ui.h:6
 msgctxt "shortcut window"
 msgid "Save As"
-msgstr "Simpan Sebagai"
+msgstr ""
 
 #: ../data/shortcuts.ui.h:7
 msgctxt "shortcut window"
 msgid "Move to Trash"
-msgstr "Buang ke Tempat Sampah"
+msgstr ""
 
 #: ../data/shortcuts.ui.h:8
 msgctxt "shortcut window"
 msgid "Delete"
-msgstr "Hapus"
+msgstr ""
 
 #. Both taken from the desktop file.
 #: ../data/org.gnome.Cheese.appdata.xml.in.h:2
@@ -235,23 +232,18 @@ msgstr "Cheese"
 #: ../src/cheese-application.vala:569
 msgid "Take photos and videos with your webcam, with fun graphical effects"
 msgstr ""
-"Ambil foto dan video dengan webkam Anda, dengan efek grafis yang menarik"
 
 #: ../data/org.gnome.Cheese.appdata.xml.in.h:4
 msgid ""
 "Cheese uses your webcam to take photos and videos, applies fancy special "
 "effects and lets you share the fun with others."
 msgstr ""
-"Cheese memakai webcam Anda untuk mengambil foto dan video, menerapkan efek "
-"khusus yang fancy dan memungkinkan Anda berbagi keceriaan dengan yang lain."
 
 #: ../data/org.gnome.Cheese.appdata.xml.in.h:5
 msgid ""
 "Take multiple photos in quick succession with burst mode. Use the countdown "
 "to give yourself time to strike a pose, and wait for the flash!"
 msgstr ""
-"Ambil foto berganda dalam urutan cepat dengan mode rentetan. Gunakan hitung "
-"mundur untuk memberi Anda waktu mengambil posisi, dan tunggu lampu kilat!"
 
 #: ../data/org.gnome.Cheese.appdata.xml.in.h:6
 msgid ""
@@ -259,155 +251,148 @@ msgid ""
 "videos. With Cheese it is easy to take photos of you, your friends, pets or "
 "whatever you want and share them with others."
 msgstr ""
-"Di dapur, Cheese memakai GStreamer untuk menerapkan efek yang fancy ke foto "
-"dan video. Dengan Cheese menjadi mudah mengambil foto Anda, teman Anda, pet, "
-"atau apapun yang Anda inginkan dan berbagi mereka dengan yang lain."
 
 #: ../data/org.gnome.Cheese.desktop.in.in.h:2
 msgid "Webcam Booth"
-msgstr "Pojok Webkam"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.desktop.in.in.h:3
 msgid "Cheese Webcam Booth"
-msgstr "Cheese Pojok Webkam"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.desktop.in.in.h:5
 msgid "photo;video;webcam;"
-msgstr "foto;video;webcam;"
+msgstr "photo;video;webcam;"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:1
 msgid "Use a countdown"
-msgstr "Gunakan hitung mundur"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:2
 msgid "Set to true to show a countdown before taking a photo"
-msgstr "Tata ke true untuk menampilkan hitung mundur saat mengambil foto"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:3
 msgid "Countdown length"
-msgstr "Lama hitung mundur"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:4
 msgid "The duration of the countdown before taking a photo, in seconds"
-msgstr "Lama waktu hitung mundur sebelum mengambil foto, dalam detik"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:5
 msgid "Fire flash before taking a photo"
-msgstr "Nyalakan lampu kilat sebelum mengambil foto"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:6
 msgid "Set to true to fire a flash before taking a photo"
-msgstr "Tata ke true untuk menyalakan lampu kilat sebelum mengambil foto"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:7
 msgid "Camera device string indicator"
-msgstr "Indikator string perangkat kamera"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:8
 msgid ""
 "The path to the device node which points to the camera, for example /dev/"
 "video0"
-msgstr "Path ke perangkat yang mengacu ke kamera, sebagai contoh /dev/video0"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:9
 msgid "Last selected effect"
-msgstr "Efek terakhir yang Dipilih"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:10
 msgid "Name of the installed effect that was selected last"
-msgstr "Nama dari efek yang terinstal yang dipilih terakhir"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:11
 msgid "Photo width"
-msgstr "Lebar foto"
+msgstr "Arjan arpan kethe"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:12
 msgid "The width of the image captured from the camera, in pixels"
-msgstr "Lebar citra yang ditangkap dari kamera, dalam piksel"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:13
 msgid "Photo height"
-msgstr "Tinggi foto"
+msgstr "Arjan arjon keding"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:14
 msgid "The height of the image captured from the camera, in pixels"
-msgstr "Tinggi citra yang ditangkap dari kamera, dalam piksel"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:15
 msgid "Video width"
-msgstr "Lebar video"
+msgstr "Video arpan kethe"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:16
 msgid "The width of the video captured from the camera, in pixels"
-msgstr "Lebar video yang ditangkap dari kamera, dalam piksel"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:17
 msgid "Video height"
-msgstr "Tinggi video"
+msgstr "Video arjon keding"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:18
 msgid "The height of the video captured from the camera, in pixels"
-msgstr "Tinggi video yang ditangkap dari kamera, dalam piksel"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:19
 msgid "Image brightness"
-msgstr "Kecerahan gambar"
+msgstr "Arjan Atur"
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:20
 msgid "Adjusts the brightness of the image coming from the camera"
-msgstr "Atur kecerahan gambar yang datang dari kamera"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:21
 msgid "Image contrast"
-msgstr "Kontras gambar"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:22
 msgid "Adjusts the contrast of the image coming from the camera"
-msgstr "Atur kontras gambar yang datang dari kamera"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:23
 msgid "Image saturation"
-msgstr "Saturasi gambar"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:24
 msgid "Adjusts the saturation of the image coming from the camera"
-msgstr "Atur saturasi gambar yang datang dari kamera"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:25
 msgid "Image hue"
-msgstr "Hue gambar"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:26
 msgid "Adjusts the hue (color tint) of the image coming from the camera"
-msgstr "Atur nada warna (hue) gambar yang datang dari kamera"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:27
 msgid "Video path"
-msgstr "Path video"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:28
 msgid ""
 "Defines the path where the videos are stored. If empty, “XDG_VIDEOS_DIR/"
 "Webcam” will be used."
 msgstr ""
-"Menentukan lokasi video disimpan. Bila kosong, \"XDG_VIDEOS_DIR/Webcam\" "
-"akan dipakai."
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:29
 msgid "Photo path"
-msgstr "Path foto"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:30
 msgid ""
 "Defines the path where the photos are stored. If empty, “XDG_PICTURES_DIR/"
 "Webcam” will be used."
 msgstr ""
-"Menentukan lokasi foto disimpan. Bila kosong, \"XDG_PICTURES_DIR/Webcam\" "
-"akan dipakai."
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:31
 msgid "Time between photos in burst mode"
-msgstr "Waktu antar foto pada moda rentetan, dalam milidetik"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:32
 msgid ""
@@ -415,43 +400,40 @@ msgid ""
 "burst sequence of photos. If the burst delay is less than the countdown "
 "duration, the countdown duration will be used instead."
 msgstr ""
-"Lama waktu dalam mili detik, untuk jeda antara mengambil tiap foto dalam "
-"suatu urutan rentetan foto. Kalau jeda rentetan kurang dari durasi hitung "
-"mundur, durasi hitung mundur yang akan dipakai."
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:33
 msgid "Number of photos in burst mode"
-msgstr "Banyaknya foto dalam mode rentetan"
+msgstr ""
 
 #: ../data/org.gnome.Cheese.gschema.xml.h:34
 msgid "The number of photos to take in a single burst."
-msgstr "Foto yang diambil dalam suatu rentetan tunggal."
+msgstr ""
 
 #: ../libcheese/cheese-avatar-chooser.c:80 ../src/cheese-window.vala:263
 #: ../src/cheese-window.vala:292 ../src/cheese-window.vala:367
 msgid "_Cancel"
-msgstr "_Batal"
+msgstr ""
 
 #: ../libcheese/cheese-avatar-chooser.c:82
 msgid "_Select"
-msgstr "_Pilih"
+msgstr ""
 
 #: ../libcheese/cheese-avatar-widget.c:128 ../src/cheese-window.vala:691
 msgid "Shutter sound"
-msgstr "Suara tombol"
+msgstr ""
 
 #: ../libcheese/cheese-avatar-widget.c:270
 msgid "_Take Another Picture"
-msgstr "_Ambil Gambar Lain"
+msgstr ""
 
 #: ../libcheese/cheese-camera.c:424 ../libcheese/cheese-camera.c:1604
 msgid "One or more needed GStreamer elements are missing: "
-msgstr "Satu atau lebih elemen GStreamer yang diperlukan hilang: "
+msgstr ""
 
 #: ../libcheese/cheese-camera.c:1546
 #, c-format
 msgid "No device found"
-msgstr "Tidak ada perangkat yang ditemukan"
+msgstr ""
 
 #. Translators: This is a time format, like "09:05:02" for 9
 #. * hours, 5 minutes, and 2 seconds. You may change ":" to
@@ -466,158 +448,149 @@ msgstr "%02i:%02i:%02i"
 
 #: ../libcheese/cheese-camera-device.c:552
 msgid "Device capabilities not supported"
-msgstr "Kapabilitas perangkat tak didukung"
+msgstr ""
 
 #: ../libcheese/cheese-camera-device.c:685
 msgid "Unknown device"
-msgstr "Perangkat tak dikenal"
+msgstr ""
 
 #: ../libcheese/cheese-camera-device.c:704
 msgid "Cancellable initialization not supported"
-msgstr "Inisiasi yang dapat dibatalkan tak didukung"
+msgstr ""
 
 #: ../src/cheese-application.vala:56
 msgid "Start in wide mode"
-msgstr "Mulai pada moda lebar"
+msgstr ""
 
 #: ../src/cheese-application.vala:59
 msgid "Device to use as a camera"
-msgstr "Perangkat yang akan dipakai sebagai kamera"
+msgstr ""
 
 #: ../src/cheese-application.vala:59
 msgid "DEVICE"
-msgstr "PERANGKAT"
+msgstr "DEVICE"
 
 #: ../src/cheese-application.vala:61
 msgid "Output version information and exit"
-msgstr "Tampilkan informasi versi dan keluar"
+msgstr ""
 
 #: ../src/cheese-application.vala:63
 msgid "Start in fullscreen mode"
-msgstr "Mulai dalam mode layar penuh"
+msgstr ""
 
 #: ../src/cheese-application.vala:313
 msgid "Webcam in use"
-msgstr "Webcam sedang dipakai"
+msgstr "Webcam en bom"
 
 #: ../src/cheese-application.vala:575
 msgid "translator-credits"
 msgstr ""
-"Andika Triwidada <andika@gmail.com>, 2010-2015.\n"
-"Dirgita <dirgitadevina@yahoo.co.id>, 2010, 2011, 2012.\n"
-"Vincent Sebastian The <vincent.s.the@gmail.com>, 2011.\n"
-"Kukuh Syafaat <kukuhsyafaat@gnome.org>, 2019."
 
 #: ../src/cheese-application.vala:577
 msgid "Cheese Website"
-msgstr "Situs Web Cheese"
+msgstr "Cheese Website"
 
 #. Translators: a description of an effect (to be applied to images
 #. *              from the webcam) which does nothing.
 #: ../src/cheese-effects-manager.vala:51
 msgid "No Effect"
-msgstr "Tanpa Efek"
+msgstr "Effect Awe"
 
 #: ../src/cheese-window.vala:235
 #, c-format
 msgid "Could not open %s"
-msgstr "Tidak bisa membuka %s"
+msgstr "%s Ingpu un eh"
 
 #: ../src/cheese-window.vala:260
 #, c-format
 msgid "Are you sure you want to permanently delete the file?"
 msgid_plural "Are you sure you want to permanently delete %d files?"
-msgstr[0] "Anda yakin ingin menghapus %d berkas secara permanen?"
-msgstr[1] "Anda yakin ingin menghapus %d berkas secara permanen?"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../src/cheese-window.vala:264
 msgid "_Delete"
-msgstr "_Hapus"
+msgstr ""
 
 #: ../src/cheese-window.vala:266
 msgid "If you delete an item, it will be permanently lost"
 msgid_plural "If you delete the items, they will be permanently lost"
 msgstr[0] ""
-"Jika Anda menghapus barang, barang tersebut akan hilang secara permanen"
 msgstr[1] ""
-"Jika Anda menghapus barang, barang tersebut akan hilang secara permanen"
 
 #: ../src/cheese-window.vala:290
 #, c-format
 msgid "Could not delete %s"
-msgstr "Tak bisa menghapus %s"
+msgstr ""
 
 #: ../src/cheese-window.vala:293
 msgid "Skip"
-msgstr "Lewati"
+msgstr ""
 
 #: ../src/cheese-window.vala:294
 msgid "Skip all"
-msgstr "Lewati semua"
+msgstr ""
 
 #: ../src/cheese-window.vala:339
 #, c-format
 msgid "Could not move %s to trash"
-msgstr "Tidak bisa memindahkan %s ke tempat sampah"
+msgstr ""
 
 #. Nothing selected.
 #: ../src/cheese-window.vala:364
 msgid "Save File"
-msgstr "Simpan Berkas"
+msgstr ""
 
 #: ../src/cheese-window.vala:368
 msgid "Save"
-msgstr "Simpan"
+msgstr ""
 
 #: ../src/cheese-window.vala:398
 #, c-format
 msgid "Could not save %s"
-msgstr "Tidak bisa menyimpan %s"
+msgstr "%s save un eh"
 
 #: ../src/cheese-window.vala:819
 msgid "Stop recording"
-msgstr "Berhenti merekam"
+msgstr ""
 
 #: ../src/cheese-window.vala:834
 msgid "Record a video"
-msgstr "Rekam video"
+msgstr ""
 
 #. FIXME: Set the effects action to be inactive.
 #: ../src/cheese-window.vala:869
 msgid "Stop taking pictures"
-msgstr "Berhenti Ambil Gambar"
+msgstr ""
 
 #: ../src/cheese-window.vala:892
 msgid "Take multiple photos"
-msgstr "Ambil banyak foto"
+msgstr ""
 
 #: ../src/cheese-window.vala:1086
 msgid "No effects found"
-msgstr "Tidak ada efek yang ditemukan"
+msgstr "Effects longle"
 
 #: ../src/cheese-window.vala:1210
 msgid "There was an error playing video from the webcam"
-msgstr "Ada galat saat memutar video dari webcam"
+msgstr ""
 
 #: ../src/cheese-window.vala:1419
 msgid "Record a video using a webcam"
-msgstr "Rekam video memakai webcam"
+msgstr ""
 
 #: ../src/cheese-window.vala:1425
 msgid "Take multiple photos using a webcam"
-msgstr "Ambil banyak foto memakai webcam"
+msgstr ""
 
 #: ../src/cheese-window.vala:1437
 msgid "Choose an Effect"
-msgstr "Pilih Efek"
+msgstr "Effect chongvai"
 
 #: ../src/cheese-window.vala:1448
 msgid "Record a Video"
-msgstr "Rekam Video"
+msgstr ""
 
 #: ../src/cheese-window.vala:1452
 msgid "Take Multiple Photos"
-msgstr "Ambil Banyak Foto"
-
-#~ msgid "_Quit"
-#~ msgstr "_Keluar"
+msgstr ""
