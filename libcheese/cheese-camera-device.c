@@ -69,7 +69,7 @@ enum CheeseCameraDeviceError
 GST_DEBUG_CATEGORY (cheese_camera_device_cat);
 #define GST_CAT_DEFAULT cheese_camera_device_cat
 
-static const gchar const *supported_formats[] = {
+static const gchar * const supported_formats[] = {
   "video/x-raw",
   NULL
 };
@@ -177,7 +177,7 @@ compare_formats (gconstpointer a, gconstpointer b)
 static GstCaps *
 cheese_camera_device_filter_caps (CheeseCameraDevice *device,
                                   GstCaps *caps,
-                                  const gchar const *formats[])
+                                  const gchar * const formats[])
 {
   GstCaps *filter;
   GstCaps *allowed;
@@ -630,10 +630,12 @@ cheese_camera_device_class_init (CheeseCameraDeviceClass *klass)
 {
   GObjectClass *object_class = G_OBJECT_CLASS (klass);
 
+#ifndef GST_DISABLE_GST_DEBUG
   if (cheese_camera_device_cat == NULL)
     GST_DEBUG_CATEGORY_INIT (cheese_camera_device_cat,
                              "cheese-camera-device",
                              0, "Cheese Camera Device");
+#endif
 
   object_class->finalize     = cheese_camera_device_finalize;
   object_class->get_property = cheese_camera_device_get_property;
