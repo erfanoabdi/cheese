@@ -3,11 +3,12 @@ Section: gnome
 Priority: optional
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Uploaders: @GNOME_TEAM@
-Build-Depends: debhelper (>= 11),
+Build-Depends: debhelper-compat (= 12),
                docbook-xsl,
                gnome-common,
                gnome-pkg-tools (>= 0.10),
                gtk-doc-tools (>= 1.14),
+               meson (>= 0.50),
                intltool (>= 0.50.0),
                valac (>= 0.25.3),
                libglib2.0-dev (>= 2.39.90),
@@ -34,7 +35,7 @@ Build-Depends: debhelper (>= 11),
                xauth <!nocheck>,
                xvfb <!nocheck>,
                yelp-tools
-Standards-Version: 4.3.0
+Standards-Version: 4.4.0
 Vcs-Browser: https://salsa.debian.org/gnome-team/cheese
 Vcs-Git: https://salsa.debian.org/gnome-team/cheese.git
 Homepage: https://wiki.gnome.org/Apps/Cheese

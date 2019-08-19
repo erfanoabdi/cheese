@@ -1,3 +1,17 @@
+cheese (3.33.90-1) UNRELEASED; urgency=medium
+
+  * New upstream release
+  * debian/compat:
+    - removed
+  * debian/control.in:
+    - build with debhelper12
+    - Standards-Version 4.4.0
+  * debian/rules:
+    - remove the dh_autoreconf and dh_install overrides since there are
+      not needed anymore
+
+ -- Sebastien Bacher <seb128@debian.org>  Mon, 19 Aug 2019 17:52:48 +0200
+
 cheese (3.32.1-1) unstable; urgency=medium
 
   * New upstream release
