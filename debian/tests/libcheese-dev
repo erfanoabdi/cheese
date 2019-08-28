@@ -1,0 +1,28 @@
+#!/bin/sh
+# autopkgtest check: Build and run a program against cheese, to verify that
+# the headers and pkg-config file are installed correctly
+# (C) 2012 Canonical Ltd.
+# (C) 2018-2019 Simon McVittie
+# Authors: Martin Pitt, Simon McVittie
+
+set -eux
+
+WORKDIR=$(mktemp -d)
+export XDG_RUNTIME_DIR="$WORKDIR"
+trap "rm -rf $WORKDIR" 0 INT QUIT ABRT PIPE TERM
+cd $WORKDIR
+cat <<EOF > cheese.c
+#include <cheese-camera-device-monitor.h>
+
+int main(void)
+{
+    g_assert_cmpuint (CHEESE_TYPE_CAMERA_DEVICE_MONITOR, !=, G_TYPE_INVALID);
+    return 0;
+}
+EOF
+
+gcc -o cheese-test cheese.c $(pkg-config --cflags --libs cheese)
+echo "build: OK"
+[ -x cheese-test ]
+dbus-run-session -- xvfb-run -a ./cheese-test
+echo "run: OK"

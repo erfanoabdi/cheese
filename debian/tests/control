@@ -1,0 +1,15 @@
+Tests: libcheese-dev
+Depends: build-essential,
+         dbus,
+         libcheese-dev,
+         xauth,
+         xvfb,
+Restrictions: allow-stderr superficial
+
+Tests: libcheese-gtk-dev
+Depends: build-essential,
+         dbus,
+         libcheese-gtk-dev,
+         xauth,
+         xvfb,
+Restrictions: allow-stderr superficial
