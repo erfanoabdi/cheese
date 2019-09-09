@@ -25,18 +25,20 @@ override_dh_clean:
 # The camerabin plugin is in gstreamer1.0-plugins-good (and the headers in
 # libgstreamer-plugins-godd1.0-dev) in Ubuntu
 override_dh_gencontrol:
-ifneq ($(shell dpkg-vendor --query vendor),Ubuntu)
+ifneq (yes,$(shell dpkg-vendor --derives-from Ubuntu && echo yes))
+	# not Ubuntu
 	dh_gencontrol -- \
 		-Vgstbad:Depends='gstreamer1.0-plugins-bad (>= 1.4)' \
 		-Vgstbad-dev:Depends='libgstreamer-plugins-bad1.0-dev (>= 1.4)'
 else
+	# Ubuntu or derivatives
 	dh_gencontrol -- -Vgstbad-dev:Depends='libgstreamer-plugins-good1.0-dev (>= 1.4)'
 
 override_dh_install:
 	dh_install
 	sed -i 's/gstreamer-plugins-bad-1.0/gstreamer-plugins-good-1.0/' \
 		debian/libcheese-dev/usr/lib/*/pkgconfig/cheese.pc
-endif
+endif # Ubuntu & derivatives
 
 # https://bugzilla.gnome.org/731009
 override_dh_auto_test:
