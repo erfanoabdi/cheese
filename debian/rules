@@ -42,4 +42,6 @@ endif # Ubuntu & derivatives
 
 # https://bugzilla.gnome.org/731009
 override_dh_auto_test:
+ifeq (,$(filter nocheck, $(DEB_BUILD_OPTIONS)))
 	-xvfb-run --auto-servernum dh_auto_test
+endif
