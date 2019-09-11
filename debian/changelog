@@ -1,4 +1,4 @@
-cheese (3.34.0-1) UNRELEASED; urgency=medium
+cheese (3.34.0-1) unstable; urgency=medium
 
   [ Iain Lane ]
   * rules: Don't run tests when nocheck is in DEB_BUILD_OPTIONS
