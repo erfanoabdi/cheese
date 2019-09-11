@@ -1,6 +1,6 @@
 project(
   'cheese', ['c', 'vala'],
-  version: '3.33.90.1',
+  version: '3.34.0',
   license: 'GPL2',
   default_options: 'buildtype=debugoptimized',
   meson_version: '>= 0.50.0',
@@ -35,12 +35,12 @@ cheese_namespace = 'org.gnome.Cheese'
 #   change to C+1:0:0
 # - If the interface is the same as the previous version, change to C:R+1:A
 current = 8
-revision = 13
+revision = 14
 age = 0
 libcheese_version = '@0@.@1@.@2@'.format(current - age, age, revision)
 
 current = 26
-revision = 3
+revision = 4
 age = 1
 libcheese_gtk_version = '@0@.@1@.@2@'.format(current - age, age, revision)
 
@@ -111,7 +111,7 @@ gstreamer_pbutils_dep = dependency('gstreamer-pbutils-1.0')
 gstreamer_plugins_bad_dep = dependency('gstreamer-plugins-bad-1.0', version: '>= 1.4')
 gtk_dep = dependency('gtk+-3.0', version: '>= 3.13.4')
 libcanberra_dep = dependency('libcanberra')
-libcanberra_gtk_lib = meson.get_compiler('c').find_library('libcanberra-gtk3')
+libcanberra_gtk_lib = meson.get_compiler('c').find_library('canberra-gtk3')
 libcanberra_gtk3_dep = declare_dependency(dependencies: [libcanberra_gtk_lib])
 
 m_dep = cc.find_library('m')
