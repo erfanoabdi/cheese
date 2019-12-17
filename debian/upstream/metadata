@@ -1,0 +1,10 @@
+Archive: GNOME
+Bug-Database: https://gitlab.gnome.org/GNOME/cheese/issues
+Bug-Submit: https://gitlab.gnome.org/GNOME/cheese/issues/new
+Changelog: https://gitlab.gnome.org/GNOME/cheese/commits/master
+FAQ: https://wiki.gnome.org/Apps/Cheese/FAQ
+Other-References: https://wiki.gnome.org/Apps/Cheese/Resources
+Repository-Browse: https://gitlab.gnome.org/GNOME/cheese
+Repository: https://gitlab.gnome.org/GNOME/cheese.git
+
+# vim:set ft=yaml:
