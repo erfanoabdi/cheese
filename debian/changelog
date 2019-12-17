@@ -1,3 +1,12 @@
+cheese (3.34.0-2) UNRELEASED; urgency=medium
+
+  * d/tests: Use correct compiler for proposed autopkgtest
+    cross-architecture testing support, based on a patch for clutter-1.0
+    by Steve Langasek
+  * d/tests: Fix shellcheck warnings
+
+ -- Simon McVittie <smcv@debian.org>  Tue, 17 Dec 2019 08:22:34 +0000
+
 cheese (3.34.0-1) unstable; urgency=medium
 
   [ Iain Lane ]
