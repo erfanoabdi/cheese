@@ -1,0 +1,2 @@
+libcheese 8 libcheese8 (= ${binary:Version})
+libcheese-gtk 25 libcheese-gtk25 (= ${binary:Version})
