@@ -17,8 +17,10 @@ cheese (3.38.0-1) UNRELEASED; urgency=medium
 
   [ Marco Trevisan (Treviño) ]
   * New upstream release
+  * debian/control: BD on debhelper-compat = 13 and adapt d/rules to it
+  * debian/patches/series: Remove empty file
 
- -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Wed, 16 Sep 2020 15:45:47 +0200
+ -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Wed, 16 Sep 2020 15:54:37 +0200
 
 cheese (3.34.0-1) unstable; urgency=medium
 
