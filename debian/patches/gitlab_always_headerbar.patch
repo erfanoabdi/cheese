@@ -1,0 +1,35 @@
+From 81f9be8b6c6208b8d88badead94eb5d5da0bfb63 Mon Sep 17 00:00:00 2001
+From: esoleyman <emil@soleyman.com>
+Date: Wed, 12 Aug 2020 12:22:01 -0500
+Subject: [PATCH] Allow headerbar to appear on all desktops
+
+Removed gtk_dialogs_use_header() and accompanying code to allow the
+headerbar to appear in GNOME as well as other desktops. Tested with
+XFCE and it works as expected.
+
+Fixes: #62, #85
+---
+ src/cheese-window.vala | 10 ++--------
+ 1 file changed, 2 insertions(+), 8 deletions(-)
+
+diff --git a/src/cheese-window.vala b/src/cheese-window.vala
+index ff069808..b3a13ddf 100644
+--- a/src/cheese-window.vala
++++ b/src/cheese-window.vala
+@@ -123,14 +123,8 @@ public class Cheese.MainWindow : Gtk.ApplicationWindow
+         GLib.Object (application: application);
+ 
+         header_bar = header_bar_ui.get_object ("header_bar") as Gtk.HeaderBar;
+-
+-        Gtk.Settings settings = Gtk.Settings.get_default ();
+-
+-        if (settings.gtk_dialogs_use_header)
+-        {
+-            header_bar.visible = true;
+-            this.set_titlebar (header_bar);
+-        }
++        header_bar.visible = true;
++        this.set_titlebar (header_bar);
+     }
+ 
+     private void set_window_title (string title)

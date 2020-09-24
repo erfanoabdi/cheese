@@ -1,3 +1,11 @@
+cheese (3.38.0-2) UNRELEASED; urgency=medium
+
+  * debian/patches/gitlab_always_headerbar.patch:
+    - display the headerbar on any desktop since the compatibility menubar
+      was removed, thanks esoleyman (lp: #1879183)
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Thu, 24 Sep 2020 21:29:37 +0200
+
 cheese (3.38.0-1) unstable; urgency=medium
 
   [ Simon McVittie ]
