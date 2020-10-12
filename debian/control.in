@@ -5,7 +5,6 @@ Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.
 Uploaders: @GNOME_TEAM@
 Build-Depends: debhelper-compat (= 13),
                docbook-xsl,
-               gnome-common,
                gnome-pkg-tools (>= 0.10),
                gtk-doc-tools (>= 1.14),
                meson (>= 0.50),

@@ -9,7 +9,6 @@ Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.
 Uploaders: Iain Lane <laney@debian.org>, Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>, Sebastien Bacher <seb128@debian.org>
 Build-Depends: debhelper-compat (= 13),
                docbook-xsl,
-               gnome-common,
                gnome-pkg-tools (>= 0.10),
                gtk-doc-tools (>= 1.14),
                meson (>= 0.50),
