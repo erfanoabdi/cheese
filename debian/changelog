@@ -1,3 +1,15 @@
+cheese (3.38.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Remove obsolete gnome-common build-dependency.
+    This has been unnecessary ever since cheese moved to the Meson build
+    system. (Closes: #829898)
+  * Preferentially build-depend on libgdk-pixbuf-2.0-dev.
+    We don't need the deprecated Xlib integration that is also pulled in
+    by the older libgdk-pixbuf2.0-dev package (see #974870).
+
+ -- Simon McVittie <smcv@debian.org>  Mon, 23 Nov 2020 10:18:32 +0000
+
 cheese (3.38.0-2) unstable; urgency=medium
 
   * debian/patches/gitlab_always_headerbar.patch:
