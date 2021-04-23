@@ -781,7 +781,7 @@ void
 cheese_camera_play (CheeseCamera *camera)
 {
   CheeseCameraPrivate *priv = cheese_camera_get_instance_private (camera);
-  cheese_camera_set_new_caps (camera);
+  //cheese_camera_set_new_caps (camera);
   g_object_set (priv->camera_source, "video-source", priv->video_source, NULL);
   g_object_set (priv->main_valve, "drop", FALSE, NULL);
   gst_element_set_state (priv->camerabin, GST_STATE_PLAYING);
