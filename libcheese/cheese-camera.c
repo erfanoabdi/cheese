@@ -1602,7 +1602,7 @@ cheese_camera_setup (CheeseCamera *camera, CheeseCameraDevice *device, GError **
 
   //cheese_camera_set_camera_source (camera);
   cheese_camera_set_video_recording (camera, &tmp_error);
-  cheese_camera_create_video_filter_bin (camera, &tmp_error);
+  /*cheese_camera_create_video_filter_bin (camera, &tmp_error);
 
   if (tmp_error != NULL || (error != NULL && *error != NULL))
   {
@@ -1612,7 +1612,7 @@ cheese_camera_setup (CheeseCamera *camera, CheeseCameraDevice *device, GError **
     return;
   }
 
-  g_object_set (G_OBJECT (priv->camera_source), "video-source-filter", priv->video_filter_bin, NULL);
+  g_object_set (G_OBJECT (priv->camera_source), "video-source-filter", priv->video_filter_bin, NULL);*/
 
   priv->bus = gst_element_get_bus (priv->camerabin);
   gst_bus_add_signal_watch (priv->bus);
