@@ -348,9 +348,6 @@ cheese_camera_detect_camera_devices (CheeseCamera *camera)
                     G_CALLBACK (cheese_camera_remove_device), camera);
 
   cheese_camera_device_monitor_coldplug (priv->monitor);
-    CheeseCameraDevice        *device;
-    cheese_camera_device_init(device);
-    cheese_camera_add_device(priv->monitor, device, camera);
 }
 
 /*
@@ -1544,7 +1541,7 @@ cheese_camera_setup (CheeseCamera *camera, CheeseCameraDevice *device, GError **
 
   cheese_camera_detect_camera_devices (camera);
 
-  if (priv->num_camera_devices < 1)
+  /*if (priv->num_camera_devices < 1)
   {
     g_set_error (error, CHEESE_CAMERA_ERROR, CHEESE_CAMERA_ERROR_NO_DEVICE, _("No device found"));
     return;
@@ -1569,7 +1566,7 @@ cheese_camera_setup (CheeseCamera *camera, CheeseCameraDevice *device, GError **
         break;
       }
     }
-  }
+  }*/
 
 
   if ((priv->camerabin = gst_element_factory_make ("camerabin", "camerabin")) == NULL)
