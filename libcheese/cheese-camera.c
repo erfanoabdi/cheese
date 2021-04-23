@@ -1541,7 +1541,7 @@ cheese_camera_setup (CheeseCamera *camera, CheeseCameraDevice *device, GError **
 
   cheese_camera_detect_camera_devices (camera);
 
-  if (priv->num_camera_devices < 1)
+  /*if (priv->num_camera_devices < 1)
   {
     g_set_error (error, CHEESE_CAMERA_ERROR, CHEESE_CAMERA_ERROR_NO_DEVICE, _("No device found"));
     return;
@@ -1566,17 +1566,23 @@ cheese_camera_setup (CheeseCamera *camera, CheeseCameraDevice *device, GError **
         break;
       }
     }
-  }
+  }*/
 
 
   if ((priv->camerabin = gst_element_factory_make ("camerabin", "camerabin")) == NULL)
   {
     cheese_camera_set_error_element_not_found (error, "camerabin");
   }
-  if ((priv->camera_source = gst_element_factory_make ("wrappercamerabinsrc", "camera_source")) == NULL)
+  if ((priv->camera_source = gst_element_factory_make ("droidcamsrc", "camera_source")) == NULL)
   {
-    cheese_camera_set_error_element_not_found (error, "wrappercamerabinsrc");
+    cheese_camera_set_error_element_not_found (error, "droidcamsrc");
   }
+  int flags = 0x00000001            /* no-audio-conversion - Do not use audio conversion elements */
+	  | 0x00000002              /* no-video-conversion - Do not use video conversion elements */
+	  | 0x00000004              /* no-viewfinder-conversion - Do not use viewfinder conversion elements */
+	  | 0x00000008;             /* no-image-conversion - Do not use image conversion elements */
+  g_object_set (priv->camerabin, "flags", flags, "mode", 2, NULL);
+
   g_object_set (priv->camerabin, "camera-source", priv->camera_source, NULL);
 
   /* Create a clutter-gst sink and set it as camerabin sink*/
