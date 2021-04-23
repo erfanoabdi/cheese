@@ -1600,7 +1600,7 @@ cheese_camera_setup (CheeseCamera *camera, CheeseCameraDevice *device, GError **
 
   /* Set flags to enable conversions*/
 
-  cheese_camera_set_camera_source (camera);
+  //cheese_camera_set_camera_source (camera);
   cheese_camera_set_video_recording (camera, &tmp_error);
   cheese_camera_create_video_filter_bin (camera, &tmp_error);
 
